@@ -1,0 +1,118 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SGDText -F 0 -L 0.01 -R 1.0E-4 -E 500 -P 0 -M 3.0 -min-coeff 0.001 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer -S 1
+Relation:     auscomp
+Instances:    76
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SGDText:
+
+Loss function: Hinge loss (SVM)
+
+Dictionary size: 64
+
+class = 
+
+        -1.6694 Ursa 5.0
+ +      -1.1596 LegionCommander 6.0
+ +       1.3995 Sniper 12.0
+ +       1.0695 Phantom 10.0
+ +       0.8198 Assassin 10.0
+ +      -1.0396 Lion 8.0
+ +      -2.2791 Tidehunter 5.0
+ +       1.0095 Storm 3.0
+ +       1.5594 Spirit 7.0
+ +       1.5195 Kunkka 7.0
+ +       2.2193 Invoker 15.0
+ +      -0.8699 Bloodseeker 10.0
+ +      -1.1895 Axe 15.0
+ +      -0.5297 Mirana 11.0
+ +       2.429  Rubick 5.0
+ +      -3.1991 Slardar 5.0
+ +       0.79   Anti-Mage 9.0
+ +      -3.329  CrystalMaiden 3.0
+ +       0.0399 Legion 9.0
+ +       0.0399 Commander 9.0
+ +      -1.8493 Tinker 3.0
+ +      -2.8591 Timbersaw 4.0
+ +      -3.4487 TemplarAssassin 3.0
+ +       0.8697 Jakiro 4.0
+ +      -1.7495 Faceless 4.0
+ +      -1.7495 Void 4.0
+ +       0.8898 FacelessVoid 8.0
+ +      -2.0092 Wraith 3.0
+ +      -0.9097 King 4.0
+ +       0.3599 Morphling 7.0
+ +       1.1195 Terrorblade 3.0
+ +       0.3299 PhantomAssassin 6.0
+ +      -1.7893 Slark 7.0
+ +       0.5499 Vengeful 4.0
+ +      -1.2896 Huskar 3.0
+ +       0.34   Pudge 11.0
+ +      -0.5398 Lina 3.0
+ +       0.8997 Clinkz 4.0
+ +      -0.7698 Windranger 4.0
+ +      -0.11   Juggernaut 10.0
+ +      -0.1099 Riki 4.0
+ +      -0.21   Shadow 3.0
+ +       0.8097 Disruptor 3.0
+ +      -1.1496 Sven 5.0
+ +       1.0095 Weaver 3.0
+ +      -3.0389 Dazzle 3.0
+ +      -0.5598 Lich 3.0
+ +      -1.7395 Zeus 7.0
+ +       1.5394 DrowRanger 6.0
+ +      -0.5697 Enigma 3.0
+ +       1.8993 Ancient 3.0
+ +       1.8993 Apparition 3.0
+ +       1.7693 SandKing 3.0
+ +       1.7593 Pain 3.0
+ +      -0.3499 Ogre 3.0
+ +      -0.3499 Magi 3.0
+ +      -0.4899 Medusa 3.0
+ +      -1.6094 Bristleback 4.0
+ +       2.1293 SkywrathMage 3.0
+ +      -0.2999 Drow 3.0
+ +      -0.2999 Ranger 3.0
+ +       0.0799 Nature 4.0
+ +      -0.1799 s 3.0
+ +      -0.1799 Prophet 3.0
+ +       0.41  
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          39               51.3158 %
+Incorrectly Classified Instances        37               48.6842 %
+Kappa statistic                          0.0263
+Mean absolute error                      0.4868
+Root mean squared error                  0.6977
+Relative absolute error                 97.2963 %
+Root relative squared error            139.4397 %
+Total Number of Instances               76     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.447    0.421    0.515      0.447    0.479      0.027    0.513     0.507     win
+                 0.579    0.553    0.512      0.579    0.543      0.027    0.513     0.507     lose
+Weighted Avg.    0.513    0.487    0.513      0.513    0.511      0.027    0.513     0.507     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 17 21 |  a = win
+ 16 22 |  b = lose
+
+

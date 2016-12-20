@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     auscomp
+Instances:    182
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+player3 = CrystalMaiden : win
+player3 != CrystalMaiden : lose
+player3 is missing : win
+
+Class distributions
+
+player3 = CrystalMaiden
+win	lose	
+1.0	0.0	
+player3 != CrystalMaiden
+win	lose	
+0.48295454545454547	0.5170454545454546	
+player3 is missing
+win	lose	
+0.5	0.5	
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          93               51.0989 %
+Incorrectly Classified Instances        89               48.9011 %
+Kappa statistic                          0.022 
+Mean absolute error                      0.4944
+Root mean squared error                  0.4975
+Relative absolute error                 98.8739 %
+Root relative squared error             99.4853 %
+Total Number of Instances              182     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.220    0.198    0.526      0.220    0.310      0.027    0.499     0.514     win
+                 0.802    0.780    0.507      0.802    0.621      0.027    0.499     0.497     lose
+Weighted Avg.    0.511    0.489    0.517      0.511    0.466      0.027    0.499     0.506     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 20 71 |  a = win
+ 18 73 |  b = lose
+
+

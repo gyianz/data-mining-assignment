@@ -1,0 +1,85 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AttributeSelectedClassifier -E "weka.attributeSelection.CfsSubsetEval -P 1 -E 1" -S "weka.attributeSelection.BestFirst -D 1 -N 5" -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     auscomp
+Instances:    44
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 16
+	Merit of best subset found:    0.291
+
+Attribute Subset Evaluator (supervised, Class (nominal): 6 class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 5 : 1
+                     player5
+
+
+Header of reduced data:
+@relation auscomp-weka.filters.unsupervised.attribute.Remove-V-R5-6
+
+@attribute player5 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden,undefined}
+@attribute class {win,lose}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+: win (44.0/22.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          20               45.4545 %
+Incorrectly Classified Instances        24               54.5455 %
+Kappa statistic                         -0.0909
+Mean absolute error                      0.5012
+Root mean squared error                  0.5012
+Relative absolute error                100.0113 %
+Root relative squared error            100.0127 %
+Total Number of Instances               44     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.727    0.818    0.471      0.727    0.571      -0.108   0.430     0.466     win
+                 0.182    0.273    0.400      0.182    0.250      -0.108   0.430     0.466     lose
+Weighted Avg.    0.455    0.545    0.435      0.455    0.411      -0.108   0.430     0.466     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 16  6 |  a = win
+ 18  4 |  b = lose
+
+

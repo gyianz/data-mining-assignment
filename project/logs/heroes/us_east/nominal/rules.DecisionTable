@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.DecisionTable -X 1 -S "weka.attributeSelection.BestFirst -D 1 -N 5"
+Relation:     auscomp
+Instances:    76
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Table:
+
+Number of training instances: 76
+Number of Rules : 1
+Non matches covered by Majority class.
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 19
+	Merit of best subset found:   50    
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 6
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          40               52.6316 %
+Incorrectly Classified Instances        36               47.3684 %
+Kappa statistic                          0.0526
+Mean absolute error                      0.493 
+Root mean squared error                  0.4982
+Relative absolute error                 98.5235 %
+Root relative squared error             99.5656 %
+Total Number of Instances               76     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.842    0.789    0.516      0.842    0.640      0.068    0.557     0.564     win
+                 0.211    0.158    0.571      0.211    0.308      0.068    0.557     0.534     lose
+Weighted Avg.    0.526    0.474    0.544      0.526    0.474      0.068    0.557     0.549     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 32  6 |  a = win
+ 30  8 |  b = lose
+
+

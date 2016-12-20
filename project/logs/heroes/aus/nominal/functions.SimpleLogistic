@@ -1,0 +1,81 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     auscomp
+Instances:    182
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+-0.08 + 
+[player1=Juggernaut] * 1.07 +
+[player1=Sven] * -0.85 +
+[player1=WraithKing] * 1    +
+[player2=Anti-Mage] * 0.8  +
+[player2=Lion] * -0.98 +
+[player2=Necrophos] * 1.05 +
+[player2=FacelessVoid] * 0.99 +
+[player2=Invoker] * -0.99 +
+[player2=Silencer] * 1.09 +
+[player3=CrystalMaiden] * 1.03 +
+[player3=PhantomAssassin] * 0.92 +
+[player4=Windranger] * -0.89 +
+[player4=FacelessVoid] * 1.06 +
+[player4=Ursa] * -1.15
+
+Class 1 :
+0.08 + 
+[player1=Juggernaut] * -1.07 +
+[player1=Sven] * 0.85 +
+[player1=WraithKing] * -1 +
+[player2=Anti-Mage] * -0.8 +
+[player2=Lion] * 0.98 +
+[player2=Necrophos] * -1.05 +
+[player2=FacelessVoid] * -0.99 +
+[player2=Invoker] * 0.99 +
+[player2=Silencer] * -1.09 +
+[player3=CrystalMaiden] * -1.03 +
+[player3=PhantomAssassin] * -0.92 +
+[player4=Windranger] * 0.89 +
+[player4=FacelessVoid] * -1.06 +
+[player4=Ursa] * 1.15
+
+
+Time taken to build model: 1.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          97               53.2967 %
+Incorrectly Classified Instances        85               46.7033 %
+Kappa statistic                          0.0659
+Mean absolute error                      0.482 
+Root mean squared error                  0.5125
+Relative absolute error                 96.4021 %
+Root relative squared error            102.4834 %
+Total Number of Instances              182     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.341    0.275    0.554      0.341    0.422      0.071    0.534     0.541     win
+                 0.725    0.659    0.524      0.725    0.608      0.071    0.534     0.533     lose
+Weighted Avg.    0.533    0.467    0.539      0.533    0.515      0.071    0.534     0.537     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 31 60 |  a = win
+ 25 66 |  b = lose
+
+

@@ -1,0 +1,67 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     all
+Instances:    10349
+Attributes:   8
+              player1
+              player2
+              player3
+              player4
+              player5
+              kills
+              duration
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+kills <= 1.5 : lose
+kills > 1.5 : win
+kills is missing : win
+
+Class distributions
+
+kills <= 1.5
+win	lose	
+0.11943127962085308	0.8805687203791469	
+kills > 1.5
+win	lose	
+0.9107213243988963	0.08927867560110367	
+kills is missing
+win	lose	
+0.5073920185525171	0.49260798144748286	
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9266               89.5352 %
+Incorrectly Classified Instances      1083               10.4648 %
+Kappa statistic                          0.7908
+Mean absolute error                      0.187 
+Root mean squared error                  0.3058
+Relative absolute error                 37.4003 %
+Root relative squared error             61.163  %
+Total Number of Instances            10349     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.880    0.089    0.911      0.880    0.895      0.791    0.889     0.868     win
+                 0.911    0.120    0.881      0.911    0.896      0.791    0.889     0.849     lose
+Weighted Avg.    0.895    0.104    0.896      0.895    0.895      0.791    0.889     0.859     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4621  630 |    a = win
+  453 4645 |    b = lose
+
+

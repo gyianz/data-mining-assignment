@@ -1,0 +1,266 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     auscomp
+Instances:    56
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: win, lose
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2279 * (normalized) player1=Axe
+ +      -0.3401 * (normalized) player1=Bane
+ +       0.1608 * (normalized) player1=Bloodseeker
+ +      -0.1345 * (normalized) player1=CrystalMaiden
+ +      -0.1817 * (normalized) player1=DrowRanger
+ +      -0.4357 * (normalized) player1=Earthshaker
+ +      -0.3709 * (normalized) player1=Juggernaut
+ +      -0.1584 * (normalized) player1=Mirana
+ +       0.2262 * (normalized) player1=Morphling
+ +      -0.2244 * (normalized) player1=Pudge
+ +       0.1597 * (normalized) player1=StormSpirit
+ +       0.274  * (normalized) player1=Sven
+ +       0.1447 * (normalized) player1=Windranger
+ +       0.305  * (normalized) player1=Zeus
+ +      -0.1959 * (normalized) player1=Kunkka
+ +       0.1618 * (normalized) player1=Lina
+ +      -0.3856 * (normalized) player1=Lich
+ +       0.2844 * (normalized) player1=Lion
+ +       0.3409 * (normalized) player1=Riki
+ +       0.1034 * (normalized) player1=Sniper
+ +      -0.2281 * (normalized) player1=QueenofPain
+ +       0.2661 * (normalized) player1=FacelessVoid
+ +       0.0777 * (normalized) player1=WraithKing
+ +       0.0888 * (normalized) player1=PhantomAssassin
+ +       0.1735 * (normalized) player1=Pugna
+ +       0.1784 * (normalized) player1=Viper
+ +       0.1854 * (normalized) player1=Luna
+ +      -0.2423 * (normalized) player1=Clockwerk
+ +       0.0049 * (normalized) player1=Nature'sProphet
+ +      -0.2402 * (normalized) player1=Lifestealer
+ +       0.2138 * (normalized) player1=Omniknight
+ +       0.2547 * (normalized) player1=Huskar
+ +       0.1702 * (normalized) player1=AncientApparition
+ +      -0.2175 * (normalized) player1=SpiritBreaker
+ +      -0.1583 * (normalized) player1=Lycan
+ +      -0.2669 * (normalized) player1=ChaosKnight
+ +       0.3484 * (normalized) player1=Meepo
+ +      -0.2583 * (normalized) player1=Rubick
+ +       0.177  * (normalized) player1=NyxAssassin
+ +       0.2095 * (normalized) player1=NagaSiren
+ +      -0.1728 * (normalized) player1=KeeperoftheLight
+ +      -0.1659 * (normalized) player1=Slark
+ +      -0.1817 * (normalized) player1=CentaurWarrunner
+ +       0.2778 * (normalized) player1=ElderTitan
+ +       0.5188 * (normalized) player2=Anti-Mage
+ +      -0.1817 * (normalized) player2=Axe
+ +       0.463  * (normalized) player2=CrystalMaiden
+ +      -0.1913 * (normalized) player2=DrowRanger
+ +      -0.1659 * (normalized) player2=Earthshaker
+ +      -0.4221 * (normalized) player2=Juggernaut
+ +      -0.0263 * (normalized) player2=Mirana
+ +       0.2454 * (normalized) player2=ShadowFiend
+ +      -0.1817 * (normalized) player2=Pudge
+ +      -0.6026 * (normalized) player2=Razor
+ +       0.1608 * (normalized) player2=SandKing
+ +      -0.2583 * (normalized) player2=Sven
+ +       0.063  * (normalized) player2=Windranger
+ +      -0.3709 * (normalized) player2=Lich
+ +       0.288  * (normalized) player2=ShadowShaman
+ +       0.0565 * (normalized) player2=WitchDoctor
+ +      -0.4129 * (normalized) player2=Riki
+ +       0.2095 * (normalized) player2=Enigma
+ +      -0.1012 * (normalized) player2=Tinker
+ +      -0.1583 * (normalized) player2=Beastmaster
+ +       0.2133 * (normalized) player2=FacelessVoid
+ +       0.3182 * (normalized) player2=PhantomAssassin
+ +      -0.4667 * (normalized) player2=Lifestealer
+ +      -0.2281 * (normalized) player2=DarkSeer
+ +      -0.1956 * (normalized) player2=Enchantress
+ +      -0.0003 * (normalized) player2=BountyHunter
+ +       0.5332 * (normalized) player2=Weaver
+ +       0.1702 * (normalized) player2=Spectre
+ +       0.4331 * (normalized) player2=Alchemist
+ +      -0.2669 * (normalized) player2=Invoker
+ +       0.3409 * (normalized) player2=TreantProtector
+ +      -0.2706 * (normalized) player2=OgreMagi
+ +       0.2778 * (normalized) player2=Disruptor
+ +       0.1618 * (normalized) player2=KeeperoftheLight
+ +       0.1867 * (normalized) player2=Io
+ +      -0.1584 * (normalized) player2=Visage
+ +       0.1854 * (normalized) player2=Medusa
+ +       0.0794 * (normalized) player2=Timbersaw
+ +      -0.2956 * (normalized) player2=ElderTitan
+ +       0.0504 * (normalized) player2=LegionCommander
+ +       0.177  * (normalized) player3=Axe
+ +       0.0189 * (normalized) player3=Bloodseeker
+ +       0.2948 * (normalized) player3=CrystalMaiden
+ +      -0.2404 * (normalized) player3=DrowRanger
+ +      -0.217  * (normalized) player3=Earthshaker
+ +      -0.3626 * (normalized) player3=Juggernaut
+ +      -0.2175 * (normalized) player3=Mirana
+ +       0.288  * (normalized) player3=ShadowFiend
+ +       0.274  * (normalized) player3=Puck
+ +      -0.1659 * (normalized) player3=Pudge
+ +       0.1608 * (normalized) player3=Razor
+ +      -0.1913 * (normalized) player3=SandKing
+ +      -0.3401 * (normalized) player3=StormSpirit
+ +       0.1867 * (normalized) player3=Sven
+ +       0.0467 * (normalized) player3=Tiny
+ +       0.1854 * (normalized) player3=VengefulSpirit
+ +       0.5332 * (normalized) player3=Windranger
+ +      -0.2402 * (normalized) player3=Kunkka
+ +       0.1735 * (normalized) player3=Lina
+ +      -0.2956 * (normalized) player3=Riki
+ +      -0.2746 * (normalized) player3=Tinker
+ +       0.2844 * (normalized) player3=Sniper
+ +       0.0794 * (normalized) player3=Warlock
+ +      -0.2423 * (normalized) player3=FacelessVoid
+ +       0.2095 * (normalized) player3=PhantomAssassin
+ +      -0.1584 * (normalized) player3=Viper
+ +       0.2262 * (normalized) player3=Leshrac
+ +      -0.1959 * (normalized) player3=Lifestealer
+ +       0.2454 * (normalized) player3=BountyHunter
+ +      -0.1956 * (normalized) player3=Doom
+ +      -0.1817 * (normalized) player3=AncientApparition
+ +       0.0815 * (normalized) player3=SpiritBreaker
+ +       0.4396 * (normalized) player3=Alchemist
+ +      -0.1358 * (normalized) player3=Invoker
+ +       0.2133 * (normalized) player3=ShadowDemon
+ +      -0.1583 * (normalized) player3=LoneDruid
+ +       0.0442 * (normalized) player3=NyxAssassin
+ +      -0.1817 * (normalized) player3=Slark
+ +       0.1702 * (normalized) player3=TrollWarlord
+ +      -0.3856 * (normalized) player3=CentaurWarrunner
+ +       0.0478 * (normalized) player3=LegionCommander
+ +       0.2844 * (normalized) player4=Bloodseeker
+ +       0.0599 * (normalized) player4=CrystalMaiden
+ +      -0.1817 * (normalized) player4=Juggernaut
+ +      -0.1659 * (normalized) player4=Mirana
+ +      -0.4667 * (normalized) player4=Morphling
+ +      -0.2404 * (normalized) player4=Puck
+ +       0.0794 * (normalized) player4=Pudge
+ +       0.0136 * (normalized) player4=SandKing
+ +       0.0225 * (normalized) player4=StormSpirit
+ +      -0.1885 * (normalized) player4=Sven
+ +       0.3867 * (normalized) player4=VengefulSpirit
+ +       0.3321 * (normalized) player4=Windranger
+ +       0.3409 * (normalized) player4=Lina
+ +      -0.1942 * (normalized) player4=Lich
+ +      -0.3709 * (normalized) player4=Lion
+ +      -0.2583 * (normalized) player4=Riki
+ +      -0.2423 * (normalized) player4=Sniper
+ +       0.2133 * (normalized) player4=Necrophos
+ +      -0.2956 * (normalized) player4=Warlock
+ +      -0.3401 * (normalized) player4=Beastmaster
+ +       0.1034 * (normalized) player4=FacelessVoid
+ +       0.177  * (normalized) player4=PhantomAssassin
+ +       0.1867 * (normalized) player4=DragonKnight
+ +      -0.2669 * (normalized) player4=Leshrac
+ +       0.305  * (normalized) player4=Nature'sProphet
+ +       0.1735 * (normalized) player4=Lifestealer
+ +      -0.1583 * (normalized) player4=Clinkz
+ +       0.274  * (normalized) player4=Omniknight
+ +       0.2948 * (normalized) player4=Huskar
+ +      -0.3301 * (normalized) player4=BountyHunter
+ +       0.2778 * (normalized) player4=Weaver
+ +       0.1784 * (normalized) player4=Batrider
+ +       0.0268 * (normalized) player4=AncientApparition
+ +      -0.1817 * (normalized) player4=Silencer
+ +       0.1608 * (normalized) player4=ChaosKnight
+ +      -0.2444 * (normalized) player4=OgreMagi
+ +       0.3484 * (normalized) player4=KeeperoftheLight
+ +       0.2713 * (normalized) player4=Slark
+ +      -0.3903 * (normalized) player4=Timbersaw
+ +      -0.217  * (normalized) player4=LegionCommander
+ +       0.463  * (normalized) player4=Techies
+ +      -0.2402 * (normalized) player4=ArcWarden
+ +       0.1344 * (normalized) player5=Anti-Mage
+ +       0.2547 * (normalized) player5=Bloodseeker
+ +       0.4189 * (normalized) player5=DrowRanger
+ +       0.2454 * (normalized) player5=Earthshaker
+ +      -0.0826 * (normalized) player5=Juggernaut
+ +       0.5092 * (normalized) player5=Mirana
+ +       0.1784 * (normalized) player5=ShadowFiend
+ +      -0.1942 * (normalized) player5=PhantomLancer
+ +      -0.1959 * (normalized) player5=Pudge
+ +      -0.2583 * (normalized) player5=StormSpirit
+ +       0.288  * (normalized) player5=Sven
+ +      -0.1913 * (normalized) player5=Zeus
+ +      -0.3856 * (normalized) player5=ShadowShaman
+ +      -0.1345 * (normalized) player5=Slardar
+ +       0.3702 * (normalized) player5=Tidehunter
+ +      -0.26   * (normalized) player5=Riki
+ +       0.1854 * (normalized) player5=Enigma
+ +       0.2262 * (normalized) player5=Tinker
+ +      -0.3243 * (normalized) player5=Sniper
+ +      -0.2175 * (normalized) player5=Necrophos
+ +       0.2948 * (normalized) player5=FacelessVoid
+ +      -0.0294 * (normalized) player5=WraithKing
+ +      -0.3539 * (normalized) player5=Viper
+ +       0.1735 * (normalized) player5=Clockwerk
+ +       0.1447 * (normalized) player5=Clinkz
+ +      -0.1617 * (normalized) player5=Omniknight
+ +       0.1867 * (normalized) player5=Jakiro
+ +       0.2138 * (normalized) player5=Doom
+ +      -0.217  * (normalized) player5=Silencer
+ +      -0.2279 * (normalized) player5=TreantProtector
+ +       0.1702 * (normalized) player5=Io
+ +      -0.2402 * (normalized) player5=Timbersaw
+ +      -0.2404 * (normalized) player5=Bristleback
+ +       0.2133 * (normalized) player5=ElderTitan
+ +      -0.2601 * (normalized) player5=LegionCommander
+ +       0.2619 * (normalized) player5=EmberSpirit
+ +      -0.2281 * (normalized) player5=Terrorblade
+ +      -0.2669 * (normalized) player5=Oracle
+ -       0.013 
+
+Number of kernel evaluations: 1596 (92.912% cached)
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          30               53.5714 %
+Incorrectly Classified Instances        26               46.4286 %
+Kappa statistic                          0.0714
+Mean absolute error                      0.4643
+Root mean squared error                  0.6814
+Relative absolute error                 92.7322 %
+Root relative squared error            136.0851 %
+Total Number of Instances               56     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.464    0.393    0.542      0.464    0.500      0.072    0.536     0.519     win
+                 0.607    0.536    0.531      0.607    0.567      0.072    0.536     0.519     lose
+Weighted Avg.    0.536    0.464    0.536      0.536    0.533      0.072    0.536     0.519     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 13 15 |  a = win
+ 11 17 |  b = lose
+
+

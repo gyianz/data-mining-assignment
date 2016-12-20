@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     all
+Instances:    10349
+Attributes:   8
+              player1
+              player2
+              player3
+              player4
+              player5
+              kills
+              duration
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=8 #classindex=7
+Network structure (nodes followed by parents)
+player1(113): class 
+player2(113): class 
+player3(113): class 
+player4(113): class 
+player5(113): class 
+kills(8): class 
+duration(2): class 
+class(2): 
+LogScore Bayes: -254060.9033674413
+LogScore BDeu: -261272.95580859014
+LogScore MDL: -259459.0075736568
+LogScore ENTROPY: -254203.4267912894
+LogScore AIC: -255340.4267912894
+
+
+Time taken to build model: 0.17 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9223               89.1197 %
+Incorrectly Classified Instances      1126               10.8803 %
+Kappa statistic                          0.7824
+Mean absolute error                      0.1551
+Root mean squared error                  0.2828
+Relative absolute error                 31.0282 %
+Root relative squared error             56.5573 %
+Total Number of Instances            10349     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.885    0.103    0.899      0.885    0.892      0.782    0.955     0.952     win
+                 0.897    0.115    0.884      0.897    0.890      0.782    0.955     0.952     lose
+Weighted Avg.    0.891    0.109    0.891      0.891    0.891      0.782    0.955     0.952     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4648  603 |    a = win
+  523 4575 |    b = lose
+
+

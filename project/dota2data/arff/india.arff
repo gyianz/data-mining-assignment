@@ -1,0 +1,54 @@
+@RELATION auscomp
+
+@ATTRIBUTE player1 {"Anti-Mage","Axe","Bane","Bloodseeker","CrystalMaiden","DrowRanger","Earthshaker","Juggernaut","Mirana","ShadowFiend","Morphling","PhantomLancer","Puck","Pudge","Razor","SandKing","StormSpirit","Sven","Tiny","VengefulSpirit","Windranger","Zeus","Kunkka","Lina","Lich","Lion","ShadowShaman","Slardar","Tidehunter","WitchDoctor","Riki","Enigma","Tinker","Sniper","Necrophos","Warlock","Beastmaster","QueenofPain","Venomancer","FacelessVoid","WraithKing","DeathProphet","PhantomAssassin","Pugna","TemplarAssassin","Viper","Luna","DragonKnight","Dazzle","Clockwerk","Leshrac","Nature'sProphet","Lifestealer","DarkSeer","Clinkz","Omniknight","Enchantress","Huskar","NightStalker","Broodmother","BountyHunter","Weaver","Jakiro","Batrider","Chen","Spectre","Doom","AncientApparition","Ursa","SpiritBreaker","Gyrocopter","Alchemist","Invoker","Silencer","OutworldDevourer","Lycan","Brewmaster","ShadowDemon","LoneDruid","ChaosKnight","Meepo","TreantProtector","OgreMagi","Undying","Rubick","Disruptor","NyxAssassin","NagaSiren","Keeperof the Light","Io","Visage","Slark","Medusa","TrollWarlord","CentaurWarrunner","Magnus","Timbersaw","Bristleback","Tusk","SkywrathMage","Abaddon","ElderTitan","LegionCommander","EmberSpirit","EarthSpirit","AbyssalUnderlord","Terrorblade","Phoenix","Techies","Oracle","WinterWyvern","ArcWarden","undefined"}
+@ATTRIBUTE player2 {"Anti-Mage","Axe","Bane","Bloodseeker","CrystalMaiden","DrowRanger","Earthshaker","Juggernaut","Mirana","ShadowFiend","Morphling","PhantomLancer","Puck","Pudge","Razor","SandKing","StormSpirit","Sven","Tiny","VengefulSpirit","Windranger","Zeus","Kunkka","Lina","Lich","Lion","ShadowShaman","Slardar","Tidehunter","WitchDoctor","Riki","Enigma","Tinker","Sniper","Necrophos","Warlock","Beastmaster","QueenofPain","Venomancer","FacelessVoid","WraithKing","DeathProphet","PhantomAssassin","Pugna","TemplarAssassin","Viper","Luna","DragonKnight","Dazzle","Clockwerk","Leshrac","Nature'sProphet","Lifestealer","DarkSeer","Clinkz","Omniknight","Enchantress","Huskar","NightStalker","Broodmother","BountyHunter","Weaver","Jakiro","Batrider","Chen","Spectre","Doom","AncientApparition","Ursa","SpiritBreaker","Gyrocopter","Alchemist","Invoker","Silencer","OutworldDevourer","Lycan","Brewmaster","ShadowDemon","LoneDruid","ChaosKnight","Meepo","TreantProtector","OgreMagi","Undying","Rubick","Disruptor","NyxAssassin","NagaSiren","KeeperoftheLight","Io","Visage","Slark","Medusa","TrollWarlord","CentaurWarrunner","Magnus","Timbersaw","Bristleback","Tusk","SkywrathMage","Abaddon","ElderTitan","LegionCommander","EmberSpirit","EarthSpirit","AbyssalUnderlord","Terrorblade","Phoenix","Techies","Oracle","WinterWyvern","ArcWarden","undefined"}
+@ATTRIBUTE player3 {"Anti-Mage","Axe","Bane","Bloodseeker","CrystalMaiden","DrowRanger","Earthshaker","Juggernaut","Mirana","ShadowFiend","Morphling","PhantomLancer","Puck","Pudge","Razor","SandKing","StormSpirit","Sven","Tiny","VengefulSpirit","Windranger","Zeus","Kunkka","Lina","Lich","Lion","ShadowShaman","Slardar","Tidehunter","WitchDoctor","Riki","Enigma","Tinker","Sniper","Necrophos","Warlock","Beastmaster","QueenofPain","Venomancer","FacelessVoid","WraithKing","DeathProphet","PhantomAssassin","Pugna","TemplarAssassin","Viper","Luna","DragonKnight","Dazzle","Clockwerk","Leshrac","Nature'sProphet","Lifestealer","DarkSeer","Clinkz","Omniknight","Enchantress","Huskar","NightStalker","Broodmother","BountyHunter","Weaver","Jakiro","Batrider","Chen","Spectre","Doom","AncientApparition","Ursa","SpiritBreaker","Gyrocopter","Alchemist","Invoker","Silencer","OutworldDevourer","Lycan","Brewmaster","ShadowDemon","LoneDruid","ChaosKnight","Meepo","TreantProtector","OgreMagi","Undying","Rubick","Disruptor","NyxAssassin","NagaSiren","KeeperoftheLight","Io","Visage","Slark","Medusa","TrollWarlord","CentaurWarrunner","Magnus","Timbersaw","Bristleback","Tusk","SkywrathMage","Abaddon","ElderTitan","LegionCommander","EmberSpirit","EarthSpirit","AbyssalUnderlord","Terrorblade","Phoenix","Techies","Oracle","WinterWyvern","ArcWarden","undefined"}
+@ATTRIBUTE player4 {"Anti-Mage","Axe","Bane","Bloodseeker","CrystalMaiden","DrowRanger","Earthshaker","Juggernaut","Mirana","ShadowFiend","Morphling","PhantomLancer","Puck","Pudge","Razor","SandKing","StormSpirit","Sven","Tiny","VengefulSpirit","Windranger","Zeus","Kunkka","Lina","Lich","Lion","ShadowShaman","Slardar","Tidehunter","WitchDoctor","Riki","Enigma","Tinker","Sniper","Necrophos","Warlock","Beastmaster","QueenofPain","Venomancer","FacelessVoid","WraithKing","DeathProphet","PhantomAssassin","Pugna","TemplarAssassin","Viper","Luna","DragonKnight","Dazzle","Clockwerk","Leshrac","Nature'sProphet","Lifestealer","DarkSeer","Clinkz","Omniknight","Enchantress","Huskar","NightStalker","Broodmother","BountyHunter","Weaver","Jakiro","Batrider","Chen","Spectre","Doom","AncientApparition","Ursa","SpiritBreaker","Gyrocopter","Alchemist","Invoker","Silencer","OutworldDevourer","Lycan","Brewmaster","ShadowDemon","LoneDruid","ChaosKnight","Meepo","TreantProtector","OgreMagi","Undying","Rubick","Disruptor","NyxAssassin","NagaSiren","KeeperoftheLight","Io","Visage","Slark","Medusa","TrollWarlord","CentaurWarrunner","Magnus","Timbersaw","Bristleback","Tusk","SkywrathMage","Abaddon","ElderTitan","LegionCommander","EmberSpirit","EarthSpirit","AbyssalUnderlord","Terrorblade","Phoenix","Techies","Oracle","WinterWyvern","ArcWarden","undefined"}
+@ATTRIBUTE player5 {"Anti-Mage","Axe","Bane","Bloodseeker","CrystalMaiden","DrowRanger","Earthshaker","Juggernaut","Mirana","ShadowFiend","Morphling","PhantomLancer","Puck","Pudge","Razor","SandKing","StormSpirit","Sven","Tiny","VengefulSpirit","Windranger","Zeus","Kunkka","Lina","Lich","Lion","ShadowShaman","Slardar","Tidehunter","WitchDoctor","Riki","Enigma","Tinker","Sniper","Necrophos","Warlock","Beastmaster","QueenofPain","Venomancer","FacelessVoid","WraithKing","DeathProphet","PhantomAssassin","Pugna","TemplarAssassin","Viper","Luna","DragonKnight","Dazzle","Clockwerk","Leshrac","Nature'sProphet","Lifestealer","DarkSeer","Clinkz","Omniknight","Enchantress","Huskar","NightStalker","Broodmother","BountyHunter","Weaver","Jakiro","Batrider","Chen","Spectre","Doom","AncientApparition","Ursa","SpiritBreaker","Gyrocopter","Alchemist","Invoker","Silencer","OutworldDevourer","Lycan","Brewmaster","ShadowDemon","LoneDruid","ChaosKnight","Meepo","TreantProtector","OgreMagi","Undying","Rubick","Disruptor","NyxAssassin","NagaSiren","KeeperoftheLight","Io","Visage","Slark","Medusa","TrollWarlord","CentaurWarrunner","Magnus","Timbersaw","Bristleback","Tusk","SkywrathMage","Abaddon","ElderTitan","LegionCommander","EmberSpirit","EarthSpirit","AbyssalUnderlord","Terrorblade","Phoenix","Techies","Oracle","WinterWyvern","ArcWarden","undefined"}
+@ATTRIBUTE class {"win","lose"}
+
+@DATA
+"Enigma","Magnus","Bristleback","Enchantress","PhantomAssassin","win"
+"Sniper","Viper","Kunkka","ShadowShaman","undefined","lose"
+"Batrider","Magnus","WraithKing","Lion","Sven","win"
+"Pudge","Mirana","WitchDoctor","Invoker","Juggernaut","lose"
+"Anti-Mage","Lion","Invoker","Pugna","Earthshaker","win"
+"PhantomAssassin","NightStalker","Riki","Abaddon","Lich","lose"
+"Sniper","Pudge","Alchemist","NightStalker","Axe","win"
+"Timbersaw","DarkSeer","Morphling","Bloodseeker","Lina","lose"
+"Sniper","Huskar","WraithKing","Batrider","DrowRanger","win"
+"Mirana","Axe","Anti-Mage","DragonKnight","Pudge","lose"
+"Sniper","DrowRanger","Pudge","OutworldDevourer","Kunkka","lose"
+"Necrophos","QueenofPain","SkywrathMage","EmberSpirit","Spectre","win"
+"PhantomAssassin","WinterWyvern","Axe","Slark","Tinker","win"
+"Windranger","LegionCommander","Sniper","Anti-Mage","TrollWarlord","lose"
+"Dazzle","Juggernaut","Huskar","FacelessVoid","Axe","win"
+"Slark","Anti-Mage","Alchemist","Mirana","LegionCommander","lose"
+"Meepo","Windranger","Broodmother","DrowRanger","TemplarAssassin","win"
+"WraithKing","Tidehunter","Chen","Axe","Lion","lose"
+"Lifestealer","ShadowShaman","Anti-Mage","StormSpirit","Bloodseeker","win"
+"PhantomAssassin","Huskar","Riki","ShadowDemon","Pudge","lose"
+"StormSpirit","Mirana","Windranger","Axe","CrystalMaiden","win"
+"Huskar","PhantomAssassin","Juggernaut","LegionCommander","Sniper","lose"
+"Disruptor","DrowRanger","Riki","Alchemist","TemplarAssassin","lose"
+"Leshrac","PhantomAssassin","LoneDruid","Jakiro","Axe","win"
+"Axe","Meepo","Slark","DrowRanger","LoneDruid","win"
+"Techies","Tusk","Abaddon","Disruptor","Alchemist","lose"
+"CentaurWarrunner","Bloodseeker","Invoker","DrowRanger","Sniper","lose"
+"Lina","Weaver","LegionCommander","NyxAssassin","Timbersaw","win"
+"Axe","CrystalMaiden","Viper","NyxAssassin","PhantomAssassin","win"
+"Riki","Slark","WraithKing","WitchDoctor","Nature'sProphet","lose"
+"Mirana","Tinker","Slark","Juggernaut","Slardar","lose"
+"Ursa","Windranger","DragonKnight","PhantomAssassin","Alchemist","win"
+"Juggernaut","Mirana","LegionCommander","Slark","Clinkz","lose"
+"Meepo","Nature'sProphet","Lifestealer","Lycan","ShadowShaman","win"
+"Ursa","Batrider","Techies","Pugna","Io","win"
+"Visage","NyxAssassin","Invoker","ArcWarden","Luna","lose"
+"CentaurWarrunner","Riki","LegionCommander","Weaver","Mirana","lose"
+"PhantomAssassin","Sniper","Pudge","Invoker","Jakiro","win"
+"DeathProphet","Ursa","Disruptor","SpiritBreaker","Terrorblade","win"
+"Clockwerk","Sniper","TemplarAssassin","Pudge","Slardar","lose"
+"Slark","Sven","Invoker","WinterWyvern","Techies","win"
+"DarkSeer","Pudge","Zeus","Windranger","LegionCommander","lose"
+"Silencer","Windranger","Axe","WraithKing","Juggernaut","win"
+"Bloodseeker","Riki","Sven","Huskar","Nature'sProphet","lose"

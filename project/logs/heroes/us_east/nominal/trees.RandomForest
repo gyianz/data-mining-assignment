@@ -1,0 +1,50 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     auscomp
+Instances:    76
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.07 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          42               55.2632 %
+Incorrectly Classified Instances        34               44.7368 %
+Kappa statistic                          0.1053
+Mean absolute error                      0.4839
+Root mean squared error                  0.4964
+Relative absolute error                 96.7164 %
+Root relative squared error             99.2088 %
+Total Number of Instances               76     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.632    0.526    0.545      0.632    0.585      0.107    0.588     0.577     win
+                 0.474    0.368    0.563      0.474    0.514      0.107    0.588     0.625     lose
+Weighted Avg.    0.553    0.447    0.554      0.553    0.550      0.107    0.588     0.601     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 24 14 |  a = win
+ 20 18 |  b = lose
+
+

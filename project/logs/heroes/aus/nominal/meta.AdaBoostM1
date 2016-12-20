@@ -1,0 +1,279 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     auscomp
+Instances:    182
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+player3 = CrystalMaiden : win
+player3 != CrystalMaiden : lose
+player3 is missing : win
+
+Class distributions
+
+player3 = CrystalMaiden
+win	lose	
+1.0	0.0	
+player3 != CrystalMaiden
+win	lose	
+0.48295454545454547	0.5170454545454546	
+player3 is missing
+win	lose	
+0.5	0.5	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+player3 = CrystalMaiden : win
+player3 != CrystalMaiden : win
+player3 is missing : win
+
+Class distributions
+
+player3 = CrystalMaiden
+win	lose	
+1.0	0.0	
+player3 != CrystalMaiden
+win	lose	
+0.5159574468085107	0.48404255319148937	
+player3 is missing
+win	lose	
+0.5309278350515465	0.4690721649484536	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+player3 = CrystalMaiden : win
+player3 != CrystalMaiden : lose
+player3 is missing : win
+
+Class distributions
+
+player3 = CrystalMaiden
+win	lose	
+1.0	0.0	
+player3 != CrystalMaiden
+win	lose	
+0.48500000000000015	0.5149999999999998	
+player3 is missing
+win	lose	
+0.5000000000000001	0.49999999999999983	
+
+
+Weight: 0.12
+
+Decision Stump
+
+Classifications
+
+player2 = Lion : lose
+player2 != Lion : win
+player2 is missing : win
+
+Class distributions
+
+player2 = Lion
+win	lose	
+0.0	1.0	
+player2 != Lion
+win	lose	
+0.5415825699943068	0.4584174300056933	
+player2 is missing
+win	lose	
+0.5275229357798159	0.47247706422018404	
+
+
+Weight: 0.21
+
+Decision Stump
+
+Classifications
+
+player4 = FacelessVoid : win
+player4 != FacelessVoid : lose
+player4 is missing : lose
+
+Class distributions
+
+player4 = FacelessVoid
+win	lose	
+1.0	0.0	
+player4 != FacelessVoid
+win	lose	
+0.4622606982369339	0.5377393017630661	
+player4 is missing
+win	lose	
+0.4765482695810566	0.5234517304189434	
+
+
+Weight: 0.2
+
+Decision Stump
+
+Classifications
+
+player3 = CrystalMaiden : win
+player3 != CrystalMaiden : win
+player3 is missing : win
+
+Class distributions
+
+player3 = CrystalMaiden
+win	lose	
+1.0	0.0	
+player3 != CrystalMaiden
+win	lose	
+0.5106334531580359	0.48936654684196407	
+player3 is missing
+win	lose	
+0.5241533306710047	0.47584666932899544	
+
+
+Weight: 0.1
+
+Decision Stump
+
+Classifications
+
+player3 = CrystalMaiden : win
+player3 != CrystalMaiden : lose
+player3 is missing : win
+
+Class distributions
+
+player3 = CrystalMaiden
+win	lose	
+1.0	0.0	
+player3 != CrystalMaiden
+win	lose	
+0.48646621878370927	0.5135337812162907	
+player3 is missing
+win	lose	
+0.5000000000000007	0.4999999999999993	
+
+
+Weight: 0.11
+
+Decision Stump
+
+Classifications
+
+player3 = CrystalMaiden : win
+player3 != CrystalMaiden : win
+player3 is missing : win
+
+Class distributions
+
+player3 = CrystalMaiden
+win	lose	
+1.0	0.0	
+player3 != CrystalMaiden
+win	lose	
+0.5128387536825728	0.4871612463174271	
+player3 is missing
+win	lose	
+0.5250346792054628	0.4749653207945371	
+
+
+Weight: 0.1
+
+Decision Stump
+
+Classifications
+
+player3 = CrystalMaiden : win
+player3 != CrystalMaiden : lose
+player3 is missing : win
+
+Class distributions
+
+player3 = CrystalMaiden
+win	lose	
+1.0	0.0	
+player3 != CrystalMaiden
+win	lose	
+0.48778837452364704	0.5122116254763529	
+player3 is missing
+win	lose	
+0.5000000000000004	0.4999999999999996	
+
+
+Weight: 0.1
+
+Decision Stump
+
+Classifications
+
+player2 = Lion : lose
+player2 != Lion : win
+player2 is missing : win
+
+Class distributions
+
+player2 = Lion
+win	lose	
+0.0	1.0	
+player2 != Lion
+win	lose	
+0.534177461444579	0.4658225385554211	
+player2 is missing
+win	lose	
+0.5227559296138437	0.47724407038615646	
+
+
+Weight: 0.18
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          95               52.1978 %
+Incorrectly Classified Instances        87               47.8022 %
+Kappa statistic                          0.044 
+Mean absolute error                      0.4964
+Root mean squared error                  0.4973
+Relative absolute error                 99.2784 %
+Root relative squared error             99.4536 %
+Total Number of Instances              182     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.440    0.396    0.526      0.440    0.479      0.045    0.539     0.567     win
+                 0.604    0.560    0.519      0.604    0.558      0.045    0.539     0.526     lose
+Weighted Avg.    0.522    0.478    0.523      0.522    0.519      0.045    0.539     0.546     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 40 51 |  a = win
+ 36 55 |  b = lose
+
+

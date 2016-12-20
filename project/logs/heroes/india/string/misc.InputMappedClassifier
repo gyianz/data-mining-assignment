@@ -1,0 +1,59 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.rules.ZeroR
+Relation:     auscomp
+Instances:    44
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+ZeroR predicts class value: win
+Attribute mappings:
+
+Model attributes   	    Incoming attributes
+-------------------	    ----------------
+(nominal) player1  	--> 1 (nominal) player1
+(nominal) player2  	--> 2 (nominal) player2
+(nominal) player3  	--> 3 (nominal) player3
+(nominal) player4  	--> 4 (nominal) player4
+(nominal) player5  	--> 5 (nominal) player5
+(nominal) class    	--> 6 (nominal) class
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          20               45.4545 %
+Incorrectly Classified Instances        24               54.5455 %
+Kappa statistic                         -0.0909
+Mean absolute error                      0.5011
+Root mean squared error                  0.5012
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances               44     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.727    0.818    0.471      0.727    0.571      -0.108   0.430     0.466     win
+                 0.182    0.273    0.400      0.182    0.250      -0.108   0.430     0.466     lose
+Weighted Avg.    0.455    0.545    0.435      0.455    0.411      -0.108   0.430     0.466     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 16  6 |  a = win
+ 18  4 |  b = lose
+
+

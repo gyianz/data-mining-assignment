@@ -1,0 +1,46 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.VotedPerceptron -I 1 -E 1.0 -S 1 -M 10000
+Relation:     auscomp
+Instances:    444
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+VotedPerceptron: Number of perceptrons=199
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         257               57.8829 %
+Incorrectly Classified Instances       187               42.1171 %
+Kappa statistic                          0.1577
+Mean absolute error                      0.422 
+Root mean squared error                  0.6486
+Relative absolute error                 84.3902 %
+Root relative squared error            129.7099 %
+Total Number of Instances              444     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.595    0.437    0.576      0.595    0.585      0.158    0.576     0.538     win
+                 0.563    0.405    0.581      0.563    0.572      0.158    0.586     0.569     lose
+Weighted Avg.    0.579    0.421    0.579      0.579    0.579      0.158    0.581     0.553     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 132  90 |   a = win
+  97 125 |   b = lose
+
+

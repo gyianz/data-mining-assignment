@@ -1,0 +1,319 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AttributeSelectedClassifier -E "weka.attributeSelection.CfsSubsetEval -P 1 -E 1" -S "weka.attributeSelection.BestFirst -D 1 -N 5" -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     auscomp
+Instances:    2048
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 17
+	Merit of best subset found:    0.018
+
+Attribute Subset Evaluator (supervised, Class (nominal): 6 class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 1,2,3,4,5 : 5
+                     player1
+                     player2
+                     player3
+                     player4
+                     player5
+
+
+Header of reduced data:
+@relation auscomp-weka.filters.unsupervised.attribute.Remove-V-R1-6
+
+@attribute player1 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden,undefined}
+@attribute player2 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden,undefined}
+@attribute player3 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden,undefined}
+@attribute player4 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden,undefined}
+@attribute player5 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden,undefined}
+@attribute class {win,lose}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+player3 = Anti-Mage: win (28.0/14.0)
+player3 = Axe: win (37.0/12.0)
+player3 = Bane: win (11.0/5.0)
+player3 = Bloodseeker: win (33.0/14.0)
+player3 = CrystalMaiden: win (33.0/15.0)
+player3 = DrowRanger: win (39.0/17.0)
+player3 = Earthshaker: lose (21.0/9.0)
+player3 = Juggernaut: lose (52.0/23.0)
+player3 = Mirana: win (43.0/21.0)
+player3 = ShadowFiend: lose (15.0/7.0)
+player3 = Morphling: lose (31.0/13.0)
+player3 = PhantomLancer: lose (13.0/4.0)
+player3 = Puck: lose (10.0/3.0)
+player3 = Pudge: lose (74.0/36.0)
+player3 = Razor: lose (9.0/3.0)
+player3 = SandKing: win (10.0/2.0)
+player3 = StormSpirit: win (21.0/10.0)
+player3 = Sven: win (31.0/9.0)
+player3 = Tiny: lose (11.0/2.0)
+player3 = VengefulSpirit: win (18.0/6.0)
+player3 = Windranger: lose (45.0/18.0)
+player3 = Zeus: win (21.0/8.0)
+player3 = Kunkka: win (14.0/4.0)
+player3 = Lina: lose (11.0/3.0)
+player3 = Lich: win (14.0/6.0)
+player3 = Lion: lose (26.0/10.0)
+player3 = ShadowShaman: win (14.0/5.0)
+player3 = Slardar: win (14.0/3.0)
+player3 = Tidehunter: win (13.0/6.0)
+player3 = WitchDoctor: win (14.0/3.0)
+player3 = Riki: lose (54.0/26.0)
+player3 = Enigma: lose (12.0/4.0)
+player3 = Tinker: win (26.0/13.0)
+player3 = Sniper: win (34.0/16.0)
+player3 = Necrophos: lose (30.0/12.0)
+player3 = Warlock: lose (10.0/4.0)
+player3 = Beastmaster: lose (6.0/2.0)
+player3 = QueenofPain: lose (10.0/3.0)
+player3 = Venomancer: win (15.0/6.0)
+player3 = FacelessVoid: lose (47.0/18.0)
+player3 = WraithKing: win (28.0/11.0)
+player3 = DeathProphet: win (6.0/3.0)
+player3 = PhantomAssassin: win (82.0/35.0)
+player3 = Pugna: lose (10.0/3.0)
+player3 = TemplarAssassin: win (9.0/4.0)
+player3 = Viper: win (16.0/6.0)
+player3 = Luna: lose (13.0/6.0)
+player3 = DragonKnight: lose (8.0/2.0)
+player3 = Dazzle: win (14.0/7.0)
+player3 = Clockwerk: win (8.0/3.0)
+player3 = Leshrac: win (5.0/2.0)
+player3 = Nature'sProphet: lose (23.0/10.0)
+player3 = Lifestealer: lose (18.0/7.0)
+player3 = DarkSeer: win (7.0/2.0)
+player3 = Clinkz: win (24.0/6.0)
+player3 = Omniknight: win (36.0/17.0)
+player3 = Enchantress: win (7.0/3.0)
+player3 = Huskar: win (16.0/7.0)
+player3 = NightStalker: win (9.0/3.0)
+player3 = Broodmother: lose (6.0/1.0)
+player3 = BountyHunter: lose (32.0/15.0)
+player3 = Weaver: win (11.0/4.0)
+player3 = Jakiro: lose (8.0/3.0)
+player3 = Batrider: lose (8.0/3.0)
+player3 = Chen: win (1.0)
+player3 = Spectre: win (10.0/5.0)
+player3 = Doom: lose (6.0/2.0)
+player3 = AncientApparition: lose (15.0/6.0)
+player3 = Ursa: lose (41.0/18.0)
+player3 = SpiritBreaker: win (16.0/8.0)
+player3 = Gyrocopter: win (6.0/1.0)
+player3 = Alchemist: lose (22.0/10.0)
+player3 = Invoker: lose (58.0/24.0)
+player3 = Silencer: win (22.0/9.0)
+player3 = OutworldDevourer: lose (6.0/2.0)
+player3 = Lycan: win (4.0/2.0)
+player3 = Brewmaster: win (4.0/2.0)
+player3 = ShadowDemon: lose (11.0/5.0)
+player3 = LoneDruid: lose (2.0)
+player3 = ChaosKnight: lose (7.0/2.0)
+player3 = Meepo: lose (6.0/1.0)
+player3 = TreantProtector: win (3.0/1.0)
+player3 = OgreMagi: lose (20.0/9.0)
+player3 = Undying: win (9.0/2.0)
+player3 = Rubick: lose (18.0/7.0)
+player3 = Disruptor: lose (11.0/3.0)
+player3 = NyxAssassin
+|   player5 = Anti-Mage: win (0.0)
+|   player5 = Axe: win (0.0)
+|   player5 = Bane: win (0.0)
+|   player5 = Bloodseeker: win (0.0)
+|   player5 = CrystalMaiden: win (0.0)
+|   player5 = DrowRanger: win (0.0)
+|   player5 = Earthshaker: win (1.0)
+|   player5 = Juggernaut: win (0.0)
+|   player5 = Mirana: win (0.0)
+|   player5 = ShadowFiend: win (0.0)
+|   player5 = Morphling: win (0.0)
+|   player5 = PhantomLancer: win (0.0)
+|   player5 = Puck: win (0.0)
+|   player5 = Pudge: win (0.0)
+|   player5 = Razor: win (0.0)
+|   player5 = SandKing: win (0.0)
+|   player5 = StormSpirit: win (0.0)
+|   player5 = Sven: win (0.0)
+|   player5 = Tiny: win (0.0)
+|   player5 = VengefulSpirit: win (0.0)
+|   player5 = Windranger: win (1.0)
+|   player5 = Zeus: win (0.0)
+|   player5 = Kunkka: win (0.0)
+|   player5 = Lina: win (0.0)
+|   player5 = Lich: win (0.0)
+|   player5 = Lion: win (0.0)
+|   player5 = ShadowShaman: win (0.0)
+|   player5 = Slardar: win (0.0)
+|   player5 = Tidehunter: win (0.0)
+|   player5 = WitchDoctor: win (0.0)
+|   player5 = Riki: win (0.0)
+|   player5 = Enigma: win (0.0)
+|   player5 = Tinker: win (0.0)
+|   player5 = Sniper: win (0.0)
+|   player5 = Necrophos: win (3.0)
+|   player5 = Warlock: win (0.0)
+|   player5 = Beastmaster: win (0.0)
+|   player5 = QueenofPain: win (0.0)
+|   player5 = Venomancer: win (0.0)
+|   player5 = FacelessVoid: win (0.0)
+|   player5 = WraithKing: win (0.0)
+|   player5 = DeathProphet: win (0.0)
+|   player5 = PhantomAssassin: win (0.0)
+|   player5 = Pugna: win (0.0)
+|   player5 = TemplarAssassin: win (0.0)
+|   player5 = Viper: lose (1.0)
+|   player5 = Luna: win (0.0)
+|   player5 = DragonKnight: win (0.0)
+|   player5 = Dazzle: win (0.0)
+|   player5 = Clockwerk: win (0.0)
+|   player5 = Leshrac: win (0.0)
+|   player5 = Nature'sProphet: win (0.0)
+|   player5 = Lifestealer: win (0.0)
+|   player5 = DarkSeer: win (1.0)
+|   player5 = Clinkz: win (0.0)
+|   player5 = Omniknight: win (0.0)
+|   player5 = Enchantress: win (0.0)
+|   player5 = Huskar: win (0.0)
+|   player5 = NightStalker: win (0.0)
+|   player5 = Broodmother: win (0.0)
+|   player5 = BountyHunter: lose (1.0)
+|   player5 = Weaver: win (0.0)
+|   player5 = Jakiro: win (0.0)
+|   player5 = Batrider: win (0.0)
+|   player5 = Chen: win (0.0)
+|   player5 = Spectre: win (0.0)
+|   player5 = Doom: win (0.0)
+|   player5 = AncientApparition: win (0.0)
+|   player5 = Ursa: win (0.0)
+|   player5 = SpiritBreaker: win (0.0)
+|   player5 = Gyrocopter: win (0.0)
+|   player5 = Alchemist: win (0.0)
+|   player5 = Invoker: win (0.0)
+|   player5 = Silencer: win (0.0)
+|   player5 = OutworldDevourer: win (0.0)
+|   player5 = Lycan: win (0.0)
+|   player5 = Brewmaster: win (0.0)
+|   player5 = ShadowDemon: win (0.0)
+|   player5 = LoneDruid: win (0.0)
+|   player5 = ChaosKnight: win (0.0)
+|   player5 = Meepo: win (0.0)
+|   player5 = TreantProtector: win (0.0)
+|   player5 = OgreMagi: win (0.0)
+|   player5 = Undying: win (1.0)
+|   player5 = Rubick: win (0.0)
+|   player5 = Disruptor: win (0.0)
+|   player5 = NyxAssassin: win (0.0)
+|   player5 = NagaSiren: win (0.0)
+|   player5 = KeeperoftheLight: win (0.0)
+|   player5 = Io: win (0.0)
+|   player5 = Visage: win (0.0)
+|   player5 = Slark: lose (3.0)
+|   player5 = Medusa: win (0.0)
+|   player5 = TrollWarlord: win (0.0)
+|   player5 = CentaurWarrunner: win (0.0)
+|   player5 = Magnus: win (0.0)
+|   player5 = Timbersaw: win (0.0)
+|   player5 = Bristleback: win (0.0)
+|   player5 = Tusk: win (0.0)
+|   player5 = SkywrathMage: lose (2.0)
+|   player5 = Abaddon: win (0.0)
+|   player5 = ElderTitan: win (0.0)
+|   player5 = LegionCommander: win (1.0)
+|   player5 = EmberSpirit: win (0.0)
+|   player5 = EarthSpirit: win (0.0)
+|   player5 = AbyssalUnderlord: win (0.0)
+|   player5 = Terrorblade: win (0.0)
+|   player5 = Phoenix: win (0.0)
+|   player5 = Techies: win (0.0)
+|   player5 = Oracle: win (0.0)
+|   player5 = WinterWyvern: win (0.0)
+|   player5 = ArcWarden: win (0.0)
+|   player5 = undefined: win (0.0)
+player3 = NagaSiren: lose (3.0/1.0)
+player3 = KeeperoftheLight: lose (7.0/3.0)
+player3 = Io: lose (3.0)
+player3 = Visage: lose (3.0/1.0)
+player3 = Slark: win (56.0/21.0)
+player3 = Medusa: win (10.0/2.0)
+player3 = TrollWarlord: lose (23.0/10.0)
+player3 = CentaurWarrunner: lose (12.0/5.0)
+player3 = Magnus: lose (8.0/3.0)
+player3 = Timbersaw: lose (41.0/17.0)
+player3 = Bristleback: win (15.0/6.0)
+player3 = Tusk: win (4.0/1.0)
+player3 = SkywrathMage: lose (13.0/6.0)
+player3 = Abaddon: lose (14.0/5.0)
+player3 = ElderTitan: lose (3.0)
+player3 = LegionCommander: lose (61.0/30.0)
+player3 = EmberSpirit: win (11.0/5.0)
+player3 = EarthSpirit: lose (9.0/4.0)
+player3 = AbyssalUnderlord: win (0.0)
+player3 = Terrorblade: win (14.0/7.0)
+player3 = Phoenix: win (15.0/7.0)
+player3 = Techies: win (7.0/2.0)
+player3 = Oracle: lose (6.0/2.0)
+player3 = WinterWyvern: win (6.0/3.0)
+player3 = ArcWarden: lose (3.0)
+player3 = undefined: win (14.0/6.0)
+
+Number of Leaves  : 	225
+
+Size of the tree : 	227
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         990               48.3398 %
+Incorrectly Classified Instances      1058               51.6602 %
+Kappa statistic                         -0.0332
+Mean absolute error                      0.5019
+Root mean squared error                  0.5118
+Relative absolute error                100.3737 %
+Root relative squared error            102.3695 %
+Total Number of Instances             2048     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.452    0.485    0.482      0.452    0.467      -0.033   0.478     0.491     win
+                 0.515    0.548    0.484      0.515    0.499      -0.033   0.478     0.488     lose
+Weighted Avg.    0.483    0.517    0.483      0.483    0.483      -0.033   0.478     0.490     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 463 561 |   a = win
+ 497 527 |   b = lose
+
+

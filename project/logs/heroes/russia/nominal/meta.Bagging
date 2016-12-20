@@ -1,0 +1,48 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 10 -W weka.classifiers.trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+Relation:     auscomp
+Instances:    2048
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bagging with 10 iterations and base learner
+
+weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+
+Time taken to build model: 0.17 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1026               50.0977 %
+Incorrectly Classified Instances      1022               49.9023 %
+Kappa statistic                          0.002 
+Mean absolute error                      0.4967
+Root mean squared error                  0.5116
+Relative absolute error                 99.3312 %
+Root relative squared error            102.3197 %
+Total Number of Instances             2048     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.512    0.510    0.501      0.512    0.506      0.002    0.511     0.516     win
+                 0.490    0.488    0.501      0.490    0.496      0.002    0.511     0.514     lose
+Weighted Avg.    0.501    0.499    0.501      0.501    0.501      0.002    0.511     0.515     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 524 500 |   a = win
+ 522 502 |   b = lose
+
+

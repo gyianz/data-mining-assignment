@@ -1,0 +1,91 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AttributeSelectedClassifier -E "weka.attributeSelection.CfsSubsetEval -P 1 -E 1" -S "weka.attributeSelection.BestFirst -D 1 -N 5" -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     auscomp
+Instances:    444
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 17
+	Merit of best subset found:    0.08 
+
+Attribute Subset Evaluator (supervised, Class (nominal): 6 class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 1,3,4,5 : 4
+                     player1
+                     player3
+                     player4
+                     player5
+
+
+Header of reduced data:
+@relation 'auscomp-weka.filters.unsupervised.attribute.Remove-V-R1,3-6'
+
+@attribute player1 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden,undefined}
+@attribute player3 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden,undefined}
+@attribute player4 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden,undefined}
+@attribute player5 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden,undefined}
+@attribute class {win,lose}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+: win (444.0/222.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         220               49.5495 %
+Incorrectly Classified Instances       224               50.4505 %
+Kappa statistic                         -0.009 
+Mean absolute error                      0.5   
+Root mean squared error                  0.5   
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances              444     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.793    0.802    0.497      0.793    0.611      -0.011   0.493     0.496     win
+                 0.198    0.207    0.489      0.198    0.282      -0.011   0.493     0.496     lose
+Weighted Avg.    0.495    0.505    0.493      0.495    0.447      -0.011   0.493     0.496     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 176  46 |   a = win
+ 178  44 |   b = lose
+
+

@@ -1,0 +1,55 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     auscomp
+Instances:    444
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+0.02 + 
+[player1=StormSpirit] * -1.02
+
+Class 1 :
+-0.02 + 
+[player1=StormSpirit] * 1.02
+
+
+Time taken to build model: 0.53 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         228               51.3514 %
+Incorrectly Classified Instances       216               48.6486 %
+Kappa statistic                          0.027 
+Mean absolute error                      0.4859
+Root mean squared error                  0.533 
+Relative absolute error                 97.1761 %
+Root relative squared error            106.6067 %
+Total Number of Instances              444     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.563    0.536    0.512      0.563    0.536      0.027    0.530     0.521     win
+                 0.464    0.437    0.515      0.464    0.488      0.027    0.530     0.536     lose
+Weighted Avg.    0.514    0.486    0.514      0.514    0.512      0.027    0.530     0.528     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 125  97 |   a = win
+ 119 103 |   b = lose
+
+

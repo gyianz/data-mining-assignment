@@ -1,0 +1,279 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     auscomp
+Instances:    804
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+player5 = Weaver : lose
+player5 != Weaver : win
+player5 is missing : win
+
+Class distributions
+
+player5 = Weaver
+win	lose	
+0.0	1.0	
+player5 != Weaver
+win	lose	
+0.5037593984962406	0.49624060150375937	
+player5 is missing
+win	lose	
+0.5	0.5	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player5 = Weaver : lose
+player5 != Weaver : lose
+player5 is missing : lose
+
+Class distributions
+
+player5 = Weaver
+win	lose	
+0.0	1.0	
+player5 != Weaver
+win	lose	
+0.4962962962962968	0.5037037037037033	
+player5 is missing
+win	lose	
+0.4926470588235299	0.5073529411764702	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player5 = Weaver : lose
+player5 != Weaver : win
+player5 is missing : lose
+
+Class distributions
+
+player5 = Weaver
+win	lose	
+0.0	1.0	
+player5 != Weaver
+win	lose	
+0.5036496350364916	0.4963503649635083	
+player5 is missing
+win	lose	
+0.49999999999999534	0.5000000000000048	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player5 = Weaver : lose
+player5 != Weaver : lose
+player5 is missing : lose
+
+Class distributions
+
+player5 = Weaver
+win	lose	
+0.0	1.0	
+player5 != Weaver
+win	lose	
+0.4964028776978477	0.5035971223021523	
+player5 is missing
+win	lose	
+0.49285714285714877	0.5071428571428513	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player5 = Weaver : lose
+player5 != Weaver : win
+player5 is missing : lose
+
+Class distributions
+
+player5 = Weaver
+win	lose	
+0.0	1.0	
+player5 != Weaver
+win	lose	
+0.5035460992907744	0.49645390070922557	
+player5 is missing
+win	lose	
+0.4999999999999941	0.5000000000000059	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player5 = Weaver : lose
+player5 != Weaver : lose
+player5 is missing : lose
+
+Class distributions
+
+player5 = Weaver
+win	lose	
+0.0	1.0	
+player5 != Weaver
+win	lose	
+0.49650349650348913	0.5034965034965108	
+player5 is missing
+win	lose	
+0.4930555555555481	0.506944444444452	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player5 = Weaver : lose
+player5 != Weaver : win
+player5 is missing : lose
+
+Class distributions
+
+player5 = Weaver
+win	lose	
+0.0	1.0	
+player5 != Weaver
+win	lose	
+0.5034482758620663	0.4965517241379337	
+player5 is missing
+win	lose	
+0.4999999999999972	0.5000000000000028	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player5 = Weaver : lose
+player5 != Weaver : lose
+player5 is missing : lose
+
+Class distributions
+
+player5 = Weaver
+win	lose	
+0.0	1.0	
+player5 != Weaver
+win	lose	
+0.4965986394557783	0.5034013605442216	
+player5 is missing
+win	lose	
+0.4932432432432392	0.5067567567567608	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player5 = Weaver : lose
+player5 != Weaver : win
+player5 is missing : lose
+
+Class distributions
+
+player5 = Weaver
+win	lose	
+0.0	1.0	
+player5 != Weaver
+win	lose	
+0.5033557046979842	0.49664429530201587	
+player5 is missing
+win	lose	
+0.49999999999999745	0.5000000000000026	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player1 = OgreMagi : lose
+player1 != OgreMagi : lose
+player1 is missing : lose
+
+Class distributions
+
+player1 = OgreMagi
+win	lose	
+0.09878662089885504	0.901213379101145	
+player1 != OgreMagi
+win	lose	
+0.4983860422280354	0.5016139577719646	
+player1 is missing
+win	lose	
+0.49342105263156927	0.5065789473684308	
+
+
+Weight: 0.03
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         391               48.6318 %
+Incorrectly Classified Instances       413               51.3682 %
+Kappa statistic                         -0.0274
+Mean absolute error                      0.5008
+Root mean squared error                  0.5009
+Relative absolute error                100.1572 %
+Root relative squared error            100.186  %
+Total Number of Instances              804     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.674    0.701    0.490      0.674    0.568      -0.030   0.479     0.485     win
+                 0.299    0.326    0.478      0.299    0.368      -0.030   0.479     0.484     lose
+Weighted Avg.    0.486    0.514    0.484      0.486    0.468      -0.030   0.479     0.484     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 271 131 |   a = win
+ 282 120 |   b = lose
+
+

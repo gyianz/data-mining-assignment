@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     auscomp
+Instances:    444
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+player1 = StormSpirit : lose
+player1 != StormSpirit : win
+player1 is missing : win
+
+Class distributions
+
+player1 = StormSpirit
+win	lose	
+0.0	1.0	
+player1 != StormSpirit
+win	lose	
+0.5091743119266054	0.4908256880733945	
+player1 is missing
+win	lose	
+0.5	0.5	
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         230               51.8018 %
+Incorrectly Classified Instances       214               48.1982 %
+Kappa statistic                          0.036 
+Mean absolute error                      0.4909
+Root mean squared error                  0.4954
+Relative absolute error                 98.1697 %
+Root relative squared error             99.0833 %
+Total Number of Instances              444     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.964    0.509      1.000    0.675      0.135    0.505     0.501     win
+                 0.036    0.000    1.000      0.036    0.070      0.135    0.505     0.524     lose
+Weighted Avg.    0.518    0.482    0.755      0.518    0.372      0.135    0.505     0.512     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 222   0 |   a = win
+ 214   8 |   b = lose
+
+

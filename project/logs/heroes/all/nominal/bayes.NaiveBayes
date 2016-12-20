@@ -1,0 +1,646 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     all
+Instances:    10349
+Attributes:   8
+              player1
+              player2
+              player3
+              player4
+              player5
+              kills
+              duration
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                          Class
+Attribute                   win      lose
+                         (0.51)    (0.49)
+==========================================
+player1
+  Anti-Mage                 95.0     112.0
+  Axe                      128.0      76.0
+  Bane                      13.0      15.0
+  Bloodseeker               65.0      75.0
+  CrystalMaiden             72.0      47.0
+  DrowRanger               138.0      97.0
+  Earthshaker               66.0      58.0
+  Juggernaut               133.0     158.0
+  Mirana                   173.0     156.0
+  ShadowFiend               53.0      55.0
+  Morphling                 78.0      75.0
+  PhantomLancer             31.0      37.0
+  Puck                      20.0      26.0
+  Pudge                    203.0     167.0
+  Razor                     18.0      28.0
+  SandKing                  51.0      49.0
+  StormSpirit               67.0      70.0
+  Sven                      96.0     102.0
+  Tiny                      32.0      46.0
+  VengefulSpirit            53.0      37.0
+  Windranger                82.0      82.0
+  Zeus                      72.0      52.0
+  Kunkka                    70.0      71.0
+  Lina                      38.0      40.0
+  Lich                      30.0      19.0
+  Lion                      70.0      76.0
+  ShadowShaman              34.0      29.0
+  Slardar                   56.0      45.0
+  Tidehunter                31.0      30.0
+  WitchDoctor               31.0      38.0
+  Riki                     142.0     103.0
+  Enigma                    25.0      20.0
+  Tinker                    62.0      91.0
+  Sniper                    98.0      97.0
+  Necrophos                 61.0      52.0
+  Warlock                   19.0      12.0
+  Beastmaster               11.0      13.0
+  QueenofPain               32.0      33.0
+  Venomancer                23.0      14.0
+  FacelessVoid             107.0     106.0
+  WraithKing                82.0      61.0
+  DeathProphet              23.0      16.0
+  PhantomAssassin          228.0     188.0
+  Pugna                     14.0      18.0
+  TemplarAssassin           24.0      36.0
+  Viper                     33.0      35.0
+  Luna                      50.0      48.0
+  DragonKnight              24.0      22.0
+  Dazzle                    33.0      24.0
+  Clockwerk                 21.0      23.0
+  Leshrac                   14.0       8.0
+  Nature'sProphet           44.0      46.0
+  Lifestealer               73.0      75.0
+  DarkSeer                  11.0      20.0
+  Clinkz                    39.0      59.0
+  Omniknight                69.0      41.0
+  Enchantress                7.0      14.0
+  Huskar                    71.0      68.0
+  NightStalker              24.0      20.0
+  Broodmother                7.0       9.0
+  BountyHunter              55.0      69.0
+  Weaver                    42.0      33.0
+  Jakiro                    24.0      28.0
+  Batrider                  13.0      18.0
+  Chen                       6.0       4.0
+  Spectre                   45.0      31.0
+  Doom                      14.0      28.0
+  AncientApparition         24.0      22.0
+  Ursa                      58.0      60.0
+  SpiritBreaker             53.0      52.0
+  Gyrocopter                16.0      17.0
+  Alchemist                 65.0      82.0
+  Invoker                  141.0     148.0
+  Silencer                  38.0      41.0
+  OutworldDevourer          29.0      26.0
+  Lycan                     15.0      10.0
+  Brewmaster                 5.0      12.0
+  ShadowDemon               23.0      20.0
+  LoneDruid                  7.0      11.0
+  ChaosKnight               20.0      27.0
+  Meepo                     26.0      35.0
+  TreantProtector           13.0      14.0
+  OgreMagi                  42.0      39.0
+  Undying                   20.0      18.0
+  Rubick                    42.0      51.0
+  Disruptor                 28.0      34.0
+  NyxAssassin               39.0      45.0
+  NagaSiren                 12.0      18.0
+  KeeperoftheLight          26.0      29.0
+  Io                         6.0      12.0
+  Visage                     6.0       6.0
+  Slark                    160.0     117.0
+  Medusa                    46.0      38.0
+  TrollWarlord              35.0      29.0
+  CentaurWarrunner          23.0      23.0
+  Magnus                    32.0      22.0
+  Timbersaw                 90.0      90.0
+  Bristleback               33.0      45.0
+  Tusk                      13.0      27.0
+  SkywrathMage              26.0      23.0
+  Abaddon                   24.0      11.0
+  ElderTitan                28.0      23.0
+  LegionCommander          171.0     158.0
+  EmberSpirit               30.0      52.0
+  EarthSpirit               10.0      10.0
+  AbyssalUnderlord           1.0       1.0
+  Terrorblade               28.0      22.0
+  Phoenix                   25.0      17.0
+  Techies                   23.0      35.0
+  Oracle                    14.0      28.0
+  WinterWyvern              18.0      12.0
+  ArcWarden                 10.0      11.0
+  undefined                  1.0      37.0
+  [total]                 5364.0    5211.0
+
+player2
+  Anti-Mage                 95.0      95.0
+  Axe                      109.0      93.0
+  Bane                      16.0      18.0
+  Bloodseeker               70.0      75.0
+  CrystalMaiden             87.0      55.0
+  DrowRanger               158.0     129.0
+  Earthshaker               72.0      70.0
+  Juggernaut               151.0     140.0
+  Mirana                   178.0     143.0
+  ShadowFiend               57.0      63.0
+  Morphling                 59.0      64.0
+  PhantomLancer             26.0      43.0
+  Puck                      24.0      32.0
+  Pudge                    191.0     157.0
+  Razor                     24.0      28.0
+  SandKing                  50.0      46.0
+  StormSpirit               48.0      54.0
+  Sven                     117.0     105.0
+  Tiny                      34.0      41.0
+  VengefulSpirit            57.0      35.0
+  Windranger                97.0      77.0
+  Zeus                      74.0      43.0
+  Kunkka                    57.0      65.0
+  Lina                      37.0      37.0
+  Lich                      23.0       8.0
+  Lion                      73.0      78.0
+  ShadowShaman              26.0      23.0
+  Slardar                   60.0      58.0
+  Tidehunter                32.0      23.0
+  WitchDoctor               41.0      44.0
+  Riki                     121.0     101.0
+  Enigma                    32.0      31.0
+  Tinker                    67.0      62.0
+  Sniper                    94.0     105.0
+  Necrophos                 69.0      44.0
+  Warlock                   17.0      12.0
+  Beastmaster               20.0      16.0
+  QueenofPain               22.0      40.0
+  Venomancer                30.0      21.0
+  FacelessVoid             106.0      93.0
+  WraithKing                85.0      62.0
+  DeathProphet              17.0      19.0
+  PhantomAssassin          181.0     186.0
+  Pugna                     13.0      21.0
+  TemplarAssassin           25.0      23.0
+  Viper                     39.0      41.0
+  Luna                      47.0      25.0
+  DragonKnight              31.0      24.0
+  Dazzle                    41.0      41.0
+  Clockwerk                 13.0      18.0
+  Leshrac                   14.0      15.0
+  Nature'sProphet           40.0      55.0
+  Lifestealer               63.0      80.0
+  DarkSeer                   9.0      17.0
+  Clinkz                    32.0      54.0
+  Omniknight                79.0      39.0
+  Enchantress               12.0      18.0
+  Huskar                    59.0      71.0
+  NightStalker              18.0      31.0
+  Broodmother                8.0       9.0
+  BountyHunter              52.0      73.0
+  Weaver                    34.0      47.0
+  Jakiro                    25.0      23.0
+  Batrider                  12.0      20.0
+  Chen                       7.0       5.0
+  Spectre                   41.0      30.0
+  Doom                      21.0      26.0
+  AncientApparition         28.0      32.0
+  Ursa                      71.0      61.0
+  SpiritBreaker             55.0      42.0
+  Gyrocopter                24.0      14.0
+  Alchemist                 71.0      59.0
+  Invoker                  144.0     145.0
+  Silencer                  51.0      33.0
+  OutworldDevourer          21.0      21.0
+  Lycan                     10.0      12.0
+  Brewmaster                 5.0       6.0
+  ShadowDemon               22.0      24.0
+  LoneDruid                  7.0      22.0
+  ChaosKnight               26.0      19.0
+  Meepo                     18.0      33.0
+  TreantProtector           12.0      17.0
+  OgreMagi                  60.0      52.0
+  Undying                   23.0      22.0
+  Rubick                    45.0      50.0
+  Disruptor                 31.0      17.0
+  NyxAssassin               32.0      43.0
+  NagaSiren                 12.0      11.0
+  KeeperoftheLight          33.0      23.0
+  Io                         6.0      13.0
+  Visage                     4.0       5.0
+  Slark                    133.0     142.0
+  Medusa                    39.0      41.0
+  TrollWarlord              35.0      31.0
+  CentaurWarrunner          29.0      20.0
+  Magnus                    30.0      34.0
+  Timbersaw                 97.0      95.0
+  Bristleback               51.0      42.0
+  Tusk                      18.0      28.0
+  SkywrathMage              22.0      33.0
+  Abaddon                   24.0      20.0
+  ElderTitan                22.0      16.0
+  LegionCommander          154.0     163.0
+  EmberSpirit               33.0      36.0
+  EarthSpirit               13.0      19.0
+  AbyssalUnderlord           1.0       1.0
+  Terrorblade               25.0      33.0
+  Phoenix                   20.0      26.0
+  Techies                   22.0      27.0
+  Oracle                    15.0      13.0
+  WinterWyvern              19.0      18.0
+  ArcWarden                 11.0       6.0
+  undefined                  1.0      51.0
+  [total]                 5364.0    5211.0
+
+player3
+  Anti-Mage                 92.0      94.0
+  Axe                      121.0      98.0
+  Bane                      18.0      22.0
+  Bloodseeker               92.0      77.0
+  CrystalMaiden             96.0      59.0
+  DrowRanger               137.0     111.0
+  Earthshaker               84.0      61.0
+  Juggernaut               141.0     136.0
+  Mirana                   152.0     143.0
+  ShadowFiend               69.0      75.0
+  Morphling                 55.0      65.0
+  PhantomLancer             26.0      39.0
+  Puck                      19.0      34.0
+  Pudge                    208.0     195.0
+  Razor                     18.0      24.0
+  SandKing                  65.0      45.0
+  StormSpirit               55.0      59.0
+  Sven                     107.0      71.0
+  Tiny                      35.0      49.0
+  VengefulSpirit            44.0      39.0
+  Windranger                86.0     103.0
+  Zeus                      63.0      50.0
+  Kunkka                    61.0      61.0
+  Lina                      26.0      39.0
+  Lich                      30.0      27.0
+  Lion                      73.0      80.0
+  ShadowShaman              26.0      29.0
+  Slardar                   53.0      55.0
+  Tidehunter                35.0      27.0
+  WitchDoctor               42.0      39.0
+  Riki                     113.0     120.0
+  Enigma                    26.0      35.0
+  Tinker                    66.0      56.0
+  Sniper                    90.0     117.0
+  Necrophos                 61.0      66.0
+  Warlock                   19.0      19.0
+  Beastmaster               14.0      16.0
+  QueenofPain               24.0      28.0
+  Venomancer                26.0      19.0
+  FacelessVoid              99.0     120.0
+  WraithKing                93.0      45.0
+  DeathProphet              21.0      22.0
+  PhantomAssassin          221.0     179.0
+  Pugna                     14.0      17.0
+  TemplarAssassin           25.0      26.0
+  Viper                     36.0      29.0
+  Luna                      38.0      40.0
+  DragonKnight              33.0      21.0
+  Dazzle                    34.0      37.0
+  Clockwerk                 19.0      16.0
+  Leshrac                   13.0      14.0
+  Nature'sProphet           39.0      46.0
+  Lifestealer               62.0      66.0
+  DarkSeer                  18.0      12.0
+  Clinkz                    47.0      38.0
+  Omniknight                70.0      44.0
+  Enchantress               11.0      21.0
+  Huskar                    69.0      68.0
+  NightStalker              20.0      16.0
+  Broodmother                8.0      15.0
+  BountyHunter              62.0      72.0
+  Weaver                    35.0      35.0
+  Jakiro                    19.0      23.0
+  Batrider                  15.0      22.0
+  Chen                       3.0       6.0
+  Spectre                   38.0      25.0
+  Doom                      17.0      18.0
+  AncientApparition         31.0      29.0
+  Ursa                      70.0      50.0
+  SpiritBreaker             65.0      48.0
+  Gyrocopter                15.0      18.0
+  Alchemist                 66.0      64.0
+  Invoker                  153.0     165.0
+  Silencer                  45.0      51.0
+  OutworldDevourer          24.0      15.0
+  Lycan                     10.0      10.0
+  Brewmaster                 4.0       6.0
+  ShadowDemon               31.0      27.0
+  LoneDruid                  9.0       9.0
+  ChaosKnight               27.0      17.0
+  Meepo                     20.0      29.0
+  TreantProtector           15.0       7.0
+  OgreMagi                  58.0      49.0
+  Undying                   24.0      17.0
+  Rubick                    47.0      49.0
+  Disruptor                 19.0      33.0
+  NyxAssassin               51.0      40.0
+  NagaSiren                  9.0       7.0
+  KeeperoftheLight          26.0      25.0
+  Io                         8.0      17.0
+  Visage                     5.0       7.0
+  Slark                    145.0     119.0
+  Medusa                    43.0      33.0
+  TrollWarlord              31.0      38.0
+  CentaurWarrunner          25.0      27.0
+  Magnus                    26.0      29.0
+  Timbersaw                 84.0      87.0
+  Bristleback               37.0      44.0
+  Tusk                      22.0      20.0
+  SkywrathMage              33.0      36.0
+  Abaddon                   24.0      22.0
+  ElderTitan                17.0      19.0
+  LegionCommander          160.0     145.0
+  EmberSpirit               29.0      37.0
+  EarthSpirit               10.0      17.0
+  AbyssalUnderlord           1.0       1.0
+  Terrorblade               20.0      22.0
+  Phoenix                   21.0      22.0
+  Techies                   16.0      26.0
+  Oracle                    16.0      24.0
+  WinterWyvern              12.0      26.0
+  ArcWarden                 12.0      11.0
+  undefined                  1.0      42.0
+  [total]                 5364.0    5211.0
+
+player4
+  Anti-Mage                 77.0     110.0
+  Axe                      104.0      94.0
+  Bane                      15.0      14.0
+  Bloodseeker               84.0      68.0
+  CrystalMaiden             63.0      63.0
+  DrowRanger               159.0     125.0
+  Earthshaker               67.0      51.0
+  Juggernaut               129.0     128.0
+  Mirana                   169.0     159.0
+  ShadowFiend               54.0      60.0
+  Morphling                 58.0      66.0
+  PhantomLancer             36.0      33.0
+  Puck                      18.0      27.0
+  Pudge                    195.0     175.0
+  Razor                     12.0      21.0
+  SandKing                  46.0      43.0
+  StormSpirit               74.0      57.0
+  Sven                     106.0      96.0
+  Tiny                      37.0      48.0
+  VengefulSpirit            48.0      46.0
+  Windranger                74.0     100.0
+  Zeus                      56.0      49.0
+  Kunkka                    59.0      66.0
+  Lina                      34.0      45.0
+  Lich                      29.0      25.0
+  Lion                      87.0      79.0
+  ShadowShaman              44.0      30.0
+  Slardar                   54.0      53.0
+  Tidehunter                41.0      26.0
+  WitchDoctor               40.0      39.0
+  Riki                     136.0     119.0
+  Enigma                    16.0      22.0
+  Tinker                    81.0      81.0
+  Sniper                   114.0      92.0
+  Necrophos                 60.0      56.0
+  Warlock                   20.0       9.0
+  Beastmaster               16.0       8.0
+  QueenofPain               27.0      38.0
+  Venomancer                20.0      19.0
+  FacelessVoid              92.0     104.0
+  WraithKing                61.0      60.0
+  DeathProphet              15.0      14.0
+  PhantomAssassin          235.0     189.0
+  Pugna                     22.0      15.0
+  TemplarAssassin           20.0      23.0
+  Viper                     33.0      39.0
+  Luna                      32.0      28.0
+  DragonKnight              39.0      34.0
+  Dazzle                    35.0      23.0
+  Clockwerk                 23.0      12.0
+  Leshrac                   12.0      18.0
+  Nature'sProphet           34.0      46.0
+  Lifestealer               58.0      71.0
+  DarkSeer                  10.0      12.0
+  Clinkz                    30.0      42.0
+  Omniknight                64.0      47.0
+  Enchantress                8.0      24.0
+  Huskar                    62.0      57.0
+  NightStalker              27.0      15.0
+  Broodmother                5.0      14.0
+  BountyHunter              70.0      65.0
+  Weaver                    38.0      41.0
+  Jakiro                    26.0      22.0
+  Batrider                  11.0      19.0
+  Chen                       6.0       8.0
+  Spectre                   47.0      27.0
+  Doom                      14.0      24.0
+  AncientApparition         36.0      31.0
+  Ursa                      66.0      42.0
+  SpiritBreaker             67.0      52.0
+  Gyrocopter                16.0      20.0
+  Alchemist                 50.0      54.0
+  Invoker                  129.0     150.0
+  Silencer                  47.0      33.0
+  OutworldDevourer          27.0      31.0
+  Lycan                     10.0       9.0
+  Brewmaster                10.0       6.0
+  ShadowDemon               21.0      26.0
+  LoneDruid                  5.0      12.0
+  ChaosKnight               25.0      24.0
+  Meepo                     23.0      25.0
+  TreantProtector           20.0      10.0
+  OgreMagi                  68.0      43.0
+  Undying                   21.0      15.0
+  Rubick                    61.0      46.0
+  Disruptor                 22.0      30.0
+  NyxAssassin               44.0      36.0
+  NagaSiren                  9.0      15.0
+  KeeperoftheLight          28.0      15.0
+  Io                         7.0      15.0
+  Visage                    10.0       7.0
+  Slark                    174.0     166.0
+  Medusa                    40.0      40.0
+  TrollWarlord              34.0      50.0
+  CentaurWarrunner          30.0      23.0
+  Magnus                    22.0      31.0
+  Timbersaw                 82.0      89.0
+  Bristleback               50.0      43.0
+  Tusk                      17.0      21.0
+  SkywrathMage              35.0      26.0
+  Abaddon                   22.0      19.0
+  ElderTitan                36.0      16.0
+  LegionCommander          144.0     154.0
+  EmberSpirit               32.0      53.0
+  EarthSpirit                8.0      18.0
+  AbyssalUnderlord           1.0       1.0
+  Terrorblade               21.0      20.0
+  Phoenix                   29.0      22.0
+  Techies                   22.0      41.0
+  Oracle                    25.0      22.0
+  WinterWyvern              19.0      14.0
+  ArcWarden                 10.0      15.0
+  undefined                  1.0      47.0
+  [total]                 5364.0    5211.0
+
+player5
+  Anti-Mage                107.0     111.0
+  Axe                      148.0      98.0
+  Bane                      11.0      18.0
+  Bloodseeker               63.0      83.0
+  CrystalMaiden             66.0      55.0
+  DrowRanger               132.0     119.0
+  Earthshaker               76.0      68.0
+  Juggernaut               140.0     129.0
+  Mirana                   164.0     159.0
+  ShadowFiend               63.0      77.0
+  Morphling                 53.0      62.0
+  PhantomLancer             27.0      36.0
+  Puck                      28.0      36.0
+  Pudge                    197.0     183.0
+  Razor                     22.0      17.0
+  SandKing                  46.0      43.0
+  StormSpirit               68.0      72.0
+  Sven                     110.0      83.0
+  Tiny                      37.0      40.0
+  VengefulSpirit            43.0      39.0
+  Windranger                78.0      87.0
+  Zeus                      66.0      61.0
+  Kunkka                    51.0      60.0
+  Lina                      45.0      51.0
+  Lich                      28.0      22.0
+  Lion                      80.0      68.0
+  ShadowShaman              49.0      30.0
+  Slardar                   47.0      54.0
+  Tidehunter                23.0      28.0
+  WitchDoctor               47.0      37.0
+  Riki                     139.0     116.0
+  Enigma                    22.0      26.0
+  Tinker                    73.0      56.0
+  Sniper                   129.0     119.0
+  Necrophos                 71.0      54.0
+  Warlock                   20.0      23.0
+  Beastmaster               11.0       8.0
+  QueenofPain               25.0      44.0
+  Venomancer                22.0      29.0
+  FacelessVoid             102.0     113.0
+  WraithKing                85.0      56.0
+  DeathProphet              10.0      22.0
+  PhantomAssassin          189.0     192.0
+  Pugna                     17.0      19.0
+  TemplarAssassin           28.0      29.0
+  Viper                     34.0      43.0
+  Luna                      52.0      31.0
+  DragonKnight              30.0      22.0
+  Dazzle                    24.0      31.0
+  Clockwerk                 23.0      16.0
+  Leshrac                   10.0      15.0
+  Nature'sProphet           51.0      64.0
+  Lifestealer               65.0      61.0
+  DarkSeer                  18.0      16.0
+  Clinkz                    33.0      64.0
+  Omniknight                77.0      38.0
+  Enchantress               17.0      16.0
+  Huskar                    56.0      69.0
+  NightStalker              20.0      19.0
+  Broodmother                8.0       6.0
+  BountyHunter              77.0      63.0
+  Weaver                    34.0      52.0
+  Jakiro                    16.0      14.0
+  Batrider                   9.0      20.0
+  Chen                       4.0       6.0
+  Spectre                   51.0      23.0
+  Doom                      19.0      22.0
+  AncientApparition         36.0      32.0
+  Ursa                      55.0      38.0
+  SpiritBreaker             61.0      58.0
+  Gyrocopter                 9.0      14.0
+  Alchemist                 66.0      53.0
+  Invoker                  122.0     156.0
+  Silencer                  44.0      34.0
+  OutworldDevourer          16.0      17.0
+  Lycan                      8.0      11.0
+  Brewmaster                 7.0       4.0
+  ShadowDemon               21.0      26.0
+  LoneDruid                 10.0      15.0
+  ChaosKnight               22.0      31.0
+  Meepo                     21.0      20.0
+  TreantProtector           12.0       7.0
+  OgreMagi                  54.0      51.0
+  Undying                   17.0      20.0
+  Rubick                    37.0      45.0
+  Disruptor                 26.0      28.0
+  NyxAssassin               34.0      38.0
+  NagaSiren                 17.0      11.0
+  KeeperoftheLight          32.0      24.0
+  Io                         6.0      11.0
+  Visage                     3.0       2.0
+  Slark                    143.0     136.0
+  Medusa                    57.0      40.0
+  TrollWarlord              33.0      37.0
+  CentaurWarrunner          27.0      19.0
+  Magnus                    26.0      25.0
+  Timbersaw                 89.0      75.0
+  Bristleback               40.0      44.0
+  Tusk                      20.0      18.0
+  SkywrathMage              22.0      28.0
+  Abaddon                   24.0      16.0
+  ElderTitan                22.0      19.0
+  LegionCommander          179.0     157.0
+  EmberSpirit               31.0      44.0
+  EarthSpirit               13.0       9.0
+  AbyssalUnderlord           1.0       1.0
+  Terrorblade               23.0      19.0
+  Phoenix                   31.0      15.0
+  Techies                   17.0      22.0
+  Oracle                    14.0      26.0
+  WinterWyvern              14.0      18.0
+  ArcWarden                 15.0      10.0
+  undefined                  1.0      44.0
+  [total]                 5364.0    5211.0
+
+kills
+  mean                   16.4323   -15.611
+  std. dev.               13.247   13.5004
+  weight sum                5251      5098
+  precision               2.1765    2.1765
+
+duration
+  mean                 2526.6979 2441.9112
+  std. dev.             633.6971  758.3521
+  weight sum                5251      5098
+  precision               2.5815    2.5815
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9221               89.1004 %
+Incorrectly Classified Instances      1128               10.8996 %
+Kappa statistic                          0.782 
+Mean absolute error                      0.157 
+Root mean squared error                  0.282 
+Relative absolute error                 31.4127 %
+Root relative squared error             56.412  %
+Total Number of Instances            10349     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.892    0.110    0.893      0.892    0.893      0.782    0.957     0.956     win
+                 0.890    0.108    0.889      0.890    0.889      0.782    0.957     0.954     lose
+Weighted Avg.    0.891    0.109    0.891      0.891    0.891      0.782    0.957     0.955     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4686  565 |    a = win
+  563 4535 |    b = lose
+
+

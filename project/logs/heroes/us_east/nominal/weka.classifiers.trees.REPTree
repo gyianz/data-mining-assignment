@@ -1,0 +1,51 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+Relation:     auscomp
+Instances:    76
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+REPTree
+============
+ : win (50/25) [26/13]
+
+Size of the tree : 1
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          34               44.7368 %
+Incorrectly Classified Instances        42               55.2632 %
+Kappa statistic                         -0.1053
+Mean absolute error                      0.5482
+Root mean squared error                  0.602 
+Relative absolute error                109.5622 %
+Root relative squared error            120.3089 %
+Total Number of Instances               76     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.658    0.763    0.463      0.658    0.543      -0.116   0.405     0.447     win
+                 0.237    0.342    0.409      0.237    0.300      -0.116   0.405     0.446     lose
+Weighted Avg.    0.447    0.553    0.436      0.447    0.422      -0.116   0.405     0.446     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 25 13 |  a = win
+ 29  9 |  b = lose
+
+

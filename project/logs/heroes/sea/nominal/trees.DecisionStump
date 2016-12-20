@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     seacomp
+Instances:    5198
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+player3 = Enchantress : lose
+player3 != Enchantress : win
+player3 is missing : win
+
+Class distributions
+
+player3 = Enchantress
+win	lose	
+0.07142857142857142	0.9285714285714286	
+player3 != Enchantress
+win	lose	
+0.5011574074074074	0.4988425925925926	
+player3 is missing
+win	lose	
+0.5	0.5	
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2594               49.9038 %
+Incorrectly Classified Instances      2604               50.0962 %
+Kappa statistic                         -0.0019
+Mean absolute error                      0.5001
+Root mean squared error                  0.5008
+Relative absolute error                100.0274 %
+Root relative squared error            100.1512 %
+Total Number of Instances             5198     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.403    0.405    0.499      0.403    0.446      -0.002   0.498     0.498     win
+                 0.595    0.597    0.499      0.595    0.543      -0.002   0.498     0.499     lose
+Weighted Avg.    0.499    0.501    0.499      0.499    0.494      -0.002   0.498     0.498     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1047 1552 |    a = win
+ 1052 1547 |    b = lose
+
+

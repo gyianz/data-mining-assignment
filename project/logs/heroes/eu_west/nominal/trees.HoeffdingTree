@@ -1,0 +1,46 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.HoeffdingTree -L 2 -S 1 -E 1.0E-7 -H 0.05 -M 0.01 -G 200.0 -N 0.0
+Relation:     auscomp
+Instances:    1484
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+lose (743.000) NB1 NB adaptive1
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         786               52.965  %
+Incorrectly Classified Instances       698               47.035  %
+Kappa statistic                          0.0593
+Mean absolute error                      0.4801
+Root mean squared error                  0.5348
+Relative absolute error                 96.0274 %
+Root relative squared error            106.9636 %
+Total Number of Instances             1484     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.539    0.480    0.529      0.539    0.534      0.059    0.549     0.545     win
+                 0.520    0.461    0.530      0.520    0.525      0.059    0.549     0.536     lose
+Weighted Avg.    0.530    0.470    0.530      0.530    0.530      0.059    0.549     0.541     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 400 342 |   a = win
+ 356 386 |   b = lose
+
+

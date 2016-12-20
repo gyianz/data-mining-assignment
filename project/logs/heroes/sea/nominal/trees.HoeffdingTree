@@ -1,0 +1,159 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.HoeffdingTree -L 2 -S 1 -E 1.0E-7 -H 0.05 -M 0.01 -G 200.0 -N 0.0
+Relation:     seacomp
+Instances:    5198
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+player2 = Anti-Mage: win (50.000) NB1 NB adaptive1
+player2 = Axe: win (62.000) NB2 NB adaptive2
+player2 = Bane: lose (9.000) NB3 NB adaptive3
+player2 = Bloodseeker: lose (43.000) NB4 NB adaptive4
+player2 = CrystalMaiden: win (41.000) NB5 NB adaptive5
+player2 = DrowRanger: win (86.000) NB6 NB adaptive6
+player2 = Earthshaker: lose (51.000) NB7 NB adaptive7
+player2 = Juggernaut: lose (79.000) NB8 NB adaptive8
+player2 = Mirana: win (108.000) NB9 NB adaptive9
+player2 = ShadowFiend: lose (47.000) NB10 NB adaptive10
+player2 = Morphling: lose (36.000) NB11 NB adaptive11
+player2 = PhantomLancer: lose (24.000) NB12 NB adaptive12
+player2 = Puck: win (13.000) NB13 NB adaptive13
+player2 = Pudge: win (101.000) NB14 NB adaptive14
+player2 = Razor: lose (19.000) NB15 NB adaptive15
+player2 = SandKing: lose (23.000) NB16 NB adaptive16
+player2 = StormSpirit: lose (24.000) NB17 NB adaptive17
+player2 = Sven: win (75.000) NB18 NB adaptive18
+player2 = Tiny: lose (25.000) NB19 NB adaptive19
+player2 = VengefulSpirit: win (27.000) NB20 NB adaptive20
+player2 = Windranger: win (46.000) NB21 NB adaptive21
+player2 = Zeus: win (29.000) NB22 NB adaptive22
+player2 = Kunkka: lose (37.000) NB23 NB adaptive23
+player2 = Lina: lose (18.000) NB24 NB adaptive24
+player2 = Lich: win (8.000) NB25 NB adaptive25
+player2 = Lion: win (43.000) NB26 NB adaptive26
+player2 = ShadowShaman: win (15.000) NB27 NB adaptive27
+player2 = Slardar: win (36.000) NB28 NB adaptive28
+player2 = Tidehunter: win (16.000) NB29 NB adaptive29
+player2 = WitchDoctor: lose (17.000) NB30 NB adaptive30
+player2 = Riki: win (67.000) NB31 NB adaptive31
+player2 = Enigma: lose (16.000) NB32 NB adaptive32
+player2 = Tinker: lose (36.000) NB33 NB adaptive33
+player2 = Sniper: win (64.000) NB34 NB adaptive34
+player2 = Necrophos: win (29.000) NB35 NB adaptive35
+player2 = Warlock: win (11.000) NB36 NB adaptive36
+player2 = Beastmaster: lose (8.000) NB37 NB adaptive37
+player2 = QueenofPain: lose (18.000) NB38 NB adaptive38
+player2 = Venomancer: lose (10.000) NB39 NB adaptive39
+player2 = FacelessVoid: lose (41.000) NB40 NB adaptive40
+player2 = WraithKing: win (42.000) NB41 NB adaptive41
+player2 = DeathProphet: lose (6.000) NB42 NB adaptive42
+player2 = PhantomAssassin: lose (103.000) NB43 NB adaptive43
+player2 = Pugna: lose (8.000) NB44 NB adaptive44
+player2 = TemplarAssassin: win (13.000) NB45 NB adaptive45
+player2 = Viper: lose (26.000) NB46 NB adaptive46
+player2 = Luna: win (24.000) NB47 NB adaptive47
+player2 = DragonKnight: win (15.000) NB48 NB adaptive48
+player2 = Dazzle: lose (27.000) NB49 NB adaptive49
+player2 = Clockwerk: lose (12.000) NB50 NB adaptive50
+player2 = Leshrac: lose (6.000) NB51 NB adaptive51
+player2 = Nature'sProphet: lose (25.000) NB52 NB adaptive52
+player2 = Lifestealer: lose (41.000) NB53 NB adaptive53
+player2 = DarkSeer: lose (6.000) NB54 NB adaptive54
+player2 = Clinkz: lose (28.000) NB55 NB adaptive55
+player2 = Omniknight: win (37.000) NB56 NB adaptive56
+player2 = Enchantress: lose (11.000) NB57 NB adaptive57
+player2 = Huskar: lose (39.000) NB58 NB adaptive58
+player2 = NightStalker: lose (12.000) NB59 NB adaptive59
+player2 = Broodmother: lose (3.000) NB60 NB adaptive60
+player2 = BountyHunter: lose (40.000) NB61 NB adaptive61
+player2 = Weaver: lose (18.000) NB62 NB adaptive62
+player2 = Jakiro: lose (15.000) NB63 NB adaptive63
+player2 = Batrider: lose (12.000) NB64 NB adaptive64
+player2 = Chen: win (3.000) NB65 NB adaptive65
+player2 = Spectre: win (21.000) NB66 NB adaptive66
+player2 = Doom: lose (11.000) NB67 NB adaptive67
+player2 = AncientApparition: lose (13.000) NB68 NB adaptive68
+player2 = Ursa: win (38.000) NB69 NB adaptive69
+player2 = SpiritBreaker: win (32.000) NB70 NB adaptive70
+player2 = Gyrocopter: win (15.000) NB71 NB adaptive71
+player2 = Alchemist: lose (40.000) NB72 NB adaptive72
+player2 = Invoker: lose (80.000) NB73 NB adaptive73
+player2 = Silencer: win (23.000) NB74 NB adaptive74
+player2 = OutworldDevourer: lose (13.000) NB75 NB adaptive75
+player2 = Lycan: lose (5.000) NB76 NB adaptive76
+player2 = Brewmaster: win (3.000) NB77 NB adaptive77
+player2 = ShadowDemon: win (11.000) NB78 NB adaptive78
+player2 = LoneDruid: lose (8.000) NB79 NB adaptive79
+player2 = ChaosKnight: win (12.000) NB80 NB adaptive80
+player2 = Meepo: lose (22.000) NB81 NB adaptive81
+player2 = TreantProtector: lose (6.000) NB82 NB adaptive82
+player2 = OgreMagi: win (36.000) NB83 NB adaptive83
+player2 = Undying: lose (9.000) NB84 NB adaptive84
+player2 = Rubick: lose (23.000) NB85 NB adaptive85
+player2 = Disruptor: win (17.000) NB86 NB adaptive86
+player2 = NyxAssassin: lose (20.000) NB87 NB adaptive87
+player2 = NagaSiren: win (7.000) NB88 NB adaptive88
+player2 = KeeperoftheLight: win (17.000) NB89 NB adaptive89
+player2 = Io: lose (7.000) NB90 NB adaptive90
+player2 = Visage: lose (3.000) NB91 NB adaptive91
+player2 = Slark: lose (63.000) NB92 NB adaptive92
+player2 = Medusa: lose (21.000) NB93 NB adaptive93
+player2 = TrollWarlord: lose (22.000) NB94 NB adaptive94
+player2 = CentaurWarrunner: win (15.000) NB95 NB adaptive95
+player2 = Magnus: lose (23.000) NB96 NB adaptive96
+player2 = Timbersaw: win (56.000) NB97 NB adaptive97
+player2 = Bristleback: win (25.000) NB98 NB adaptive98
+player2 = Tusk: lose (13.000) NB99 NB adaptive99
+player2 = SkywrathMage: lose (17.000) NB100 NB adaptive100
+player2 = Abaddon: lose (12.000) NB101 NB adaptive101
+player2 = ElderTitan: win (13.000) NB102 NB adaptive102
+player2 = LegionCommander: lose (79.000) NB103 NB adaptive103
+player2 = EmberSpirit: lose (16.000) NB104 NB adaptive104
+player2 = EarthSpirit: lose (11.000) NB105 NB adaptive105
+player2 = AbyssalUnderlord: lose (11.000) NB106 NB adaptive106
+player2 = Terrorblade: lose (11.000) NB107 NB adaptive107
+player2 = Phoenix: lose (17.000) NB108 NB adaptive108
+player2 = Techies: lose (8.000) NB109 NB adaptive109
+player2 = Oracle: win (8.000) NB110 NB adaptive110
+player2 = WinterWyvern: win (6.000) NB111 NB adaptive111
+player2 = ArcWarden: lose (12.000) NB112 NB adaptive112
+player2 = undefined: lose (11.000)
+
+Time taken to build model: 0.14 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2642               50.8272 %
+Incorrectly Classified Instances      2556               49.1728 %
+Kappa statistic                          0.0165
+Mean absolute error                      0.4948
+Root mean squared error                  0.5335
+Relative absolute error                 98.9583 %
+Root relative squared error            106.6955 %
+Total Number of Instances             5198     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.572    0.555    0.507      0.572    0.538      0.017    0.516     0.513     win
+                 0.445    0.428    0.509      0.445    0.475      0.017    0.516     0.512     lose
+Weighted Avg.    0.508    0.492    0.508      0.508    0.506      0.017    0.516     0.513     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1486 1113 |    a = win
+ 1443 1156 |    b = lose
+
+

@@ -1,0 +1,67 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     all
+Instances:    10349
+Attributes:   8
+              player1
+              player2
+              player3
+              player4
+              player5
+              kills
+              duration
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+-0.47 + 
+[player2=undefined] * -0.78 +
+[player3=Pudge] * -0.31 +
+[player4=DrowRanger] * 0.36 +
+[player4=undefined] * -0.77 +
+[kills] * 0.09 +
+[duration] * 0   
+
+Class 1 :
+0.47 + 
+[player2=undefined] * 0.78 +
+[player3=Pudge] * 0.31 +
+[player4=DrowRanger] * -0.36 +
+[player4=undefined] * 0.77 +
+[kills] * -0.09 +
+[duration] * -0
+
+
+Time taken to build model: 16.7 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9290               89.7671 %
+Incorrectly Classified Instances      1059               10.2329 %
+Kappa statistic                          0.7953
+Mean absolute error                      0.1604
+Root mean squared error                  0.2775
+Relative absolute error                 32.0774 %
+Root relative squared error             55.4966 %
+Total Number of Instances            10349     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.899    0.104    0.899      0.899    0.899      0.795    0.959     0.955     win
+                 0.896    0.101    0.896      0.896    0.896      0.795    0.959     0.959     lose
+Weighted Avg.    0.898    0.102    0.898      0.898    0.898      0.795    0.959     0.957     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4720  531 |    a = win
+  528 4570 |    b = lose
+
+

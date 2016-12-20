@@ -1,0 +1,236 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayesMultinomialText -P 0 -M 3.0 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer
+Relation:     auscomp
+Instances:    804
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Dictionary size: 180
+
+The independent frequency of a class
+--------------------------------------
+win	403.0
+lose	403.0
+
+The frequency of a word given the class
+-----------------------------------------
+        win	       lose	
+        9.0	        8.0	Meepo
+       30.0	       20.0	Storm
+        3.0	        7.0	Skywrath
+       32.0	       23.0	Zeus
+       12.0	       15.0	VengefulSpirit
+        5.0	        4.0	Troll
+        3.0	        4.0	NightStalker
+       31.0	       24.0	Commander
+       24.0	       19.0	Tiny
+        6.0	       10.0	Lancer
+       14.0	       19.0	Ogre
+        3.0	<laplace=1>	Druid
+       12.0	        3.0	Fiend
+        7.0	        9.0	sProphet
+       11.0	        9.0	Elder
+       18.0	       29.0	Faceless
+        6.0	       10.0	Batrider
+       32.0	       28.0	Morphling
+       11.0	       12.0	ShadowFiend
+       34.0	       29.0	Lion
+       25.0	       32.0	Phantom
+        8.0	       15.0	OgreMagi
+        4.0	       10.0	Enchantress
+       18.0	       17.0	Hunter
+        4.0	        3.0	WinterWyvern
+        9.0	       24.0	Clinkz
+        4.0	        6.0	Demon
+        7.0	        6.0	Centaur
+        4.0	<laplace=1>	Arc
+       17.0	       22.0	Lina
+       31.0	       24.0	Legion
+       22.0	       10.0	Drow
+       29.0	       47.0	PhantomAssassin
+       32.0	       43.0	Windranger
+        5.0	        8.0	Ember
+       15.0	       13.0	Luna
+       18.0	       17.0	Bounty
+        5.0	        5.0	ShadowDemon
+       11.0	        9.0	Titan
+       12.0	       12.0	Jakiro
+        3.0	<laplace=1>	Visage
+       14.0	       16.0	Bristleback
+        4.0	<laplace=1>	Warden
+<laplace=1>	        5.0	Io
+        9.0	        4.0	Bane
+       29.0	       34.0	Sven
+<laplace=1>	        5.0	Stalker
+       16.0	       10.0	Venomancer
+        6.0	        5.0	Outworld
+       12.0	        5.0	Dragon
+       13.0	       14.0	NyxAssassin
+       13.0	        6.0	Dazzle
+        9.0	        7.0	undefined
+       23.0	       25.0	Alchemist
+       25.0	       23.0	Bloodseeker
+       10.0	        9.0	Maiden
+        7.0	       13.0	Ancient
+        5.0	        8.0	Witch
+       12.0	       17.0	Rubick
+        4.0	        7.0	PhantomLancer
+        8.0	       13.0	Queenof
+       12.0	       21.0	Nature
+       21.0	       19.0	BountyHunter
+       69.0	       59.0	Pudge
+        5.0	        3.0	Lycan
+        7.0	        7.0	DeathProphet
+        6.0	       16.0	Puck
+        5.0	        8.0	Doctor
+        9.0	        7.0	Breaker
+       12.0	       15.0	Tinker
+       12.0	       12.0	WitchDoctor
+       31.0	       24.0	Spectre
+       17.0	       17.0	Silencer
+       28.0	       29.0	Earthshaker
+       13.0	       16.0	the
+        6.0	        5.0	Devourer
+        6.0	       13.0	s
+       22.0	       21.0	Medusa
+        3.0	        6.0	Wyvern
+       25.0	       21.0	FacelessVoid
+       27.0	       21.0	StormSpirit
+       12.0	       20.0	Prophet
+        3.0	        6.0	Chaos
+        5.0	        4.0	Warlord
+       22.0	       10.0	Ranger
+       15.0	       14.0	Sand
+        3.0	       10.0	SkywrathMage
+<laplace=1>	        5.0	Night
+       78.0	       63.0	Juggernaut
+       65.0	       68.0	Slark
+        6.0	       11.0	Beastmaster
+        3.0	        3.0	Enigma
+       22.0	       16.0	Viper
+        7.0	        4.0	Pugna
+       10.0	        8.0	ElderTitan
+        4.0	        6.0	DragonKnight
+        4.0	<laplace=1>	NagaSiren
+       26.0	       17.0	DrowRanger
+       13.0	        9.0	CrystalMaiden
+       33.0	       27.0	King
+        3.0	        6.0	Winter
+        7.0	        6.0	Magnus
+       13.0	       16.0	Light
+       14.0	       10.0	Knight
+       25.0	       26.0	Slardar
+       30.0	       27.0	Necrophos
+        7.0	       13.0	Apparition
+       11.0	       23.0	Lifestealer
+       18.0	       29.0	Void
+        6.0	        7.0	Leshrac
+        7.0	        7.0	Tusk
+       10.0	       12.0	Razor
+       11.0	       16.0	Weaver
+       46.0	       32.0	Timbersaw
+        3.0	        3.0	Siren
+        6.0	        7.0	Queen
+<laplace=1>	        4.0	LoneDruid
+        9.0	       10.0	Keeper
+        4.0	        3.0	DarkSeer
+        9.0	        6.0	Abaddon
+<laplace=1>	        4.0	TreantProtector
+       13.0	       17.0	WraithKing
+       14.0	       19.0	Magi
+        6.0	        6.0	Clockwerk
+       21.0	       21.0	Huskar
+        3.0	        7.0	Mage
+<laplace=1>	        5.0	Dark
+<laplace=1>	        5.0	Seer
+        7.0	        8.0	Death
+        7.0	       12.0	Disruptor
+       52.0	       50.0	Mirana
+        4.0	        9.0	Gyrocopter
+        7.0	        6.0	Warrunner
+        3.0	<laplace=1>	Lone
+       10.0	        9.0	Crystal
+       24.0	       30.0	Kunkka
+       27.0	       39.0	Anti-Mage
+       15.0	       12.0	Tidehunter
+        5.0	        3.0	EarthSpirit
+       34.0	       37.0	Assassin
+       10.0	        5.0	AncientApparition
+        4.0	        6.0	Shaman
+        3.0	        3.0	Naga
+       17.0	       12.0	Shadow
+        5.0	        8.0	Vengeful
+       17.0	       10.0	SandKing
+<laplace=1>	        3.0	Treant
+       14.0	        8.0	Warlock
+<laplace=1>	        3.0	Chen
+        3.0	        3.0	ShadowShaman
+<laplace=1>	        3.0	Earth
+       43.0	       30.0	Riki
+       13.0	       19.0	Pain
+        7.0	        8.0	Terrorblade
+       50.0	       47.0	Invoker
+       21.0	       16.0	Omniknight
+        6.0	        3.0	OutworldDevourer
+        4.0	        3.0	Brewmaster
+       13.0	       16.0	of
+       13.0	       13.0	Phoenix
+        5.0	        4.0	TrollWarlord
+       11.0	       13.0	Oracle
+        4.0	        7.0	TemplarAssassin
+       18.0	       19.0	Ursa
+        8.0	        6.0	ChaosKnight
+       15.0	        7.0	Lich
+        8.0	       14.0	Doom
+        6.0	       11.0	Techies
+        5.0	        7.0	Keeperof
+       45.0	       41.0	Spirit
+       16.0	       14.0	Nyx
+        8.0	        9.0	EmberSpirit
+       36.0	       36.0	Sniper
+       54.0	       47.0	Axe
+       28.0	       22.0	LegionCommander
+       16.0	       17.0	Undying
+        9.0	       11.0	SpiritBreaker
+        5.0	        6.0	CentaurWarrunner
+       19.0	       14.0	Wraith
+<laplace=1>	        3.0	Protector
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         398               49.5025 %
+Incorrectly Classified Instances       406               50.4975 %
+Kappa statistic                         -0.01  
+Mean absolute error                      0.4965
+Root mean squared error                  0.5422
+Relative absolute error                 99.2903 %
+Root relative squared error            108.4489 %
+Total Number of Instances              804     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.545    0.555    0.495      0.545    0.519      -0.010   0.513     0.508     win
+                 0.445    0.455    0.494      0.445    0.469      -0.010   0.513     0.505     lose
+Weighted Avg.    0.495    0.505    0.495      0.495    0.494      -0.010   0.513     0.507     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 219 183 |   a = win
+ 223 179 |   b = lose
+
+

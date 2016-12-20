@@ -1,0 +1,283 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+Relation:     all
+Instances:    10349
+Attributes:   8
+              player1
+              player2
+              player3
+              player4
+              player5
+              kills
+              duration
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+REPTree
+============
+
+kills < 1.5 : lose (3497/407) [1778/223]
+kills >= 1.5
+|   kills < 11.5 : win (1049/240) [477/114]
+|   kills >= 11.5
+|   |   player3 = Anti-Mage : win (36/2) [11/0]
+|   |   player3 = Axe : win (56/2) [21/0]
+|   |   player3 = Bane : win (9/0) [4/0]
+|   |   player3 = Bloodseeker : win (47/2) [22/1]
+|   |   player3 = CrystalMaiden : win (43/2) [26/0]
+|   |   player3 = DrowRanger : win (56/1) [30/2]
+|   |   player3 = Earthshaker : win (35/0) [18/0]
+|   |   player3 = Juggernaut
+|   |   |   player2 = Anti-Mage : win (0/0) [0/0]
+|   |   |   player2 = Axe : win (1/0) [2/0]
+|   |   |   player2 = Bane : win (0/0) [0/0]
+|   |   |   player2 = Bloodseeker : win (0/0) [0/0]
+|   |   |   player2 = CrystalMaiden : win (0/0) [1/0]
+|   |   |   player2 = DrowRanger : win (1/0) [1/0]
+|   |   |   player2 = Earthshaker : win (0/0) [0/0]
+|   |   |   player2 = Juggernaut : win (0/0) [0/0]
+|   |   |   player2 = Mirana : win (3/0) [1/0]
+|   |   |   player2 = ShadowFiend : win (1/0) [1/0]
+|   |   |   player2 = Morphling : win (1/0) [0/0]
+|   |   |   player2 = PhantomLancer : win (0/0) [0/0]
+|   |   |   player2 = Puck : win (1/0) [0/0]
+|   |   |   player2 = Pudge : win (4/0) [1/0]
+|   |   |   player2 = Razor : win (0/0) [0/0]
+|   |   |   player2 = SandKing : win (0/0) [0/0]
+|   |   |   player2 = StormSpirit : win (0/0) [0/0]
+|   |   |   player2 = Sven : win (0/0) [0/0]
+|   |   |   player2 = Tiny : win (0/0) [1/0]
+|   |   |   player2 = VengefulSpirit : win (0/0) [0/0]
+|   |   |   player2 = Windranger : win (3/0) [1/0]
+|   |   |   player2 = Zeus : win (0/0) [0/0]
+|   |   |   player2 = Kunkka : lose (1/0) [0/0]
+|   |   |   player2 = Lina : win (0/0) [0/0]
+|   |   |   player2 = Lich : win (0/0) [0/0]
+|   |   |   player2 = Lion : win (0/0) [3/1]
+|   |   |   player2 = ShadowShaman : win (1/0) [0/0]
+|   |   |   player2 = Slardar : win (2/0) [0/0]
+|   |   |   player2 = Tidehunter : win (0/0) [1/0]
+|   |   |   player2 = WitchDoctor : lose (1/0) [1/0]
+|   |   |   player2 = Riki : win (2/0) [0/0]
+|   |   |   player2 = Enigma : win (1/0) [0/0]
+|   |   |   player2 = Tinker : win (2/0) [0/0]
+|   |   |   player2 = Sniper : win (0/0) [1/0]
+|   |   |   player2 = Necrophos : win (1/0) [1/0]
+|   |   |   player2 = Warlock : win (0/0) [0/0]
+|   |   |   player2 = Beastmaster : win (0/0) [0/0]
+|   |   |   player2 = QueenofPain : win (0/0) [0/0]
+|   |   |   player2 = Venomancer : lose (1/0) [0/0]
+|   |   |   player2 = FacelessVoid : win (0/0) [0/0]
+|   |   |   player2 = WraithKing : win (0/0) [0/0]
+|   |   |   player2 = DeathProphet : win (0/0) [0/0]
+|   |   |   player2 = PhantomAssassin : win (0/0) [1/0]
+|   |   |   player2 = Pugna : win (0/0) [0/0]
+|   |   |   player2 = TemplarAssassin : win (0/0) [0/0]
+|   |   |   player2 = Viper : win (0/0) [0/0]
+|   |   |   player2 = Luna : win (2/0) [0/0]
+|   |   |   player2 = DragonKnight : win (0/0) [2/0]
+|   |   |   player2 = Dazzle : win (2/0) [1/0]
+|   |   |   player2 = Clockwerk : win (0/0) [0/0]
+|   |   |   player2 = Leshrac : win (0/0) [0/0]
+|   |   |   player2 = Nature'sProphet : win (0/0) [0/0]
+|   |   |   player2 = Lifestealer : win (0/0) [0/0]
+|   |   |   player2 = DarkSeer : win (0/0) [1/0]
+|   |   |   player2 = Clinkz : win (0/0) [0/0]
+|   |   |   player2 = Omniknight : win (1/0) [0/0]
+|   |   |   player2 = Enchantress : win (0/0) [0/0]
+|   |   |   player2 = Huskar : win (1/0) [1/0]
+|   |   |   player2 = NightStalker : win (0/0) [0/0]
+|   |   |   player2 = Broodmother : win (0/0) [0/0]
+|   |   |   player2 = BountyHunter : win (3/0) [0/0]
+|   |   |   player2 = Weaver : win (0/0) [0/0]
+|   |   |   player2 = Jakiro : win (0/0) [0/0]
+|   |   |   player2 = Batrider : win (0/0) [0/0]
+|   |   |   player2 = Chen : win (0/0) [0/0]
+|   |   |   player2 = Spectre : win (1/0) [1/0]
+|   |   |   player2 = Doom : win (0/0) [0/0]
+|   |   |   player2 = AncientApparition : win (0/0) [0/0]
+|   |   |   player2 = Ursa : win (1/0) [0/0]
+|   |   |   player2 = SpiritBreaker : win (0/0) [1/0]
+|   |   |   player2 = Gyrocopter : win (0/0) [0/0]
+|   |   |   player2 = Alchemist : win (1/0) [0/0]
+|   |   |   player2 = Invoker : win (2/0) [1/0]
+|   |   |   player2 = Silencer : win (2/0) [2/0]
+|   |   |   player2 = OutworldDevourer : win (0/0) [0/0]
+|   |   |   player2 = Lycan : win (0/0) [0/0]
+|   |   |   player2 = Brewmaster : win (0/0) [0/0]
+|   |   |   player2 = ShadowDemon : win (1/0) [0/0]
+|   |   |   player2 = LoneDruid : win (0/0) [0/0]
+|   |   |   player2 = ChaosKnight : win (0/0) [0/0]
+|   |   |   player2 = Meepo : win (0/0) [0/0]
+|   |   |   player2 = TreantProtector : win (0/0) [0/0]
+|   |   |   player2 = OgreMagi : win (1/0) [1/0]
+|   |   |   player2 = Undying : win (1/0) [0/0]
+|   |   |   player2 = Rubick : win (1/0) [0/0]
+|   |   |   player2 = Disruptor : win (2/0) [0/0]
+|   |   |   player2 = NyxAssassin : win (0/0) [0/0]
+|   |   |   player2 = NagaSiren : win (0/0) [0/0]
+|   |   |   player2 = KeeperoftheLight : win (1/0) [0/0]
+|   |   |   player2 = Io : win (0/0) [0/0]
+|   |   |   player2 = Visage : win (0/0) [0/0]
+|   |   |   player2 = Slark : win (0/0) [3/0]
+|   |   |   player2 = Medusa : win (0/0) [0/0]
+|   |   |   player2 = TrollWarlord : win (1/0) [0/0]
+|   |   |   player2 = CentaurWarrunner : win (0/0) [1/0]
+|   |   |   player2 = Magnus : win (0/0) [0/0]
+|   |   |   player2 = Timbersaw : win (3/0) [0/0]
+|   |   |   player2 = Bristleback : win (0/0) [0/0]
+|   |   |   player2 = Tusk : win (0/0) [0/0]
+|   |   |   player2 = SkywrathMage : win (0/0) [0/0]
+|   |   |   player2 = Abaddon : win (0/0) [0/0]
+|   |   |   player2 = ElderTitan : win (1/0) [1/0]
+|   |   |   player2 = LegionCommander : win (1/0) [1/0]
+|   |   |   player2 = EmberSpirit : win (0/0) [0/0]
+|   |   |   player2 = EarthSpirit : win (0/0) [0/0]
+|   |   |   player2 = AbyssalUnderlord : win (0/0) [0/0]
+|   |   |   player2 = Terrorblade : win (0/0) [0/0]
+|   |   |   player2 = Phoenix : win (0/0) [0/0]
+|   |   |   player2 = Techies : win (0/0) [0/0]
+|   |   |   player2 = Oracle : win (0/0) [0/0]
+|   |   |   player2 = WinterWyvern : win (0/0) [0/0]
+|   |   |   player2 = ArcWarden : win (1/0) [0/0]
+|   |   |   player2 = undefined : win (0/0) [0/0]
+|   |   player3 = Mirana : win (77/0) [34/1]
+|   |   player3 = ShadowFiend : win (31/3) [13/0]
+|   |   player3 = Morphling : win (27/0) [13/0]
+|   |   player3 = PhantomLancer : win (12/0) [7/1]
+|   |   player3 = Puck : win (9/0) [3/0]
+|   |   player3 = Pudge : win (112/9) [54/3]
+|   |   player3 = Razor : win (6/0) [5/0]
+|   |   player3 = SandKing : win (24/1) [20/0]
+|   |   player3 = StormSpirit : win (25/0) [15/0]
+|   |   player3 = Sven : win (46/0) [19/0]
+|   |   player3 = Tiny : win (16/1) [10/0]
+|   |   player3 = VengefulSpirit : win (16/0) [8/0]
+|   |   player3 = Windranger : win (40/2) [24/1]
+|   |   player3 = Zeus : win (26/1) [19/0]
+|   |   player3 = Kunkka : win (31/1) [13/1]
+|   |   player3 = Lina : win (12/2) [6/0]
+|   |   player3 = Lich : win (15/0) [4/0]
+|   |   player3 = Lion : win (32/0) [18/0]
+|   |   player3 = ShadowShaman : win (11/2) [6/0]
+|   |   player3 = Slardar : win (25/1) [13/1]
+|   |   player3 = Tidehunter : win (18/0) [6/0]
+|   |   player3 = WitchDoctor : win (13/0) [17/0]
+|   |   player3 = Riki : win (45/0) [30/3]
+|   |   player3 = Enigma : win (12/0) [5/1]
+|   |   player3 = Tinker : win (33/3) [18/1]
+|   |   player3 = Sniper : win (35/0) [16/0]
+|   |   player3 = Necrophos : win (26/1) [11/0]
+|   |   player3 = Warlock : win (7/1) [1/0]
+|   |   player3 = Beastmaster : win (7/0) [0/0]
+|   |   player3 = QueenofPain : win (9/0) [8/0]
+|   |   player3 = Venomancer : win (11/0) [4/0]
+|   |   player3 = FacelessVoid : win (33/1) [29/0]
+|   |   player3 = WraithKing : win (42/2) [20/0]
+|   |   player3 = DeathProphet : win (5/0) [4/0]
+|   |   player3 = PhantomAssassin : win (99/2) [39/1]
+|   |   player3 = Pugna : win (3/0) [3/0]
+|   |   player3 = TemplarAssassin : win (9/0) [8/0]
+|   |   player3 = Viper : win (18/0) [8/0]
+|   |   player3 = Luna : win (11/1) [13/0]
+|   |   player3 = DragonKnight : win (15/0) [5/0]
+|   |   player3 = Dazzle : win (12/0) [8/0]
+|   |   player3 = Clockwerk : win (7/0) [5/0]
+|   |   player3 = Leshrac : win (6/0) [3/0]
+|   |   player3 = Nature'sProphet : win (21/0) [5/0]
+|   |   player3 = Lifestealer : win (29/1) [16/0]
+|   |   player3 = DarkSeer : win (2/0) [8/0]
+|   |   player3 = Clinkz : win (16/0) [12/0]
+|   |   player3 = Omniknight : win (30/2) [17/1]
+|   |   player3 = Enchantress : win (4/0) [2/0]
+|   |   player3 = Huskar : win (32/0) [13/0]
+|   |   player3 = NightStalker : win (9/0) [3/0]
+|   |   player3 = Broodmother : win (5/1) [1/0]
+|   |   player3 = BountyHunter : win (37/0) [10/1]
+|   |   player3 = Weaver : win (13/0) [9/0]
+|   |   player3 = Jakiro : win (11/1) [3/0]
+|   |   player3 = Batrider : win (6/0) [3/0]
+|   |   player3 = Chen : win (0/0) [0/0]
+|   |   player3 = Spectre : win (23/0) [6/0]
+|   |   player3 = Doom : win (7/0) [3/0]
+|   |   player3 = AncientApparition : win (14/1) [12/1]
+|   |   player3 = Ursa : win (35/0) [17/0]
+|   |   player3 = SpiritBreaker : win (38/2) [16/3]
+|   |   player3 = Gyrocopter : win (10/1) [2/0]
+|   |   player3 = Alchemist : win (21/0) [12/0]
+|   |   player3 = Invoker : win (68/2) [28/0]
+|   |   player3 = Silencer : win (21/0) [8/0]
+|   |   player3 = OutworldDevourer : win (9/0) [8/0]
+|   |   player3 = Lycan : win (3/0) [2/0]
+|   |   player3 = Brewmaster : win (0/0) [1/0]
+|   |   player3 = ShadowDemon : win (11/1) [9/0]
+|   |   player3 = LoneDruid : win (3/0) [3/0]
+|   |   player3 = ChaosKnight : win (5/0) [12/0]
+|   |   player3 = Meepo : win (5/0) [5/0]
+|   |   player3 = TreantProtector : win (8/0) [2/0]
+|   |   player3 = OgreMagi : win (27/2) [15/0]
+|   |   player3 = Undying : win (13/0) [5/0]
+|   |   player3 = Rubick : win (21/0) [10/0]
+|   |   player3 = Disruptor : win (9/0) [3/0]
+|   |   player3 = NyxAssassin : win (27/0) [9/0]
+|   |   player3 = NagaSiren : win (2/0) [3/0]
+|   |   player3 = KeeperoftheLight : win (8/1) [6/0]
+|   |   player3 = Io : win (3/1) [1/0]
+|   |   player3 = Visage : win (0/0) [2/0]
+|   |   player3 = Slark : win (68/1) [32/1]
+|   |   player3 = Medusa : win (15/0) [3/0]
+|   |   player3 = TrollWarlord : win (15/0) [6/0]
+|   |   player3 = CentaurWarrunner : win (10/0) [6/0]
+|   |   player3 = Magnus : win (11/1) [4/0]
+|   |   player3 = Timbersaw : win (35/0) [21/0]
+|   |   player3 = Bristleback : win (13/0) [7/0]
+|   |   player3 = Tusk : win (4/1) [9/1]
+|   |   player3 = SkywrathMage : win (14/2) [7/1]
+|   |   player3 = Abaddon : win (14/0) [4/0]
+|   |   player3 = ElderTitan : win (7/0) [2/0]
+|   |   player3 = LegionCommander : win (75/1) [34/3]
+|   |   player3 = EmberSpirit : win (18/0) [3/0]
+|   |   player3 = EarthSpirit : win (2/0) [5/0]
+|   |   player3 = AbyssalUnderlord : win (0/0) [0/0]
+|   |   player3 = Terrorblade : win (7/0) [3/0]
+|   |   player3 = Phoenix : win (8/0) [5/0]
+|   |   player3 = Techies : win (9/0) [2/0]
+|   |   player3 = Oracle : win (6/0) [4/0]
+|   |   player3 = WinterWyvern : win (3/0) [2/0]
+|   |   player3 = ArcWarden : win (5/0) [3/0]
+|   |   player3 = undefined : win (0/0) [0/0]
+
+Size of the tree : 231
+
+Time taken to build model: 0.75 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9247               89.3516 %
+Incorrectly Classified Instances      1102               10.6484 %
+Kappa statistic                          0.7871
+Mean absolute error                      0.1833
+Root mean squared error                  0.3056
+Relative absolute error                 36.6703 %
+Root relative squared error             61.1303 %
+Total Number of Instances            10349     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.881    0.094    0.907      0.881    0.894      0.787    0.906     0.903     win
+                 0.906    0.119    0.881      0.906    0.893      0.787    0.906     0.864     lose
+Weighted Avg.    0.894    0.106    0.894      0.894    0.894      0.787    0.906     0.884     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4626  625 |    a = win
+  477 4621 |    b = lose
+
+

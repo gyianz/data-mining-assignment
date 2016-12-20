@@ -1,0 +1,87 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AttributeSelectedClassifier -E "weka.attributeSelection.CfsSubsetEval -P 1 -E 1" -S "weka.attributeSelection.BestFirst -D 1 -N 5" -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     auscomp
+Instances:    182
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 16
+	Merit of best subset found:    0.146
+
+Attribute Subset Evaluator (supervised, Class (nominal): 6 class):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 2,4 : 2
+                     player2
+                     player4
+
+
+Header of reduced data:
+@relation 'auscomp-weka.filters.unsupervised.attribute.Remove-V-R2,4,6'
+
+@attribute player2 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden}
+@attribute player4 {Anti-Mage,Axe,Bane,Bloodseeker,CrystalMaiden,DrowRanger,Earthshaker,Juggernaut,Mirana,ShadowFiend,Morphling,PhantomLancer,Puck,Pudge,Razor,SandKing,StormSpirit,Sven,Tiny,VengefulSpirit,Windranger,Zeus,Kunkka,Lina,Lich,Lion,ShadowShaman,Slardar,Tidehunter,WitchDoctor,Riki,Enigma,Tinker,Sniper,Necrophos,Warlock,Beastmaster,QueenofPain,Venomancer,FacelessVoid,WraithKing,DeathProphet,PhantomAssassin,Pugna,TemplarAssassin,Viper,Luna,DragonKnight,Dazzle,Clockwerk,Leshrac,'Nature\'sProphet',Lifestealer,DarkSeer,Clinkz,Omniknight,Enchantress,Huskar,NightStalker,Broodmother,BountyHunter,Weaver,Jakiro,Batrider,Chen,Spectre,Doom,AncientApparition,Ursa,SpiritBreaker,Gyrocopter,Alchemist,Invoker,Silencer,OutworldDevourer,Lycan,Brewmaster,ShadowDemon,LoneDruid,ChaosKnight,Meepo,TreantProtector,OgreMagi,Undying,Rubick,Disruptor,NyxAssassin,NagaSiren,KeeperoftheLight,Io,Visage,Slark,Medusa,TrollWarlord,CentaurWarrunner,Magnus,Timbersaw,Bristleback,Tusk,SkywrathMage,Abaddon,ElderTitan,LegionCommander,EmberSpirit,EarthSpirit,AbyssalUnderlord,Terrorblade,Phoenix,Techies,Oracle,WinterWyvern,ArcWarden}
+@attribute class {win,lose}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+: win (182.0/91.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.17 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          90               49.4505 %
+Incorrectly Classified Instances        92               50.5495 %
+Kappa statistic                         -0.011 
+Mean absolute error                      0.5   
+Root mean squared error                  0.5   
+Relative absolute error                100.0001 %
+Root relative squared error            100.0001 %
+Total Number of Instances              182     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.890    0.901    0.497      0.890    0.638      -0.018   0.490     0.495     win
+                 0.099    0.110    0.474      0.099    0.164      -0.018   0.490     0.495     lose
+Weighted Avg.    0.495    0.505    0.485      0.495    0.401      -0.018   0.490     0.495     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 81 10 |  a = win
+ 82  9 |  b = lose
+
+

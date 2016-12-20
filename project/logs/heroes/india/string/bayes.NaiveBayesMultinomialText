@@ -1,0 +1,98 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayesMultinomialText -P 0 -M 3.0 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer
+Relation:     auscomp
+Instances:    44
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Dictionary size: 42
+
+The independent frequency of a class
+--------------------------------------
+win	23.0
+lose	23.0
+
+The frequency of a word given the class
+-----------------------------------------
+        win	       lose	
+        4.0	<laplace=1>	Meepo
+        3.0	        4.0	Anti-Mage
+<laplace=1>	        3.0	Kunkka
+        3.0	        5.0	Juggernaut
+        4.0	        5.0	Slark
+<laplace=1>	        4.0	Commander
+        5.0	<laplace=1>	Assassin
+        3.0	<laplace=1>	Sven
+        3.0	<laplace=1>	Pugna
+        3.0	        4.0	Alchemist
+        3.0	        3.0	DrowRanger
+        3.0	<laplace=1>	Druid
+<laplace=1>	        7.0	Riki
+        4.0	        4.0	Invoker
+<laplace=1>	        4.0	Bloodseeker
+        3.0	<laplace=1>	Magnus
+        4.0	<laplace=1>	Batrider
+<laplace=1>	        3.0	Slardar
+        3.0	<laplace=1>	Lion
+        3.0	<laplace=1>	Phantom
+        3.0	<laplace=1>	Lifestealer
+<laplace=1>	        3.0	Nature
+        3.0	        7.0	Pudge
+        4.0	<laplace=1>	Ursa
+        3.0	<laplace=1>	Techies
+<laplace=1>	        3.0	Abaddon
+<laplace=1>	        3.0	DarkSeer
+        4.0	<laplace=1>	Spirit
+        3.0	<laplace=1>	Nyx
+        4.0	        7.0	Sniper
+        9.0	        3.0	Axe
+        4.0	        3.0	WraithKing
+<laplace=1>	        4.0	LegionCommander
+        3.0	        4.0	Huskar
+<laplace=1>	        4.0	Legion
+        5.0	        4.0	PhantomAssassin
+        5.0	        3.0	Windranger
+<laplace=1>	        3.0	CentaurWarrunner
+<laplace=1>	        3.0	Disruptor
+<laplace=1>	        7.0	Mirana
+        3.0	<laplace=1>	Jakiro
+        3.0	<laplace=1>	Lone
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          29               65.9091 %
+Incorrectly Classified Instances        15               34.0909 %
+Kappa statistic                          0.3182
+Mean absolute error                      0.3793
+Root mean squared error                  0.4734
+Relative absolute error                 75.6903 %
+Root relative squared error             94.4518 %
+Total Number of Instances               44     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.591    0.273    0.684      0.591    0.634      0.321    0.731     0.680     win
+                 0.727    0.409    0.640      0.727    0.681      0.321    0.731     0.777     lose
+Weighted Avg.    0.659    0.341    0.662      0.659    0.657      0.321    0.731     0.728     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 13  9 |  a = win
+  6 16 |  b = lose
+
+65

@@ -1,0 +1,50 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.KStar -B 20 -M a
+Relation:     auscomp
+Instances:    76
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+KStar Beta Verion (0.1b).
+Copyright (c) 1995-97 by Len Trigg (trigg@cs.waikato.ac.nz).
+Java port to Weka by Abdelaziz Mahoui (am14@cs.waikato.ac.nz).
+
+KStar options : -B 20 -M a 
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          50               65.7895 %
+Incorrectly Classified Instances        26               34.2105 %
+Kappa statistic                          0.3158
+Mean absolute error                      0.4725
+Root mean squared error                  0.4957
+Relative absolute error                 94.4293 %
+Root relative squared error             99.0538 %
+Total Number of Instances               76     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.737    0.421    0.636      0.737    0.683      0.320    0.621     0.561     win
+                 0.579    0.263    0.688      0.579    0.629      0.320    0.621     0.637     lose
+Weighted Avg.    0.658    0.342    0.662      0.658    0.656      0.320    0.621     0.599     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 28 10 |  a = win
+ 16 22 |  b = lose
+
+

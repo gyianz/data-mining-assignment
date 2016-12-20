@@ -1,0 +1,279 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     seacomp
+Instances:    5198
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+player3 = Enchantress : lose
+player3 != Enchantress : win
+player3 is missing : win
+
+Class distributions
+
+player3 = Enchantress
+win	lose	
+0.07142857142857142	0.9285714285714286	
+player3 != Enchantress
+win	lose	
+0.5011574074074074	0.4988425925925926	
+player3 is missing
+win	lose	
+0.5	0.5	
+
+
+Weight: 0.01
+
+Decision Stump
+
+Classifications
+
+player3 = Enchantress : lose
+player3 != Enchantress : lose
+player3 is missing : lose
+
+Class distributions
+
+player3 = Enchantress
+win	lose	
+0.07204348545885988	0.92795651454114	
+player3 != Enchantress
+win	lose	
+0.49884881488052624	0.5011511851194738	
+player3 is missing
+win	lose	
+0.49770380642570017	0.5022961935742998	
+
+
+Weight: 0.01
+
+Decision Stump
+
+Classifications
+
+player3 = Enchantress : lose
+player3 != Enchantress : win
+player3 is missing : lose
+
+Class distributions
+
+player3 = Enchantress
+win	lose	
+0.07265994030003184	0.9273400596999681	
+player3 != Enchantress
+win	lose	
+0.5011450205615202	0.49885497943847984	
+player3 is missing
+win	lose	
+0.49999999999996175	0.5000000000000382	
+
+
+Weight: 0.01
+
+Decision Stump
+
+Classifications
+
+player4 = ElderTitan : win
+player4 != ElderTitan : lose
+player4 is missing : lose
+
+Class distributions
+
+player4 = ElderTitan
+win	lose	
+0.856014433028586	0.14398556697141401	
+player4 != ElderTitan
+win	lose	
+0.4962796097251447	0.5037203902748553	
+player4 is missing
+win	lose	
+0.4977282374781208	0.5022717625218793	
+
+
+Weight: 0.02
+
+Decision Stump
+
+Classifications
+
+player1 = Tusk : lose
+player1 != Tusk : win
+player1 is missing : win
+
+Class distributions
+
+player1 = Tusk
+win	lose	
+0.1442552522035851	0.8557447477964149	
+player1 != Tusk
+win	lose	
+0.5042749250463161	0.4957250749536838	
+player1 is missing
+win	lose	
+0.5028262012971209	0.4971737987028791	
+
+
+Weight: 0.02
+
+Decision Stump
+
+Classifications
+
+player3 = Enchantress : lose
+player3 != Enchantress : lose
+player3 is missing : lose
+
+Class distributions
+
+player3 = Enchantress
+win	lose	
+0.07312859287014702	0.926871407129853	
+player3 != Enchantress
+win	lose	
+0.49831537094929407	0.5016846290507059	
+player3 is missing
+win	lose	
+0.49718237959137673	0.5028176204086232	
+
+
+Weight: 0.01
+
+Decision Stump
+
+Classifications
+
+player3 = Enchantress : lose
+player3 != Enchantress : win
+player3 is missing : win
+
+Class distributions
+
+player3 = Enchantress
+win	lose	
+0.07389620818458618	0.9261037918154137	
+player3 != Enchantress
+win	lose	
+0.501133012869969	0.498866987130031	
+player3 is missing
+win	lose	
+0.5000000000000112	0.4999999999999888	
+
+
+Weight: 0.01
+
+Decision Stump
+
+Classifications
+
+player3 = Enchantress : lose
+player3 != Enchantress : lose
+player3 is missing : lose
+
+Class distributions
+
+player3 = Enchantress
+win	lose	
+0.0745172624123039	0.9254827375876961	
+player3 != Enchantress
+win	lose	
+0.4988729849853063	0.5011270150146937	
+player3 is missing
+win	lose	
+0.4977519246532888	0.5022480753467111	
+
+
+Weight: 0.01
+
+Decision Stump
+
+Classifications
+
+player3 = Enchantress : lose
+player3 != Enchantress : win
+player3 is missing : win
+
+Class distributions
+
+player3 = Enchantress
+win	lose	
+0.07513979328799457	0.9248602067120054	
+player3 != Enchantress
+win	lose	
+0.5011210716935074	0.49887892830649255	
+player3 is missing
+win	lose	
+0.5000000000000352	0.49999999999996475	
+
+
+Weight: 0.01
+
+Decision Stump
+
+Classifications
+
+player3 = Enchantress : lose
+player3 != Enchantress : lose
+player3 is missing : lose
+
+Class distributions
+
+player3 = Enchantress
+win	lose	
+0.07576378472175864	0.9242362152782413	
+player3 != Enchantress
+win	lose	
+0.49888481786051286	0.5011151821394871	
+player3 is missing
+win	lose	
+0.49777548326831333	0.5022245167316866	
+
+
+Weight: 0.01
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2602               50.0577 %
+Incorrectly Classified Instances      2596               49.9423 %
+Kappa statistic                          0.0012
+Mean absolute error                      0.5   
+Root mean squared error                  0.5   
+Relative absolute error                100.0012 %
+Root relative squared error            100.0048 %
+Total Number of Instances             5198     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.701    0.699    0.500      0.701    0.584      0.001    0.501     0.499     win
+                 0.301    0.299    0.501      0.301    0.376      0.001    0.501     0.502     lose
+Weighted Avg.    0.501    0.499    0.501      0.501    0.480      0.001    0.501     0.500     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1821  778 |    a = win
+ 1818  781 |    b = lose
+
+

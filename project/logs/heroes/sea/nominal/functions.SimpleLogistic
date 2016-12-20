@@ -1,0 +1,197 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     seacomp
+Instances:    5198
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+-0.05 + 
+[player1=DrowRanger] * 0.26 +
+[player1=Tiny] * -0.37 +
+[player1=Tinker] * -0.24 +
+[player1=PhantomAssassin] * 0.18 +
+[player1=TemplarAssassin] * -0.35 +
+[player1=DragonKnight] * 0.4  +
+[player1=Nature'sProphet] * -0.3 +
+[player1=Clinkz] * -0.55 +
+[player1=Invoker] * -0.18 +
+[player1=ChaosKnight] * -0.41 +
+[player1=TreantProtector] * -0.54 +
+[player1=Tusk] * -0.71 +
+[player2=CrystalMaiden] * 0.29 +
+[player2=StormSpirit] * -0.36 +
+[player2=Lich] * 0.73 +
+[player2=Luna] * 0.36 +
+[player2=Clockwerk] * -0.49 +
+[player2=Clinkz] * -0.5 +
+[player2=Omniknight] * 0.47 +
+[player2=BountyHunter] * -0.28 +
+[player2=Ursa] * 0.24 +
+[player2=Meepo] * -0.33 +
+[player2=OgreMagi] * 0.32 +
+[player2=Disruptor] * 0.44 +
+[player2=Timbersaw] * 0.24 +
+[player2=SkywrathMage] * -0.41 +
+[player2=EarthSpirit] * -0.5 +
+[player2=undefined] * -0.37 +
+[player3=Bloodseeker] * 0.18 +
+[player3=CrystalMaiden] * 0.28 +
+[player3=Puck] * -0.37 +
+[player3=Razor] * 0.39 +
+[player3=Sven] * 0.27 +
+[player3=Tiny] * -0.33 +
+[player3=Zeus] * 0.25 +
+[player3=Sniper] * -0.18 +
+[player3=Warlock] * 0.58 +
+[player3=WraithKing] * 0.34 +
+[player3=Enchantress] * -0.86 +
+[player3=Broodmother] * -0.63 +
+[player3=Spectre] * 0.46 +
+[player3=Ursa] * 0.25 +
+[player3=Rubick] * 0.32 +
+[player3=Oracle] * -0.46 +
+[player4=Axe] * 0.2  +
+[player4=Puck] * -0.44 +
+[player4=Lina] * -0.38 +
+[player4=ShadowShaman] * 0.4  +
+[player4=Tidehunter] * 0.5  +
+[player4=FacelessVoid] * -0.24 +
+[player4=PhantomAssassin] * 0.16 +
+[player4=Leshrac] * -0.74 +
+[player4=Enchantress] * -0.59 +
+[player4=Spectre] * 0.49 +
+[player4=Ursa] * 0.27 +
+[player4=OgreMagi] * 0.28 +
+[player4=KeeperoftheLight] * 0.45 +
+[player4=Medusa] * 0.26 +
+[player4=ElderTitan] * 0.72 +
+[player4=Techies] * -0.4 +
+[player5=DrowRanger] * 0.15 +
+[player5=SandKing] * -0.3 +
+[player5=Sven] * 0.24 +
+[player5=Sniper] * 0.15 +
+[player5=WraithKing] * 0.22 +
+[player5=Luna] * 0.33 +
+[player5=Omniknight] * 0.24 +
+[player5=Batrider] * -0.56 +
+[player5=Chen] * -0.97 +
+[player5=Spectre] * 0.5  +
+[player5=Phoenix] * 0.64 +
+[player5=Oracle] * -0.75
+
+Class 1 :
+0.05 + 
+[player1=DrowRanger] * -0.26 +
+[player1=Tiny] * 0.37 +
+[player1=Tinker] * 0.24 +
+[player1=PhantomAssassin] * -0.18 +
+[player1=TemplarAssassin] * 0.35 +
+[player1=DragonKnight] * -0.4 +
+[player1=Nature'sProphet] * 0.3  +
+[player1=Clinkz] * 0.55 +
+[player1=Invoker] * 0.18 +
+[player1=ChaosKnight] * 0.41 +
+[player1=TreantProtector] * 0.54 +
+[player1=Tusk] * 0.71 +
+[player2=CrystalMaiden] * -0.29 +
+[player2=StormSpirit] * 0.36 +
+[player2=Lich] * -0.73 +
+[player2=Luna] * -0.36 +
+[player2=Clockwerk] * 0.49 +
+[player2=Clinkz] * 0.5  +
+[player2=Omniknight] * -0.47 +
+[player2=BountyHunter] * 0.28 +
+[player2=Ursa] * -0.24 +
+[player2=Meepo] * 0.33 +
+[player2=OgreMagi] * -0.32 +
+[player2=Disruptor] * -0.44 +
+[player2=Timbersaw] * -0.24 +
+[player2=SkywrathMage] * 0.41 +
+[player2=EarthSpirit] * 0.5  +
+[player2=undefined] * 0.37 +
+[player3=Bloodseeker] * -0.18 +
+[player3=CrystalMaiden] * -0.28 +
+[player3=Puck] * 0.37 +
+[player3=Razor] * -0.39 +
+[player3=Sven] * -0.27 +
+[player3=Tiny] * 0.33 +
+[player3=Zeus] * -0.25 +
+[player3=Sniper] * 0.18 +
+[player3=Warlock] * -0.58 +
+[player3=WraithKing] * -0.34 +
+[player3=Enchantress] * 0.86 +
+[player3=Broodmother] * 0.63 +
+[player3=Spectre] * -0.46 +
+[player3=Ursa] * -0.25 +
+[player3=Rubick] * -0.32 +
+[player3=Oracle] * 0.46 +
+[player4=Axe] * -0.2 +
+[player4=Puck] * 0.44 +
+[player4=Lina] * 0.38 +
+[player4=ShadowShaman] * -0.4 +
+[player4=Tidehunter] * -0.5 +
+[player4=FacelessVoid] * 0.24 +
+[player4=PhantomAssassin] * -0.16 +
+[player4=Leshrac] * 0.74 +
+[player4=Enchantress] * 0.59 +
+[player4=Spectre] * -0.49 +
+[player4=Ursa] * -0.27 +
+[player4=OgreMagi] * -0.28 +
+[player4=KeeperoftheLight] * -0.45 +
+[player4=Medusa] * -0.26 +
+[player4=ElderTitan] * -0.72 +
+[player4=Techies] * 0.4  +
+[player5=DrowRanger] * -0.15 +
+[player5=SandKing] * 0.3  +
+[player5=Sven] * -0.24 +
+[player5=Sniper] * -0.15 +
+[player5=WraithKing] * -0.22 +
+[player5=Luna] * -0.33 +
+[player5=Omniknight] * -0.24 +
+[player5=Batrider] * 0.56 +
+[player5=Chen] * 0.97 +
+[player5=Spectre] * -0.5 +
+[player5=Phoenix] * -0.64 +
+[player5=Oracle] * 0.75
+
+
+Time taken to build model: 14.57 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2709               52.1162 %
+Incorrectly Classified Instances      2489               47.8838 %
+Kappa statistic                          0.0423
+Mean absolute error                      0.4925
+Root mean squared error                  0.5049
+Relative absolute error                 98.4922 %
+Root relative squared error            100.9709 %
+Total Number of Instances             5198     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.276    0.234    0.542      0.276    0.366      0.049    0.527     0.533     win
+                 0.766    0.724    0.514      0.766    0.615      0.049    0.527     0.525     lose
+Weighted Avg.    0.521    0.479    0.528      0.521    0.491      0.049    0.527     0.529     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  717 1882 |    a = win
+  607 1992 |    b = lose
+
+

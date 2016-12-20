@@ -1,0 +1,46 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.ZeroR 
+Relation:     auscomp
+Instances:    56
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+ZeroR predicts class value: win
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          26               46.4286 %
+Incorrectly Classified Instances        30               53.5714 %
+Kappa statistic                         -0.0714
+Mean absolute error                      0.5007
+Root mean squared error                  0.5007
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances               56     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.786    0.857    0.478      0.786    0.595      -0.093   0.441     0.472     win
+                 0.143    0.214    0.400      0.143    0.211      -0.093   0.441     0.472     lose
+Weighted Avg.    0.464    0.536    0.439      0.464    0.403      -0.093   0.441     0.472     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 22  6 |  a = win
+ 24  4 |  b = lose
+
+

@@ -1,0 +1,188 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.LogitBoost -P 100 -L -1.7976931348623157E308 -H 1.0 -Z 3.0 -O 1 -E 1 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     auscomp
+Instances:    1484
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LogitBoost: Base classifiers and their weights: 
+
+Iteration 1
+	Class 1 (class=win)
+
+Decision Stump
+
+Classifications
+
+player4 = EmberSpirit : -1.6923076923076923
+player4 != EmberSpirit : 0.01495581237253569
+player4 is missing : 0.0
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 2
+	Class 1 (class=win)
+
+Decision Stump
+
+Classifications
+
+player2 = Zeus : 1.3535412049832112
+player2 != Zeus : -0.02042009473684637
+player2 is missing : -0.002762657976066581
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 3
+	Class 1 (class=win)
+
+Decision Stump
+
+Classifications
+
+player4 = FacelessVoid : 1.0357750306742575
+player4 != FacelessVoid : -0.02137327844052546
+player4 is missing : 0.002312190115277347
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 4
+	Class 1 (class=win)
+
+Decision Stump
+
+Classifications
+
+player5 = Axe : 1.0370596568921913
+player5 != Axe : -0.019606635668849993
+player5 is missing : 0.0018255930752462245
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 5
+	Class 1 (class=win)
+
+Decision Stump
+
+Classifications
+
+player3 = WitchDoctor : -1.2028409826270485
+player3 != WitchDoctor : 0.015469620040509778
+player3 is missing : 0.0018674302798637092
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 6
+	Class 1 (class=win)
+
+Decision Stump
+
+Classifications
+
+player3 = Mirana : -0.7634386097607323
+player3 != Mirana : 0.020157642807612345
+player3 is missing : -0.0010557232720050864
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 7
+	Class 1 (class=win)
+
+Decision Stump
+
+Classifications
+
+player4 = EarthSpirit : -1.9892413590290494
+player4 != EarthSpirit : 0.007317924631181807
+player4 is missing : -9.193012111696969E-4
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 8
+	Class 1 (class=win)
+
+Decision Stump
+
+Classifications
+
+player1 = Venomancer : 1.5705690733061315
+player1 != Venomancer : -0.012249471294745466
+player1 is missing : -0.0019395898427341212
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 9
+	Class 1 (class=win)
+
+Decision Stump
+
+Classifications
+
+player3 = WraithKing : 1.0820424047892347
+player3 != WraithKing : -0.012659468628952916
+player3 is missing : 0.0017627338497888318
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+
+Iteration 10
+	Class 1 (class=win)
+
+Decision Stump
+
+Classifications
+
+player5 = Meepo : 2.278081796200271
+player5 != Meepo : -0.005314021292349833
+player5 is missing : 0.001067836894529423
+
+Two-class case: second classifier predicts additive inverse of first classifier and is not explicitly computed.
+
+Number of performed iterations: 10
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         765               51.5499 %
+Incorrectly Classified Instances       719               48.4501 %
+Kappa statistic                          0.031 
+Mean absolute error                      0.496 
+Root mean squared error                  0.5049
+Relative absolute error                 99.2009 %
+Root relative squared error            100.9784 %
+Total Number of Instances             1484     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.096    0.065    0.597      0.096    0.165      0.057    0.511     0.512     win
+                 0.935    0.904    0.508      0.935    0.659      0.057    0.511     0.508     lose
+Weighted Avg.    0.515    0.485    0.553      0.515    0.412      0.057    0.511     0.510     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  71 671 |   a = win
+  48 694 |   b = lose
+
+

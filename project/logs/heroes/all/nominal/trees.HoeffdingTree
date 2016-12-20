@@ -1,0 +1,165 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.HoeffdingTree -L 2 -S 1 -E 1.0E-7 -H 0.05 -M 0.01 -G 200.0 -N 0.0
+Relation:     all
+Instances:    10349
+Attributes:   8
+              player1
+              player2
+              player3
+              player4
+              player5
+              kills
+              duration
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+kills <= 5.182: 
+|   kills <= -13.818: lose (2803.074) NB1 NB adaptive1
+|   kills > -13.818: lose (1855.926) NB2 NB adaptive2
+kills > 5.182: 
+|   duration <= 3362.000: 
+|   |   player1 = Anti-Mage: win (14.000) NB3 NB adaptive3
+|   |   player1 = Axe: win (24.000) NB4 NB adaptive4
+|   |   player1 = Bane: win (3.000) NB5 NB adaptive5
+|   |   player1 = Bloodseeker: win (16.000) NB6 NB adaptive6
+|   |   player1 = CrystalMaiden: win (9.000) NB7 NB adaptive7
+|   |   player1 = DrowRanger: win (27.000) NB8 NB adaptive8
+|   |   player1 = Earthshaker: win (12.000) NB9 NB adaptive9
+|   |   player1 = Juggernaut: win (22.000) NB10 NB adaptive10
+|   |   player1 = Mirana: win (41.000) NB11 NB adaptive11
+|   |   player1 = ShadowFiend: win (9.000) NB12 NB adaptive12
+|   |   player1 = Morphling: win (13.000) NB13 NB adaptive13
+|   |   player1 = PhantomLancer: win (4.000) NB14 NB adaptive14
+|   |   player1 = Puck: win (7.000) NB15 NB adaptive15
+|   |   player1 = Pudge: win (46.000) NB16 NB adaptive16
+|   |   player1 = Razor: win (5.000) NB17 NB adaptive17
+|   |   player1 = SandKing: win (11.000) NB18 NB adaptive18
+|   |   player1 = StormSpirit: win (15.000) NB19 NB adaptive19
+|   |   player1 = Sven: win (14.000) NB20 NB adaptive20
+|   |   player1 = Tiny: win (10.000) NB21 NB adaptive21
+|   |   player1 = VengefulSpirit: win (11.000) NB22 NB adaptive22
+|   |   player1 = Windranger: win (15.000) NB23 NB adaptive23
+|   |   player1 = Zeus: win (21.000) NB24 NB adaptive24
+|   |   player1 = Kunkka: win (10.000) NB25 NB adaptive25
+|   |   player1 = Lina: win (8.000) NB26 NB adaptive26
+|   |   player1 = Lich: win (14.000) NB27 NB adaptive27
+|   |   player1 = Lion: win (13.000) NB28 NB adaptive28
+|   |   player1 = ShadowShaman: win (5.000) NB29 NB adaptive29
+|   |   player1 = Slardar: win (10.000) NB30 NB adaptive30
+|   |   player1 = Tidehunter: win (5.000) NB31 NB adaptive31
+|   |   player1 = WitchDoctor: win (10.000) NB32 NB adaptive32
+|   |   player1 = Riki: win (18.000) NB33 NB adaptive33
+|   |   player1 = Enigma: win (11.000) NB34 NB adaptive34
+|   |   player1 = Tinker: win (17.000) NB35 NB adaptive35
+|   |   player1 = Sniper: win (7.000) NB36 NB adaptive36
+|   |   player1 = Necrophos: win (8.000) NB37 NB adaptive37
+|   |   player1 = Warlock: win (6.000) NB38 NB adaptive38
+|   |   player1 = Beastmaster: win (3.000) NB39 NB adaptive39
+|   |   player1 = QueenofPain: win (12.000) NB40 NB adaptive40
+|   |   player1 = Venomancer: win (9.000) NB41 NB adaptive41
+|   |   player1 = FacelessVoid: win (16.000) NB42 NB adaptive42
+|   |   player1 = WraithKing: win (28.000) NB43 NB adaptive43
+|   |   player1 = DeathProphet: win (4.000) NB44 NB adaptive44
+|   |   player1 = PhantomAssassin: win (27.000) NB45 NB adaptive45
+|   |   player1 = Pugna: win (3.000) NB46 NB adaptive46
+|   |   player1 = TemplarAssassin: win (6.000) NB47 NB adaptive47
+|   |   player1 = Viper: win (10.000) NB48 NB adaptive48
+|   |   player1 = Luna: win (5.000) NB49 NB adaptive49
+|   |   player1 = DragonKnight: win (7.000) NB50 NB adaptive50
+|   |   player1 = Dazzle: win (10.000) NB51 NB adaptive51
+|   |   player1 = Clockwerk: win (11.000) NB52 NB adaptive52
+|   |   player1 = Leshrac: win (3.000) NB53 NB adaptive53
+|   |   player1 = Nature'sProphet: win (6.000) NB54 NB adaptive54
+|   |   player1 = Lifestealer: win (11.000) NB55 NB adaptive55
+|   |   player1 = DarkSeer: win (7.000) NB56 NB adaptive56
+|   |   player1 = Clinkz: win (8.000) NB57 NB adaptive57
+|   |   player1 = Omniknight: win (9.000) NB58 NB adaptive58
+|   |   player1 = Enchantress: win (4.000) NB59 NB adaptive59
+|   |   player1 = Huskar: win (5.000) NB60 NB adaptive60
+|   |   player1 = NightStalker: win (4.000) NB61 NB adaptive61
+|   |   player1 = Broodmother: win (5.000) NB62 NB adaptive62
+|   |   player1 = BountyHunter: win (10.000) NB63 NB adaptive63
+|   |   player1 = Weaver: win (9.000) NB64 NB adaptive64
+|   |   player1 = Jakiro: win (11.000) NB65 NB adaptive65
+|   |   player1 = Batrider: win (7.000) NB66 NB adaptive66
+|   |   player1 = Chen: win (6.000) NB67 NB adaptive67
+|   |   player1 = Spectre: win (13.000) NB68 NB adaptive68
+|   |   player1 = Doom: win (4.000) NB69 NB adaptive69
+|   |   player1 = AncientApparition: win (7.000) NB70 NB adaptive70
+|   |   player1 = Ursa: win (10.000) NB71 NB adaptive71
+|   |   player1 = SpiritBreaker: win (13.000) NB72 NB adaptive72
+|   |   player1 = Gyrocopter: win (8.000) NB73 NB adaptive73
+|   |   player1 = Alchemist: win (10.000) NB74 NB adaptive74
+|   |   player1 = Invoker: win (20.000) NB75 NB adaptive75
+|   |   player1 = Silencer: win (8.000) NB76 NB adaptive76
+|   |   player1 = OutworldDevourer: win (4.000) NB77 NB adaptive77
+|   |   player1 = Lycan: win (6.000) NB78 NB adaptive78
+|   |   player1 = Brewmaster: win (4.000) NB79 NB adaptive79
+|   |   player1 = ShadowDemon: win (3.000) NB80 NB adaptive80
+|   |   player1 = LoneDruid: win (14.000) NB81 NB adaptive81
+|   |   player1 = ChaosKnight: win (6.000) NB82 NB adaptive82
+|   |   player1 = Meepo: win (8.000) NB83 NB adaptive83
+|   |   player1 = TreantProtector: win (5.000) NB84 NB adaptive84
+|   |   player1 = OgreMagi: win (7.000) NB85 NB adaptive85
+|   |   player1 = Undying: win (7.000) NB86 NB adaptive86
+|   |   player1 = Rubick: win (7.000) NB87 NB adaptive87
+|   |   player1 = Disruptor: win (6.000) NB88 NB adaptive88
+|   |   player1 = NyxAssassin: win (5.000) NB89 NB adaptive89
+|   |   player1 = NagaSiren: win (4.000) NB90 NB adaptive90
+|   |   player1 = KeeperoftheLight: win (15.000) NB91 NB adaptive91
+|   |   player1 = Io: win (2.000) NB92 NB adaptive92
+|   |   player1 = Visage: win (2.000) NB93 NB adaptive93
+|   |   player1 = Slark: win (28.000) NB94 NB adaptive94
+|   |   player1 = Medusa: win (11.000) NB95 NB adaptive95
+|   |   player1 = TrollWarlord: win (3.000) NB96 NB adaptive96
+|   |   player1 = CentaurWarrunner: win (4.000) NB97 NB adaptive97
+|   |   player1 = Magnus: win (4.000) NB98 NB adaptive98
+|   |   player1 = Bristleback: win (8.000)
+|   |   player1 = Oracle: win (2.000)
+|   |   player1 = Abaddon: win (4.000)
+|   |   player1 = LegionCommander: win (14.000)
+|   |   player1 = EmberSpirit: lose (2.000)
+|   |   player1 = ElderTitan: win (5.000)
+|   |   player1 = SkywrathMage: win (3.000)
+|   |   player1 = WinterWyvern: win (2.000)
+|   |   player1 = Terrorblade: win (3.000)
+|   |   player1 = Timbersaw: win (8.000)
+|   |   player1 = ArcWarden: win (3.000)
+|   |   player1 = Phoenix: win (2.000)
+|   |   player1 = EarthSpirit: win (2.000)
+|   |   player1 = Techies: win (5.000)
+|   |   player1 = Tusk: win (2.000)
+|   duration > 3362.000: win (236.843) NB114 NB adaptive114
+
+Time taken to build model: 0.28 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9239               89.2743 %
+Incorrectly Classified Instances      1110               10.7257 %
+Kappa statistic                          0.7854
+Mean absolute error                      0.1563
+Root mean squared error                  0.2928
+Relative absolute error                 31.2747 %
+Root relative squared error             58.5685 %
+Total Number of Instances            10349     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.894    0.108    0.895      0.894    0.894      0.785    0.945     0.932     win
+                 0.892    0.106    0.891      0.892    0.891      0.785    0.945     0.942     lose
+Weighted Avg.    0.893    0.107    0.893      0.893    0.893      0.785    0.945     0.937     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4693  558 |    a = win
+  552 4546 |    b = lose
+
+

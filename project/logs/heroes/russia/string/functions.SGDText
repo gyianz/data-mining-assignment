@@ -1,0 +1,236 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SGDText -F 0 -L 0.01 -R 1.0E-4 -E 500 -P 0 -M 3.0 -min-coeff 0.001 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer -S 1
+Relation:     auscomp
+Instances:    2048
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SGDText:
+
+Loss function: Hinge loss (SVM)
+
+Dictionary size: 182
+
+class = 
+
+        -0.04   Abaddon 51.0
+ +       0.1599 Windranger 187.0
+ +      -0.2199 DrowRanger 107.0
+ +       0.08   Legion 133.0
+ +       0.08   Commander 133.0
+ +      -0.8996 Shadow 116.0
+ +       0.12   Shaman 35.0
+ +      -0.3798 FacelessVoid 117.0
+ +       0.1499 Morphling 130.0
+ +      -0.6497 Omniknight 140.0
+ +       0.14   Kunkka 118.0
+ +       0.04   Huskar 113.0
+ +      -0.1099 Enchantress 31.0
+ +      -0.5898 WinterWyvern 23.0
+ +      -0.2499 Chaos 14.0
+ +       0.2699 Knight 37.0
+ +       0.2599 Phoenix 56.0
+ +       0.4198 Queen 36.0
+ +       0.1299 of 56.0
+ +       0.6697 Pain 70.0
+ +       0.4698 Razor 41.0
+ +       0.03   Medusa 53.0
+ +       0.1999 Lifestealer 144.0
+ +       0.8596 Lina 88.0
+ +       0.09   Dazzle 67.0
+ +      -0.5897 LegionCommander 170.0
+ +       0.5397 Bounty 78.0
+ +       0.5397 Hunter 78.0
+ +      -0.2698 Axe 182.0
+ +       0.2798 Anti-Mage 169.0
+ +       0.3599 Juggernaut 228.0
+ +       0.06   Nature 127.0
+ +       0.1499 s 70.0
+ +       0.3198 Prophet 82.0
+ +      -1.5693 Vengeful 55.0
+ +       1.1796 Spirit 222.0
+ +      -0.1099 Phantom 198.0
+ +      -0.07   Assassin 240.0
+ +      -0.4298 Riki 283.0
+ +      -0.3198 Zeus 113.0
+ +      -0.5697 CentaurWarrunner 25.0
+ +       0.5997 Tiny 66.0
+ +      -0.0599 Slark 314.0
+ +       0.15   Bristleback 75.0
+ +       0.8496 Terrorblade 47.0
+ +       0.3498 BountyHunter 87.0
+ +       0.2099 Sniper 151.0
+ +      -0.8096 CrystalMaiden 95.0
+ +       0.3299 Tinker 137.0
+ +      -0.5797 Jakiro 33.0
+ +       0.02   EmberSpirit 46.0
+ +      -0.1999 Pudge 350.0
+ +       0.04   Timbersaw 177.0
+ +      -0.3498 Warlock 35.0
+ +       0.4398 Slardar 81.0
+ +      -0.3698 Bloodseeker 143.0
+ +      -0.5797 PhantomAssassin 190.0
+ +      -0.2599 Lion 151.0
+ +       0.3099 Invoker 299.0
+ +      -0.1199 Witch 44.0
+ +      -0.1199 Doctor 44.0
+ +       0.03   SpiritBreaker 49.0
+ +      -0.1299 Clinkz 133.0
+ +      -0.5297 Mirana 209.0
+ +      -0.1699 Disruptor 57.0
+ +      -0.8696 WraithKing 94.0
+ +      -0.8796 ShadowFiend 30.0
+ +      -0.11   Ursa 149.0
+ +       0.08   Crystal 56.0
+ +       0.08   Maiden 56.0
+ +      -0.5197 VengefulSpirit 39.0
+ +      -0.1399 Drow 116.0
+ +      -0.1399 Ranger 116.0
+ +       0.05   Ancient 34.0
+ +       0.05   Apparition 34.0
+ +      -0.2899 Keeper 20.0
+ +       0.1199 the 37.0
+ +       0.1199 Light 37.0
+ +      -0.3298 Centaur 27.0
+ +      -0.3298 Warrunner 27.0
+ +      -0.02   Oracle 39.0
+ +       0.4399 Wraith 65.0
+ +      -1.3394 King 103.0
+ +      -0.08   undefined 59.0
+ +      -1.2494 Chen 10.0
+ +      -0.0799 Necrophos 122.0
+ +       0.8896 Magnus 39.0
+ +       0.3099 Faceless 102.0
+ +       0.3099 Void 102.0
+ +       0.2199 Tidehunter 53.0
+ +      -0.4998 StormSpirit 57.0
+ +       0.8696 Puck 45.0
+ +       0.6198 Sand 38.0
+ +       0.1899 Silencer 80.0
+ +       0.4498 Rubick 99.0
+ +       1.1095 PhantomLancer 33.0
+ +      -0.1899 Leshrac 29.0
+ +      -0.5797 Spectre 55.0
+ +      -0.4498 EarthSpirit 12.0
+ +       0.09   Ogre 49.0
+ +       0.09   Magi 49.0
+ +      -0.3399 SandKing 40.0
+ +       0.2499 Lycan 25.0
+ +      -0.5597 Luna 65.0
+ +      -0.9595 AncientApparition 39.0
+ +       0.1    Weaver 72.0
+ +       0.02   Alchemist 118.0
+ +      -0.4598 Sven 165.0
+ +       0.4598 Arc 14.0
+ +       0.4598 Warden 14.0
+ +       0.8196 Batrider 25.0
+ +       0.1499 Nyx 41.0
+ +       0.4798 Elder 18.0
+ +       0.4798 Titan 18.0
+ +      -0.2599 Night 27.0
+ +      -0.2599 Stalker 27.0
+ +      -0.7398 Ember 40.0
+ +      -0.1399 Enigma 69.0
+ +      -0.2999 ArcWarden 16.0
+ +      -1.0996 Earth 16.0
+ +       0.02   Pugna 41.0
+ +      -0.5297 NyxAssassin 39.0
+ +       0.2199 OgreMagi 44.0
+ +       0.6997 Doom 46.0
+ +      -0.07   Clockwerk 33.0
+ +       0.3798 Techies 53.0
+ +      -1.6893 Breaker 62.0
+ +      -1.0794 Lich 51.0
+ +       0.1599 Viper 73.0
+ +       0.5897 DragonKnight 18.0
+ +       0.2499 Queenof 34.0
+ +       0.4198 Undying 51.0
+ +       0.5197 Dragon 23.0
+ +       1.0395 Broodmother 26.0
+ +      -0.4899 Storm 49.0
+ +      -0.2499 Venomancer 56.0
+ +       0.4098 Keeperof 17.0
+ +      -0.1599 Earthshaker 89.0
+ +      -0.09   sProphet 57.0
+ +       0.4298 ShadowDemon 27.0
+ +      -1.0695 Beastmaster 27.0
+ +       0.9196 DeathProphet 20.0
+ +       0.1399 Skywrath 36.0
+ +       0.1399 Mage 36.0
+ +       0.07   Troll 37.0
+ +       0.07   Warlord 37.0
+ +       0.2999 Gyrocopter 26.0
+ +       1.5693 Fiend 53.0
+ +      -0.4198 ShadowShaman 50.0
+ +      -0.06   Templar 27.0
+ +       0.4498 Visage 11.0
+ +       0.1499 TrollWarlord 39.0
+ +       0.8596 Death 12.0
+ +       0.3499 Outworld 18.0
+ +       0.3499 Devourer 18.0
+ +      -0.2399 Lancer 26.0
+ +       1.0995 NightStalker 20.0
+ +      -0.06   Dark 15.0
+ +      -0.06   Seer 15.0
+ +       0.2399 Tusk 31.0
+ +      -0.7896 TreantProtector 16.0
+ +      -0.4798 WitchDoctor 29.0
+ +       1.0795 NagaSiren 13.0
+ +       0.4398 Meepo 36.0
+ +       0.5797 ChaosKnight 24.0
+ +       0.9396 Brewmaster 11.0
+ +      -0.2199 Bane 39.0
+ +      -0.1699 ElderTitan 9.0
+ +       1.2594 TemplarAssassin 26.0
+ +       1.2394 Lone 12.0
+ +       1.2394 Druid 12.0
+ +       1.3294 Io 17.0
+ +      -0.0999 Winter 15.0
+ +      -0.0999 Wyvern 15.0
+ +       1.1695 Demon 28.0
+ +       1.2294 LoneDruid 12.0
+ +       0.03   Treant 12.0
+ +       0.03   Protector 12.0
+ +      -1.0995 DarkSeer 11.0
+ +      -0.7197 OutworldDevourer 17.0
+ +       0.1399 Naga 8.0
+ +       0.1399 Siren 8.0
+ -       0.03  
+
+Time taken to build model: 2.05 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1108               54.1016 %
+Incorrectly Classified Instances       940               45.8984 %
+Kappa statistic                          0.082 
+Mean absolute error                      0.459 
+Root mean squared error                  0.6775
+Relative absolute error                 91.7967 %
+Root relative squared error            135.4965 %
+Total Number of Instances             2048     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.582    0.500    0.538      0.582    0.559      0.082    0.541     0.522     win
+                 0.500    0.418    0.545      0.500    0.521      0.082    0.541     0.522     lose
+Weighted Avg.    0.541    0.459    0.541      0.541    0.540      0.082    0.541     0.522     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 596 428 |   a = win
+ 512 512 |   b = lose
+
+

@@ -1,0 +1,163 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+Relation:     auscomp
+Instances:    182
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+REPTree
+============
+
+player2 = Anti-Mage : win (3/0) [4/1]
+player2 = Axe : win (2/1) [1/0]
+player2 = Bane : win (2/0) [0/0]
+player2 = Bloodseeker : lose (3/1) [0/0]
+player2 = CrystalMaiden : lose (2/0) [3/2]
+player2 = DrowRanger : win (2/0) [2/2]
+player2 = Earthshaker : win (0/0) [0/0]
+player2 = Juggernaut : win (0/0) [1/0]
+player2 = Mirana : win (2/1) [6/3]
+player2 = ShadowFiend : lose (1/0) [0/0]
+player2 = Morphling : lose (0/0) [1/0]
+player2 = PhantomLancer : win (0/0) [0/0]
+player2 = Puck : win (0/0) [0/0]
+player2 = Pudge : win (3/1) [1/1]
+player2 = Razor : win (0/0) [0/0]
+player2 = SandKing : win (1/0) [0/0]
+player2 = StormSpirit : win (0/0) [0/0]
+player2 = Sven : win (4/2) [0/0]
+player2 = Tiny : win (0/0) [0/0]
+player2 = VengefulSpirit : lose (1/0) [0/0]
+player2 = Windranger : win (1/0) [0/0]
+player2 = Zeus : win (4/2) [0/0]
+player2 = Kunkka : win (1/0) [0/0]
+player2 = Lina : win (0/0) [0/0]
+player2 = Lich : lose (2/0) [0/0]
+player2 = Lion : lose (2/0) [3/0]
+player2 = ShadowShaman : lose (1/1) [2/0]
+player2 = Slardar : win (1/0) [1/1]
+player2 = Tidehunter : win (1/0) [1/1]
+player2 = WitchDoctor : win (1/0) [0/0]
+player2 = Riki : lose (0/0) [1/0]
+player2 = Enigma : win (0/0) [0/0]
+player2 = Tinker : win (0/0) [0/0]
+player2 = Sniper : win (2/0) [2/1]
+player2 = Necrophos : win (2/0) [2/0]
+player2 = Warlock : win (1/1) [1/0]
+player2 = Beastmaster : win (0/0) [0/0]
+player2 = QueenofPain : lose (0/0) [1/0]
+player2 = Venomancer : win (0/0) [2/1]
+player2 = FacelessVoid : win (2/0) [2/0]
+player2 = WraithKing : win (0/0) [2/0]
+player2 = DeathProphet : win (0/0) [2/0]
+player2 = PhantomAssassin : win (4/2) [0/0]
+player2 = Pugna : lose (0/0) [1/0]
+player2 = TemplarAssassin : win (1/0) [0/0]
+player2 = Viper : lose (1/0) [1/0]
+player2 = Luna : lose (1/0) [0/0]
+player2 = DragonKnight : win (1/0) [0/0]
+player2 = Dazzle : win (2/1) [0/0]
+player2 = Clockwerk : win (1/0) [0/0]
+player2 = Leshrac : win (0/0) [0/0]
+player2 = Nature'sProphet : win (1/0) [0/0]
+player2 = Lifestealer : lose (1/0) [0/0]
+player2 = DarkSeer : lose (0/0) [1/0]
+player2 = Clinkz : lose (1/0) [0/0]
+player2 = Omniknight : lose (1/0) [0/0]
+player2 = Enchantress : win (0/0) [0/0]
+player2 = Huskar : win (2/1) [2/0]
+player2 = NightStalker : lose (1/0) [0/0]
+player2 = Broodmother : win (0/0) [1/0]
+player2 = BountyHunter : win (2/1) [0/0]
+player2 = Weaver : lose (1/0) [0/0]
+player2 = Jakiro : win (3/1) [0/0]
+player2 = Batrider : win (0/0) [0/0]
+player2 = Chen : win (0/0) [0/0]
+player2 = Spectre : win (1/0) [0/0]
+player2 = Doom : win (1/0) [0/0]
+player2 = AncientApparition : win (1/0) [1/0]
+player2 = Ursa : lose (3/1) [0/0]
+player2 = SpiritBreaker : win (2/1) [0/0]
+player2 = Gyrocopter : lose (1/0) [0/0]
+player2 = Alchemist : lose (1/0) [0/0]
+player2 = Invoker : lose (3/0) [1/0]
+player2 = Silencer : win (3/0) [0/0]
+player2 = OutworldDevourer : win (0/0) [0/0]
+player2 = Lycan : win (0/0) [1/0]
+player2 = Brewmaster : win (0/0) [0/0]
+player2 = ShadowDemon : win (0/0) [0/0]
+player2 = LoneDruid : win (0/0) [0/0]
+player2 = ChaosKnight : win (2/0) [0/0]
+player2 = Meepo : lose (2/0) [1/0]
+player2 = TreantProtector : win (0/0) [0/0]
+player2 = OgreMagi : lose (2/0) [0/0]
+player2 = Undying : win (0/0) [0/0]
+player2 = Rubick : lose (0/0) [2/0]
+player2 = Disruptor : win (0/0) [0/0]
+player2 = NyxAssassin : lose (0/0) [1/0]
+player2 = NagaSiren : win (0/0) [0/0]
+player2 = KeeperoftheLight : win (1/1) [1/0]
+player2 = Io : win (0/0) [0/0]
+player2 = Visage : lose (1/0) [0/0]
+player2 = Slark : lose (2/0) [0/0]
+player2 = Medusa : lose (1/0) [0/0]
+player2 = TrollWarlord : win (1/0) [0/0]
+player2 = CentaurWarrunner : win (1/0) [1/1]
+player2 = Magnus : lose (1/0) [0/0]
+player2 = Timbersaw : win (3/1) [0/0]
+player2 = Bristleback : win (2/1) [0/0]
+player2 = Tusk : win (0/0) [0/0]
+player2 = SkywrathMage : lose (1/0) [0/0]
+player2 = Abaddon : win (0/0) [0/0]
+player2 = ElderTitan : win (0/0) [0/0]
+player2 = LegionCommander : lose (7/2) [1/1]
+player2 = EmberSpirit : win (2/1) [0/0]
+player2 = EarthSpirit : win (1/0) [0/0]
+player2 = AbyssalUnderlord : win (0/0) [0/0]
+player2 = Terrorblade : win (1/0) [2/1]
+player2 = Phoenix : lose (1/0) [0/0]
+player2 = Techies : lose (0/0) [1/0]
+player2 = Oracle : win (1/0) [0/0]
+player2 = WinterWyvern : lose (1/0) [0/0]
+player2 = ArcWarden : win (0/0) [1/0]
+
+Size of the tree : 113
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          88               48.3516 %
+Incorrectly Classified Instances        94               51.6484 %
+Kappa statistic                         -0.033 
+Mean absolute error                      0.5136
+Root mean squared error                  0.5447
+Relative absolute error                102.7053 %
+Root relative squared error            108.9352 %
+Total Number of Instances              182     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.791    0.824    0.490      0.791    0.605      -0.042   0.462     0.475     win
+                 0.176    0.209    0.457      0.176    0.254      -0.042   0.462     0.487     lose
+Weighted Avg.    0.484    0.516    0.473      0.484    0.430      -0.042   0.462     0.481     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 72 19 |  a = win
+ 75 16 |  b = lose
+
+

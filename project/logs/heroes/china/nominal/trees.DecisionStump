@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     auscomp
+Instances:    804
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+player5 = Weaver : lose
+player5 != Weaver : win
+player5 is missing : win
+
+Class distributions
+
+player5 = Weaver
+win	lose	
+0.0	1.0	
+player5 != Weaver
+win	lose	
+0.5037593984962406	0.49624060150375937	
+player5 is missing
+win	lose	
+0.5	0.5	
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         394               49.005  %
+Incorrectly Classified Instances       410               50.995  %
+Kappa statistic                         -0.0199
+Mean absolute error                      0.504 
+Root mean squared error                  0.5066
+Relative absolute error                100.798  %
+Root relative squared error            101.3165 %
+Total Number of Instances              804     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.789    0.808    0.494      0.789    0.607      -0.025   0.483     0.487     win
+                 0.192    0.211    0.475      0.192    0.273      -0.025   0.483     0.488     lose
+Weighted Avg.    0.490    0.510    0.485      0.490    0.440      -0.025   0.483     0.487     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 317  85 |   a = win
+ 325  77 |   b = lose
+
+

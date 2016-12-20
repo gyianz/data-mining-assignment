@@ -1,0 +1,119 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayesMultinomialText -P 0 -M 3.0 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer
+Relation:     auscomp
+Instances:    56
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Dictionary size: 63
+
+The independent frequency of a class
+--------------------------------------
+win	29.0
+lose	29.0
+
+The frequency of a word given the class
+-----------------------------------------
+        win	       lose	
+<laplace=1>	        3.0	Ranger
+        4.0	        4.0	Commander
+        8.0	<laplace=1>	Juggernaut
+        4.0	        4.0	Slark
+        3.0	<laplace=1>	Beastmaster
+<laplace=1>	        3.0	Enigma
+        4.0	<laplace=1>	Viper
+        3.0	<laplace=1>	Ogre
+        3.0	<laplace=1>	DrowRanger
+<laplace=1>	        3.0	sProphet
+<laplace=1>	        4.0	Fiend
+        4.0	        3.0	King
+<laplace=1>	        4.0	Light
+<laplace=1>	        3.0	Faceless
+<laplace=1>	        3.0	Knight
+<laplace=1>	        3.0	Phantom
+        5.0	<laplace=1>	Lifestealer
+<laplace=1>	        3.0	Void
+        3.0	        3.0	Hunter
+<laplace=1>	        4.0	Weaver
+        4.0	        3.0	Timbersaw
+        3.0	<laplace=1>	Magi
+<laplace=1>	        4.0	Lina
+        4.0	        4.0	Legion
+<laplace=1>	        3.0	Huskar
+<laplace=1>	        3.0	Drow
+        3.0	        5.0	PhantomAssassin
+<laplace=1>	        8.0	Windranger
+        3.0	        3.0	Bounty
+        6.0	        4.0	Mirana
+<laplace=1>	        4.0	Crystal
+        3.0	<laplace=1>	Kunkka
+<laplace=1>	        5.0	Anti-Mage
+<laplace=1>	        3.0	Tidehunter
+<laplace=1>	        3.0	Assassin
+<laplace=1>	        3.0	Io
+<laplace=1>	        5.0	Shadow
+<laplace=1>	        3.0	Vengeful
+        4.0	        4.0	Sven
+<laplace=1>	        5.0	NyxAssassin
+<laplace=1>	        5.0	Alchemist
+        8.0	        3.0	Riki
+        3.0	<laplace=1>	Terrorblade
+        4.0	<laplace=1>	Invoker
+<laplace=1>	        6.0	Bloodseeker
+<laplace=1>	        4.0	Omniknight
+<laplace=1>	        4.0	Maiden
+<laplace=1>	        3.0	Nature
+        7.0	<laplace=1>	Pudge
+        4.0	<laplace=1>	Lich
+<laplace=1>	        3.0	Keeperof
+        3.0	        5.0	Spirit
+        4.0	        3.0	Tinker
+        5.0	        3.0	Sniper
+        3.0	<laplace=1>	Axe
+        3.0	<laplace=1>	Silencer
+        5.0	<laplace=1>	Earthshaker
+        3.0	<laplace=1>	LegionCommander
+<laplace=1>	        4.0	the
+        3.0	<laplace=1>	CentaurWarrunner
+<laplace=1>	        4.0	FacelessVoid
+        3.0	<laplace=1>	Wraith
+        4.0	        3.0	StormSpirit
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          35               62.5    %
+Incorrectly Classified Instances        21               37.5    %
+Kappa statistic                          0.25  
+Mean absolute error                      0.3941
+Root mean squared error                  0.5174
+Relative absolute error                 78.7049 %
+Root relative squared error            103.334  %
+Total Number of Instances               56     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.750    0.500    0.600      0.750    0.667      0.258    0.658     0.632     win
+                 0.500    0.250    0.667      0.500    0.571      0.258    0.658     0.637     lose
+Weighted Avg.    0.625    0.375    0.633      0.625    0.619      0.258    0.658     0.634     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 21  7 |  a = win
+ 14 14 |  b = lose
+
+

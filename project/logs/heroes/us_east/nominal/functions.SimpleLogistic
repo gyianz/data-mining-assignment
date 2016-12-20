@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     auscomp
+Instances:    76
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+0.36 + 
+[player1=LegionCommander] * -1.09 +
+[player2=SandKing] * -1.13 +
+[player2=Kunkka] * -1.18 +
+[player2=PhantomAssassin] * -1.24 +
+[player3=Axe] * -1.36 +
+[player3=Juggernaut] * -1.42 +
+[player3=Rubick] * -1.31 +
+[player4=Axe] * -1.06 +
+[player4=TrollWarlord] * -1.49
+
+Class 1 :
+-0.36 + 
+[player1=LegionCommander] * 1.09 +
+[player2=SandKing] * 1.13 +
+[player2=Kunkka] * 1.18 +
+[player2=PhantomAssassin] * 1.24 +
+[player3=Axe] * 1.36 +
+[player3=Juggernaut] * 1.42 +
+[player3=Rubick] * 1.31 +
+[player4=Axe] * 1.06 +
+[player4=TrollWarlord] * 1.49
+
+
+Time taken to build model: 0.09 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          43               56.5789 %
+Incorrectly Classified Instances        33               43.4211 %
+Kappa statistic                          0.1316
+Mean absolute error                      0.4515
+Root mean squared error                  0.5461
+Relative absolute error                 90.2325 %
+Root relative squared error            109.1428 %
+Total Number of Instances               76     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.579    0.447    0.564      0.579    0.571      0.132    0.591     0.609     win
+                 0.553    0.421    0.568      0.553    0.560      0.132    0.591     0.582     lose
+Weighted Avg.    0.566    0.434    0.566      0.566    0.566      0.132    0.591     0.595     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 22 16 |  a = win
+ 17 21 |  b = lose
+
+

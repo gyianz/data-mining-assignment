@@ -1,0 +1,153 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     auscomp
+Instances:    1484
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+-0.08 + 
+[player1=Axe] * 0.42 +
+[player1=Pudge] * 0.32 +
+[player1=StormSpirit] * 0.49 +
+[player1=Enigma] * 1    +
+[player1=Venomancer] * 0.79 +
+[player1=Pugna] * -0.93 +
+[player1=DragonKnight] * -0.98 +
+[player1=Slark] * 0.3  +
+[player1=SkywrathMage] * 0.63 +
+[player1=Abaddon] * 1.02 +
+[player1=Oracle] * -0.65 +
+[player2=DrowRanger] * 0.4  +
+[player2=Zeus] * 0.69 +
+[player2=Enigma] * 0.54 +
+[player2=Luna] * 0.61 +
+[player2=Enchantress] * 1.09 +
+[player2=Batrider] * -1.02 +
+[player2=SpiritBreaker] * 0.59 +
+[player2=ShadowDemon] * 1.09 +
+[player2=LoneDruid] * -0.89 +
+[player2=WinterWyvern] * 0.89 +
+[player3=Mirana] * -0.39 +
+[player3=PhantomLancer] * -0.69 +
+[player3=WitchDoctor] * -0.61 +
+[player3=WraithKing] * 0.55 +
+[player3=Omniknight] * 0.48 +
+[player3=Batrider] * -1.05 +
+[player3=Techies] * -0.94 +
+[player4=StormSpirit] * 0.48 +
+[player4=FacelessVoid] * 0.53 +
+[player4=Pugna] * 1.04 +
+[player4=DragonKnight] * 1.02 +
+[player4=Clockwerk] * 0.74 +
+[player4=Spectre] * 0.61 +
+[player4=Silencer] * 0.63 +
+[player4=Brewmaster] * 1.3  +
+[player4=CentaurWarrunner] * 0.64 +
+[player4=Timbersaw] * -0.47 +
+[player4=Abaddon] * 1    +
+[player4=LegionCommander] * -0.31 +
+[player4=EmberSpirit] * -0.85 +
+[player4=EarthSpirit] * -1 +
+[player5=Axe] * 0.53 +
+[player5=PhantomLancer] * -0.76 +
+[player5=Razor] * 1.03 +
+[player5=Viper] * -0.59 +
+[player5=Spectre] * 0.64 +
+[player5=Gyrocopter] * -1.04 +
+[player5=ChaosKnight] * -0.93 +
+[player5=Meepo] * 1.14
+
+Class 1 :
+0.08 + 
+[player1=Axe] * -0.42 +
+[player1=Pudge] * -0.32 +
+[player1=StormSpirit] * -0.49 +
+[player1=Enigma] * -1 +
+[player1=Venomancer] * -0.79 +
+[player1=Pugna] * 0.93 +
+[player1=DragonKnight] * 0.98 +
+[player1=Slark] * -0.3 +
+[player1=SkywrathMage] * -0.63 +
+[player1=Abaddon] * -1.02 +
+[player1=Oracle] * 0.65 +
+[player2=DrowRanger] * -0.4 +
+[player2=Zeus] * -0.69 +
+[player2=Enigma] * -0.54 +
+[player2=Luna] * -0.61 +
+[player2=Enchantress] * -1.09 +
+[player2=Batrider] * 1.02 +
+[player2=SpiritBreaker] * -0.59 +
+[player2=ShadowDemon] * -1.09 +
+[player2=LoneDruid] * 0.89 +
+[player2=WinterWyvern] * -0.89 +
+[player3=Mirana] * 0.39 +
+[player3=PhantomLancer] * 0.69 +
+[player3=WitchDoctor] * 0.61 +
+[player3=WraithKing] * -0.55 +
+[player3=Omniknight] * -0.48 +
+[player3=Batrider] * 1.05 +
+[player3=Techies] * 0.94 +
+[player4=StormSpirit] * -0.48 +
+[player4=FacelessVoid] * -0.53 +
+[player4=Pugna] * -1.04 +
+[player4=DragonKnight] * -1.02 +
+[player4=Clockwerk] * -0.74 +
+[player4=Spectre] * -0.61 +
+[player4=Silencer] * -0.63 +
+[player4=Brewmaster] * -1.3 +
+[player4=CentaurWarrunner] * -0.64 +
+[player4=Timbersaw] * 0.47 +
+[player4=Abaddon] * -1 +
+[player4=LegionCommander] * 0.31 +
+[player4=EmberSpirit] * 0.85 +
+[player4=EarthSpirit] * 1    +
+[player5=Axe] * -0.53 +
+[player5=PhantomLancer] * 0.76 +
+[player5=Razor] * -1.03 +
+[player5=Viper] * 0.59 +
+[player5=Spectre] * -0.64 +
+[player5=Gyrocopter] * 1.04 +
+[player5=ChaosKnight] * 0.93 +
+[player5=Meepo] * -1.14
+
+
+Time taken to build model: 2.19 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         781               52.628  %
+Incorrectly Classified Instances       703               47.372  %
+Kappa statistic                          0.0526
+Mean absolute error                      0.4906
+Root mean squared error                  0.5203
+Relative absolute error                 98.1175 %
+Root relative squared error            104.0632 %
+Total Number of Instances             1484     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.267    0.214    0.555      0.267    0.360      0.061    0.528     0.528     win
+                 0.786    0.733    0.517      0.786    0.624      0.061    0.528     0.523     lose
+Weighted Avg.    0.526    0.474    0.536      0.526    0.492      0.061    0.528     0.525     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 198 544 |   a = win
+ 159 583 |   b = lose
+
+

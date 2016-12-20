@@ -1,0 +1,83 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SGDText -F 0 -L 0.01 -R 1.0E-4 -E 500 -P 0 -M 3.0 -min-coeff 0.001 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer -S 1
+Relation:     auscomp
+Instances:    44
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SGDText:
+
+Loss function: Hinge loss (SVM)
+
+Dictionary size: 29
+
+class = 
+
+        -2.7489 Spirit 3.0
+ +      -0.2799 Slark 7.0
+ +       0.1799 Anti-Mage 5.0
+ +      -1.4696 Alchemist 5.0
+ +       1.1395 Mirana 7.0
+ +       1.1697 LegionCommander 4.0
+ +      -0.5097 Ursa 3.0
+ +      -2.6491 Batrider 3.0
+ +       0.3898 Techies 3.0
+ +      -1.6194 PhantomAssassin 7.0
+ +      -0.8297 Huskar 5.0
+ +       2.6889 Riki 6.0
+ +       0.1899 Pudge 8.0
+ +       1.5894 Disruptor 3.0
+ +       0.8696 Bloodseeker 4.0
+ +      -1.6796 Windranger 6.0
+ +      -1.0994 Axe 10.0
+ +      -0.9496 Invoker 6.0
+ +       0.7497 Sniper 9.0
+ +       1.0496 Legion 3.0
+ +       1.0496 Commander 3.0
+ +      -2.7691 Assassin 6.0
+ +       1.1198 WraithKing 5.0
+ +       0.0398 Juggernaut 6.0
+ +      -0.1699 Lion 3.0
+ +      -0.7997 Sven 3.0
+ +      -1.1295 Meepo 3.0
+ +       0.3999 DrowRanger 4.0
+ +      -0.4998 Nature 3.0
+ +       0.61  
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          24               54.5455 %
+Incorrectly Classified Instances        20               45.4545 %
+Kappa statistic                          0.0909
+Mean absolute error                      0.4545
+Root mean squared error                  0.6742
+Relative absolute error                 90.708  %
+Root relative squared error            134.5239 %
+Total Number of Instances               44     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.500    0.409    0.550      0.500    0.524      0.091    0.545     0.525     win
+                 0.591    0.500    0.542      0.591    0.565      0.091    0.545     0.525     lose
+Weighted Avg.    0.545    0.455    0.546      0.545    0.545      0.091    0.545     0.525     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 11 11 |  a = win
+  9 13 |  b = lose
+
+

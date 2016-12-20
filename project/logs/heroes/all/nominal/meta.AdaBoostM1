@@ -1,0 +1,281 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     all
+Instances:    10349
+Attributes:   8
+              player1
+              player2
+              player3
+              player4
+              player5
+              kills
+              duration
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+kills <= 1.5 : lose
+kills > 1.5 : win
+kills is missing : win
+
+Class distributions
+
+kills <= 1.5
+win	lose	
+0.11943127962085308	0.8805687203791469	
+kills > 1.5
+win	lose	
+0.9107213243988963	0.08927867560110367	
+kills is missing
+win	lose	
+0.5073920185525171	0.49260798144748286	
+
+
+Weight: 2.15
+
+Decision Stump
+
+Classifications
+
+kills <= -14.5 : lose
+kills > -14.5 : win
+kills is missing : win
+
+Class distributions
+
+kills <= -14.5
+win	lose	
+0.1496108760938993	0.8503891239061007	
+kills > -14.5
+win	lose	
+0.6235799355232203	0.3764200644767797	
+kills is missing
+win	lose	
+0.5402111971625806	0.4597888028374195	
+
+
+Weight: 0.68
+
+Decision Stump
+
+Classifications
+
+kills <= 14.5 : lose
+kills > 14.5 : win
+kills is missing : lose
+
+Class distributions
+
+kills <= 14.5
+win	lose	
+0.36492762663688016	0.6350723733631198	
+kills > 14.5
+win	lose	
+0.7377797548055924	0.2622202451944076	
+kills is missing
+win	lose	
+0.4263751733860579	0.5736248266139421	
+
+
+Weight: 0.63
+
+Decision Stump
+
+Classifications
+
+kills <= 1.5 : win
+kills > 1.5 : lose
+kills is missing : win
+
+Class distributions
+
+kills <= 1.5
+win	lose	
+0.6295560804460288	0.37044391955397105	
+kills > 1.5
+win	lose	
+0.4136569815282017	0.5863430184717984	
+kills is missing
+win	lose	
+0.5311530458619144	0.46884695413808564	
+
+
+Weight: 0.45
+
+Decision Stump
+
+Classifications
+
+kills <= -11.5 : lose
+kills > -11.5 : win
+kills is missing : win
+
+Class distributions
+
+kills <= -11.5
+win	lose	
+0.295651524429287	0.704348475570713	
+kills > -11.5
+win	lose	
+0.5817729183448761	0.4182270816551238	
+kills is missing
+win	lose	
+0.5225249946608184	0.4774750053391817	
+
+
+Weight: 0.44
+
+Decision Stump
+
+Classifications
+
+kills <= 24.5 : lose
+kills > 24.5 : win
+kills is missing : lose
+
+Class distributions
+
+kills <= 24.5
+win	lose	
+0.437879704005553	0.562120295994447	
+kills > 24.5
+win	lose	
+0.79646405814379	0.20353594185620996	
+kills is missing
+win	lose	
+0.45781002703977364	0.5421899729602263	
+
+
+Weight: 0.3
+
+Decision Stump
+
+Classifications
+
+duration <= 722.0 : lose
+duration > 722.0 : win
+duration is missing : win
+
+Class distributions
+
+duration <= 722.0
+win	lose	
+0.152019845180278	0.847980154819722	
+duration > 722.0
+win	lose	
+0.5366997957888942	0.4633002042111058	
+duration is missing
+win	lose	
+0.525170584626677	0.47482941537332307	
+
+
+Weight: 0.18
+
+Decision Stump
+
+Classifications
+
+kills <= -23.5 : lose
+kills > -23.5 : lose
+kills is missing : lose
+
+Class distributions
+
+kills <= -23.5
+win	lose	
+0.22160552534380534	0.7783944746561946	
+kills > -23.5
+win	lose	
+0.4968901000684622	0.5031098999315378	
+kills is missing
+win	lose	
+0.48174580334097117	0.5182541966590288	
+
+
+Weight: 0.07
+
+Decision Stump
+
+Classifications
+
+kills <= -23.5 : lose
+kills > -23.5 : win
+kills is missing : win
+
+Class distributions
+
+kills <= -23.5
+win	lose	
+0.23446200641590578	0.7655379935840941	
+kills > -23.5
+win	lose	
+0.515147736398214	0.484852263601786	
+kills is missing
+win	lose	
+0.5000000000000031	0.49999999999999684	
+
+
+Weight: 0.11
+
+Decision Stump
+
+Classifications
+
+kills <= 11.5 : lose
+kills > 11.5 : win
+kills is missing : lose
+
+Class distributions
+
+kills <= 11.5
+win	lose	
+0.4453135701417121	0.554686429858288	
+kills > 11.5
+win	lose	
+0.5845829234696971	0.415417076530303	
+kills is missing
+win	lose	
+0.47434863536250826	0.5256513646374917	
+
+
+Weight: 0.24
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.29 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9266               89.5352 %
+Incorrectly Classified Instances      1083               10.4648 %
+Kappa statistic                          0.7908
+Mean absolute error                      0.1551
+Root mean squared error                  0.29  
+Relative absolute error                 31.0171 %
+Root relative squared error             58.0131 %
+Total Number of Instances            10349     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.880    0.089    0.911      0.880    0.895      0.791    0.950     0.948     win
+                 0.911    0.120    0.881      0.911    0.896      0.791    0.950     0.945     lose
+Weighted Avg.    0.895    0.104    0.896      0.895    0.895      0.791    0.950     0.946     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4621  630 |    a = win
+  453 4645 |    b = lose
+
+

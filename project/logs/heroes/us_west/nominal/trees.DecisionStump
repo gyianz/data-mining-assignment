@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     auscomp
+Instances:    56
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+player5 = Sniper : win
+player5 != Sniper : lose
+player5 is missing : win
+
+Class distributions
+
+player5 = Sniper
+win	lose	
+1.0	0.0	
+player5 != Sniper
+win	lose	
+0.4716981132075472	0.5283018867924528	
+player5 is missing
+win	lose	
+0.5	0.5	
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          26               46.4286 %
+Incorrectly Classified Instances        30               53.5714 %
+Kappa statistic                         -0.0714
+Mean absolute error                      0.5197
+Root mean squared error                  0.5288
+Relative absolute error                103.8083 %
+Root relative squared error            105.6079 %
+Total Number of Instances               56     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.143    0.214    0.400      0.143    0.211      -0.093   0.397     0.448     win
+                 0.786    0.857    0.478      0.786    0.595      -0.093   0.397     0.448     lose
+Weighted Avg.    0.464    0.536    0.439      0.464    0.403      -0.093   0.397     0.448     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+  4 24 |  a = win
+  6 22 |  b = lose
+
+

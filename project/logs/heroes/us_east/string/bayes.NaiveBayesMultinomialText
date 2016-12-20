@@ -1,0 +1,136 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayesMultinomialText -P 0 -M 3.0 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer
+Relation:     auscomp
+Instances:    76
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Dictionary size: 80
+
+The independent frequency of a class
+--------------------------------------
+win	39.0
+lose	39.0
+
+The frequency of a word given the class
+-----------------------------------------
+        win	       lose	
+<laplace=1>	        3.0	Warlord
+<laplace=1>	        4.0	Storm
+        3.0	<laplace=1>	Ranger
+        5.0	        4.0	Zeus
+<laplace=1>	        3.0	SkywrathMage
+<laplace=1>	        3.0	Troll
+        5.0	        6.0	Commander
+        6.0	        3.0	Slark
+        4.0	        8.0	Juggernaut
+        4.0	<laplace=1>	Enigma
+<laplace=1>	        3.0	Lancer
+        3.0	<laplace=1>	Ogre
+<laplace=1>	        3.0	DragonKnight
+        3.0	        5.0	DrowRanger
+        4.0	<laplace=1>	CrystalMaiden
+        3.0	        3.0	King
+        3.0	        3.0	Faceless
+<laplace=1>	        3.0	Batrider
+        5.0	<laplace=1>	Slardar
+        4.0	        5.0	Morphling
+<laplace=1>	        4.0	Apparition
+        5.0	        5.0	Lion
+        6.0	        6.0	Phantom
+        3.0	<laplace=1>	Lifestealer
+        3.0	        3.0	Void
+<laplace=1>	        3.0	Weaver
+        4.0	<laplace=1>	Timbersaw
+        3.0	        3.0	Clinkz
+<laplace=1>	        3.0	DarkSeer
+        3.0	<laplace=1>	Magi
+        3.0	<laplace=1>	Lina
+        5.0	        6.0	Legion
+        3.0	<laplace=1>	Huskar
+        3.0	<laplace=1>	Drow
+        4.0	        4.0	PhantomAssassin
+<laplace=1>	        4.0	Windranger
+        3.0	<laplace=1>	Disruptor
+        7.0	        6.0	Mirana
+<laplace=1>	        4.0	Jakiro
+        7.0	        4.0	Anti-Mage
+        3.0	        6.0	Kunkka
+        4.0	<laplace=1>	Bristleback
+        5.0	<laplace=1>	Tidehunter
+        6.0	        6.0	Assassin
+        3.0	<laplace=1>	Shadow
+        3.0	        3.0	Vengeful
+        5.0	<laplace=1>	Sven
+<laplace=1>	        4.0	SandKing
+        4.0	<laplace=1>	Dazzle
+<laplace=1>	        3.0	Alchemist
+        4.0	<laplace=1>	Riki
+<laplace=1>	        4.0	Pain
+<laplace=1>	        4.0	Terrorblade
+        8.0	        9.0	Invoker
+        5.0	        7.0	Bloodseeker
+<laplace=1>	        3.0	Omniknight
+<laplace=1>	        4.0	Ancient
+        3.0	<laplace=1>	Phoenix
+<laplace=1>	        5.0	Rubick
+<laplace=1>	        3.0	Queenof
+<laplace=1>	        4.0	Nature
+        4.0	        3.0	Ursa
+        7.0	        6.0	Pudge
+        4.0	<laplace=1>	TemplarAssassin
+        3.0	<laplace=1>	Lich
+<laplace=1>	        3.0	Techies
+        3.0	        6.0	Spirit
+        3.0	<laplace=1>	WitchDoctor
+        4.0	<laplace=1>	Tinker
+        7.0	        7.0	Sniper
+        3.0	<laplace=1>	EmberSpirit
+        9.0	        8.0	Axe
+        3.0	<laplace=1>	Silencer
+        4.0	        4.0	LegionCommander
+        3.0	<laplace=1>	Earthshaker
+<laplace=1>	        3.0	s
+<laplace=1>	        3.0	Medusa
+        4.0	        6.0	FacelessVoid
+        3.0	<laplace=1>	Wraith
+<laplace=1>	        3.0	Prophet
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          43               56.5789 %
+Incorrectly Classified Instances        33               43.4211 %
+Kappa statistic                          0.1316
+Mean absolute error                      0.4817
+Root mean squared error                  0.5567
+Relative absolute error                 96.2647 %
+Root relative squared error            111.2475 %
+Total Number of Instances               76     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.632    0.500    0.558      0.632    0.593      0.133    0.542     0.529     win
+                 0.500    0.368    0.576      0.500    0.535      0.133    0.542     0.535     lose
+Weighted Avg.    0.566    0.434    0.567      0.566    0.564      0.133    0.542     0.532     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 24 14 |  a = win
+ 19 19 |  b = lose
+
+

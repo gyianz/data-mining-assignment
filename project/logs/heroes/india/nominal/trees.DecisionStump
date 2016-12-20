@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     auscomp
+Instances:    44
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+player2 = Windranger : win
+player2 != Windranger : lose
+player2 is missing : win
+
+Class distributions
+
+player2 = Windranger
+win	lose	
+1.0	0.0	
+player2 != Windranger
+win	lose	
+0.4634146341463415	0.5365853658536586	
+player2 is missing
+win	lose	
+0.5	0.5	
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          21               47.7273 %
+Incorrectly Classified Instances        23               52.2727 %
+Kappa statistic                         -0.0455
+Mean absolute error                      0.5032
+Root mean squared error                  0.5052
+Relative absolute error                100.4087 %
+Root relative squared error            100.7964 %
+Total Number of Instances               44     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.364    0.409    0.471      0.364    0.410      -0.047   0.442     0.471     win
+                 0.591    0.636    0.481      0.591    0.531      -0.047   0.442     0.463     lose
+Weighted Avg.    0.477    0.523    0.476      0.477    0.470      -0.047   0.442     0.467     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+  8 14 |  a = win
+  9 13 |  b = lose
+
+

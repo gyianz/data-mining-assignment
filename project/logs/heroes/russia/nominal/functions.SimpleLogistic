@@ -1,0 +1,107 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     auscomp
+Instances:    2048
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+-0.01 + 
+[player1=CrystalMaiden] * 0.44 +
+[player1=Riki] * 0.3  +
+[player1=Ursa] * -0.62 +
+[player2=PhantomLancer] * -0.68 +
+[player2=Lich] * 1    +
+[player2=Slardar] * -0.62 +
+[player2=BountyHunter] * -0.42 +
+[player2=LoneDruid] * -0.8 +
+[player2=Undying] * -0.63 +
+[player3=Axe] * 0.37 +
+[player3=Sven] * 0.41 +
+[player3=Tiny] * -0.62 +
+[player3=Slardar] * 0.61 +
+[player3=WitchDoctor] * 0.59 +
+[player3=Clinkz] * 0.53 +
+[player4=Lich] * 0.74 +
+[player4=Warlock] * 1.02 +
+[player4=Enchantress] * -1.04 +
+[player4=Broodmother] * -1.01 +
+[player4=AncientApparition] * 0.56 +
+[player4=Gyrocopter] * -0.99 +
+[player5=QueenofPain] * -0.62 +
+[player5=DeathProphet] * -0.92 +
+[player5=Nature'sProphet] * -0.39 +
+[player5=Omniknight] * 0.62 +
+[player5=Jakiro] * 1.19 +
+[player5=Batrider] * -0.77
+
+Class 1 :
+0.01 + 
+[player1=CrystalMaiden] * -0.44 +
+[player1=Riki] * -0.3 +
+[player1=Ursa] * 0.62 +
+[player2=PhantomLancer] * 0.68 +
+[player2=Lich] * -1 +
+[player2=Slardar] * 0.62 +
+[player2=BountyHunter] * 0.42 +
+[player2=LoneDruid] * 0.8  +
+[player2=Undying] * 0.63 +
+[player3=Axe] * -0.37 +
+[player3=Sven] * -0.41 +
+[player3=Tiny] * 0.62 +
+[player3=Slardar] * -0.61 +
+[player3=WitchDoctor] * -0.59 +
+[player3=Clinkz] * -0.53 +
+[player4=Lich] * -0.74 +
+[player4=Warlock] * -1.02 +
+[player4=Enchantress] * 1.04 +
+[player4=Broodmother] * 1.01 +
+[player4=AncientApparition] * -0.56 +
+[player4=Gyrocopter] * 0.99 +
+[player5=QueenofPain] * 0.62 +
+[player5=DeathProphet] * 0.92 +
+[player5=Nature'sProphet] * 0.39 +
+[player5=Omniknight] * -0.62 +
+[player5=Jakiro] * -1.19 +
+[player5=Batrider] * 0.77
+
+
+Time taken to build model: 4.24 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1009               49.2676 %
+Incorrectly Classified Instances      1039               50.7324 %
+Kappa statistic                         -0.0146
+Mean absolute error                      0.4991
+Root mean squared error                  0.5183
+Relative absolute error                 99.8223 %
+Root relative squared error            103.6582 %
+Total Number of Instances             2048     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.292    0.307    0.488      0.292    0.365      -0.016   0.494     0.496     win
+                 0.693    0.708    0.495      0.693    0.577      -0.016   0.494     0.505     lose
+Weighted Avg.    0.493    0.507    0.491      0.493    0.471      -0.016   0.494     0.500     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 299 725 |   a = win
+ 314 710 |   b = lose
+
+

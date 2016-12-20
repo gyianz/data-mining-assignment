@@ -1,0 +1,279 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     auscomp
+Instances:    1484
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+player4 = EmberSpirit : lose
+player4 != EmberSpirit : win
+player4 is missing : win
+
+Class distributions
+
+player4 = EmberSpirit
+win	lose	
+0.07692307692307693	0.9230769230769231	
+player4 != EmberSpirit
+win	lose	
+0.5037389530931339	0.49626104690686607	
+player4 is missing
+win	lose	
+0.5	0.5	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player4 = EmberSpirit : lose
+player4 != EmberSpirit : lose
+player4 is missing : lose
+
+Class distributions
+
+player4 = EmberSpirit
+win	lose	
+0.07905511811023622	0.9209448818897638	
+player4 != EmberSpirit
+win	lose	
+0.49632614689364907	0.5036738531063509	
+player4 is missing
+win	lose	
+0.49271586703800374	0.5072841329619963	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player4 = EmberSpirit : lose
+player4 != EmberSpirit : win
+player4 is missing : win
+
+Class distributions
+
+player4 = EmberSpirit
+win	lose	
+0.08120275565664671	0.9187972443433533	
+player4 != EmberSpirit
+win	lose	
+0.5036106663534362	0.49638933364656385	
+player4 is missing
+win	lose	
+0.5000000000000118	0.4999999999999883	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player4 = EmberSpirit : lose
+player4 != EmberSpirit : lose
+player4 is missing : lose
+
+Class distributions
+
+player4 = EmberSpirit
+win	lose	
+0.08336537385394738	0.9166346261460526	
+player4 != EmberSpirit
+win	lose	
+0.4964506932795068	0.5035493067204931	
+player4 is missing
+win	lose	
+0.4929613487670482	0.5070386512329518	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player4 = EmberSpirit : lose
+player4 != EmberSpirit : win
+player4 is missing : win
+
+Class distributions
+
+player4 = EmberSpirit
+win	lose	
+0.0855423610114598	0.9144576389885402	
+player4 != EmberSpirit
+win	lose	
+0.5034896932351717	0.4965103067648283	
+player4 is missing
+win	lose	
+0.5000000000000114	0.4999999999999887	
+
+
+Weight: 0.03
+
+Decision Stump
+
+Classifications
+
+player2 = Zeus : win
+player2 != Zeus : lose
+player2 is missing : lose
+
+Class distributions
+
+player2 = Zeus
+win	lose	
+0.8382538880726433	0.16174611192735672	
+player2 != Zeus
+win	lose	
+0.4887596790562074	0.5112403209437927	
+player2 is missing
+win	lose	
+0.4931931614088029	0.506806838591197	
+
+
+Weight: 0.06
+
+Decision Stump
+
+Classifications
+
+player4 = EmberSpirit : lose
+player4 != EmberSpirit : win
+player4 is missing : win
+
+Class distributions
+
+player4 = EmberSpirit
+win	lose	
+0.09278796343005496	0.907212036569945	
+player4 != EmberSpirit
+win	lose	
+0.5115718127806393	0.48842818721936065	
+player4 is missing
+win	lose	
+0.5081991322406864	0.4918008677593137	
+
+
+Weight: 0.06
+
+Decision Stump
+
+Classifications
+
+player4 = FacelessVoid : win
+player4 != FacelessVoid : lose
+player4 is missing : lose
+
+Class distributions
+
+player4 = FacelessVoid
+win	lose	
+0.7527392346633659	0.24726076533663408	
+player4 != FacelessVoid
+win	lose	
+0.48781286142899416	0.5121871385710057	
+player4 is missing
+win	lose	
+0.4936732235941266	0.5063267764058733	
+
+
+Weight: 0.07
+
+Decision Stump
+
+Classifications
+
+player5 = Axe : win
+player5 != Axe : win
+player5 is missing : win
+
+Class distributions
+
+player5 = Axe
+win	lose	
+0.7721033909823654	0.22789660901763464	
+player5 != Axe
+win	lose	
+0.504942903249713	0.4950570967502871	
+player5 is missing
+win	lose	
+0.5104197306034288	0.4895802693965712	
+
+
+Weight: 0.04
+
+Decision Stump
+
+Classifications
+
+player5 = Axe : win
+player5 != Axe : lose
+player5 is missing : win
+
+Class distributions
+
+player5 = Axe
+win	lose	
+0.7646854517670784	0.2353145482329216	
+player5 != Axe
+win	lose	
+0.4945220441058606	0.5054779558941394	
+player5 is missing
+win	lose	
+0.5000000000000083	0.4999999999999917	
+
+
+Weight: 0.04
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         744               50.1348 %
+Incorrectly Classified Instances       740               49.8652 %
+Kappa statistic                          0.0027
+Mean absolute error                      0.4998
+Root mean squared error                  0.4999
+Relative absolute error                 99.9647 %
+Root relative squared error             99.9863 %
+Total Number of Instances             1484     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.701    0.698    0.501      0.701    0.584      0.003    0.506     0.506     win
+                 0.302    0.299    0.502      0.302    0.377      0.003    0.506     0.505     lose
+Weighted Avg.    0.501    0.499    0.502      0.501    0.481      0.003    0.506     0.506     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 520 222 |   a = win
+ 518 224 |   b = lose
+
+

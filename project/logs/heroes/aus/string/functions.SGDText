@@ -1,0 +1,156 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SGDText -F 0 -L 0.01 -R 1.0E-4 -E 500 -P 0 -M 3.0 -min-coeff 0.001 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer -S 1
+Relation:     auscomp
+Instances:    182
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SGDText:
+
+Loss function: Hinge loss (SVM)
+
+Dictionary size: 104
+
+class = 
+
+         0.23   Axe 26.0
+ +       0.7397 Lion 21.0
+ +      -0.0899 PhantomAssassin 24.0
+ +       0.8795 Tiny 4.0
+ +      -0.7697 Pugna 4.0
+ +      -1.0096 Lifestealer 9.0
+ +      -0.0099 DrowRanger 18.0
+ +      -0.2399 Keeperof 11.0
+ +      -0.2399 the 11.0
+ +      -0.2399 Light 11.0
+ +       0.5697 Gyrocopter 5.0
+ +       0.1001 Pudge 28.0
+ +       3.5087 Medusa 5.0
+ +      -2.2292 Necrophos 14.0
+ +      -0.4499 BountyHunter 9.0
+ +      -0.08   Mirana 26.0
+ +      -0.3697 Tinker 8.0
+ +      -1.6394 Warlock 4.0
+ +       2.2293 Sniper 16.0
+ +      -2.1492 ChaosKnight 5.0
+ +       1.7594 Broodmother 4.0
+ +       0.6398 Sven 14.0
+ +      -0.1599 SpiritBreaker 15.0
+ +      -1.1596 DeathProphet 6.0
+ +       0.7598 PhantomLancer 8.0
+ +      -0.7098 Zeus 10.0
+ +      -1.4194 Timbersaw 14.0
+ +       0.1399 Slark 14.0
+ +      -0.6799 ShadowShaman 12.0
+ +       1.6093 Luna 7.0
+ +      -1.4295 Huskar 14.0
+ +       2.1392 Riki 11.0
+ +      -1.6494 WitchDoctor 12.0
+ +       1.2895 LegionCommander 20.0
+ +       2.659  Enchantress 5.0
+ +      -1.3894 Omniknight 10.0
+ +      -1.0197 Morphling 9.0
+ +      -0.9097 OgreMagi 10.0
+ +      -2.1392 WraithKing 14.0
+ +      -0.1199 CrystalMaiden 17.0
+ +      -3.4488 Kunkka 4.0
+ +      -0.7097 FacelessVoid 19.0
+ +       0.4598 Venomancer 4.0
+ +       0.5697 Invoker 21.0
+ +      -0.9597 Alchemist 10.0
+ +       0.1101 Dazzle 5.0
+ +      -0.39   Windranger 16.0
+ +      -1.4596 Techies 6.0
+ +      -0.3498 ShadowFiend 6.0
+ +      -1.0595 Io 4.0
+ +       1.5695 Undying 5.0
+ +       1.2495 StormSpirit 9.0
+ +      -0.6096 Silencer 10.0
+ +       0.6097 Nature 8.0
+ +       0.6097 sProphet 8.0
+ +       0.8599 NightStalker 5.0
+ +       0.5597 Bloodseeker 8.0
+ +       1.0396 OutworldDevourer 5.0
+ +      -0.17   Slardar 6.0
+ +      -0.06   Ursa 10.0
+ +       0.7599 Enigma 4.0
+ +       1.9393 Lina 8.0
+ +       0.4899 Oracle 4.0
+ +      -1.1695 SandKing 12.0
+ +       0.11   Rubick 11.0
+ +       3.1888 Clinkz 5.0
+ +       1.7793 TemplarAssassin 6.0
+ +       2.2594 Batrider 3.0
+ +       1.6494 Bane 7.0
+ +       2.3692 EmberSpirit 6.0
+ +      -0.8597 Weaver 6.0
+ +       1.4894 Spectre 6.0
+ +      -0.45   Leshrac 9.0
+ +      -0.4098 Abaddon 4.0
+ +       0.7296 Earthshaker 12.0
+ +      -0.21   Lich 9.0
+ +      -0.1    WinterWyvern 4.0
+ +      -0.1098 Anti-Mage 18.0
+ +       0.0599 EarthSpirit 3.0
+ +       0.8797 Viper 5.0
+ +      -2.6192 Clockwerk 3.0
+ +       0.9596 CentaurWarrunner 8.0
+ +       0.1301 Juggernaut 15.0
+ +      -1.8394 AncientApparition 7.0
+ +       1.6194 Bristleback 10.0
+ +      -0.9997 SkywrathMage 5.0
+ +      -2.2691 Tidehunter 5.0
+ +       0.03   Brewmaster 3.0
+ +      -1.3395 VengefulSpirit 5.0
+ +      -0.0901 Phoenix 7.0
+ +      -1.1296 ElderTitan 4.0
+ +      -0.7197 Doom 3.0
+ +      -0.0299 Terrorblade 5.0
+ +       0.8796 Disruptor 7.0
+ +       2.0995 Puck 3.0
+ +       0.9796 Queenof 4.0
+ +       0.9796 Pain 4.0
+ +       3.3789 Magnus 4.0
+ +      -3.1089 Jakiro 5.0
+ +       1.9493 NyxAssassin 6.0
+ +       0.2199 Tusk 4.0
+ +       2.8889 Meepo 4.0
+ +      -0.9598 ShadowDemon 4.0
+ +      -1.4893 DragonKnight 4.0
+ +       0.03  
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         102               56.044  %
+Incorrectly Classified Instances        80               43.956  %
+Kappa statistic                          0.1209
+Mean absolute error                      0.4396
+Root mean squared error                  0.663 
+Relative absolute error                 87.9062 %
+Root relative squared error            132.5894 %
+Total Number of Instances              182     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.604    0.484    0.556      0.604    0.579      0.121    0.560     0.534     win
+                 0.516    0.396    0.566      0.516    0.540      0.121    0.560     0.534     lose
+Weighted Avg.    0.560    0.440    0.561      0.560    0.560      0.121    0.560     0.534     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 55 36 |  a = win
+ 44 47 |  b = lose

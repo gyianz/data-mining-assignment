@@ -1,0 +1,279 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     auscomp
+Instances:    44
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+player2 = Windranger : win
+player2 != Windranger : lose
+player2 is missing : win
+
+Class distributions
+
+player2 = Windranger
+win	lose	
+1.0	0.0	
+player2 != Windranger
+win	lose	
+0.4634146341463415	0.5365853658536586	
+player2 is missing
+win	lose	
+0.5	0.5	
+
+
+Weight: 0.27
+
+Decision Stump
+
+Classifications
+
+player3 = Riki : lose
+player3 != Riki : win
+player3 is missing : win
+
+Class distributions
+
+player3 = Riki
+win	lose	
+0.0	1.0	
+player3 != Riki
+win	lose	
+0.5957446808510639	0.4042553191489361	
+player3 is missing
+win	lose	
+0.56	0.43999999999999995	
+
+
+Weight: 0.49
+
+Decision Stump
+
+Classifications
+
+player5 = Axe : win
+player5 != Axe : lose
+player5 is missing : lose
+
+Class distributions
+
+player5 = Axe
+win	lose	
+1.0	0.0	
+player5 != Axe
+win	lose	
+0.41432456935630096	0.5856754306436989	
+player5 is missing
+win	lose	
+0.4516129032258065	0.5483870967741935	
+
+
+Weight: 0.46
+
+Decision Stump
+
+Classifications
+
+player2 = Windranger : win
+player2 != Windranger : win
+player2 is missing : win
+
+Class distributions
+
+player2 = Windranger
+win	lose	
+1.0	0.0	
+player2 != Windranger
+win	lose	
+0.5222148675264646	0.47778513247353543	
+player2 is missing
+win	lose	
+0.5520110957004158	0.4479889042995841	
+
+
+Weight: 0.21
+
+Decision Stump
+
+Classifications
+
+player2 = Windranger : win
+player2 != Windranger : lose
+player2 is missing : lose
+
+Class distributions
+
+player2 = Windranger
+win	lose	
+1.0	0.0	
+player2 != Windranger
+win	lose	
+0.4700654238418986	0.5299345761581014	
+player2 is missing
+win	lose	
+0.4999999999999996	0.5000000000000003	
+
+
+Weight: 0.23
+
+Decision Stump
+
+Classifications
+
+player1 = Mirana : lose
+player1 != Mirana : win
+player1 is missing : win
+
+Class distributions
+
+player1 = Mirana
+win	lose	
+0.0	1.0	
+player1 != Mirana
+win	lose	
+0.5755700433057395	0.4244299566942604	
+player1 is missing
+win	lose	
+0.5507534535862215	0.4492465464137784	
+
+
+Weight: 0.38
+
+Decision Stump
+
+Classifications
+
+player2 = Magnus : win
+player2 != Magnus : lose
+player2 is missing : lose
+
+Class distributions
+
+player2 = Magnus
+win	lose	
+1.0	0.0	
+player2 != Magnus
+win	lose	
+0.4372308059461698	0.5627691940538302	
+player2 is missing
+win	lose	
+0.4636986697801599	0.5363013302198402	
+
+
+Weight: 0.34
+
+Decision Stump
+
+Classifications
+
+player2 = Riki : lose
+player2 != Riki : win
+player2 is missing : win
+
+Class distributions
+
+player2 = Riki
+win	lose	
+0.0	1.0	
+player2 != Riki
+win	lose	
+0.566068304741529	0.4339316952584711	
+player2 is missing
+win	lose	
+0.5403127273276636	0.45968727267233644	
+
+
+Weight: 0.35
+
+Decision Stump
+
+Classifications
+
+player1 = Axe : win
+player1 != Axe : lose
+player1 is missing : lose
+
+Class distributions
+
+player1 = Axe
+win	lose	
+1.0	0.0	
+player1 != Axe
+win	lose	
+0.4338963024938474	0.5661036975061525	
+player1 is missing
+win	lose	
+0.4611658013064165	0.5388341986935835	
+
+
+Weight: 0.35
+
+Decision Stump
+
+Classifications
+
+player5 = Sniper : lose
+player5 != Sniper : win
+player5 is missing : win
+
+Class distributions
+
+player5 = Sniper
+win	lose	
+0.0	1.0	
+player5 != Sniper
+win	lose	
+0.5675850146711414	0.4324149853288586	
+player5 is missing
+win	lose	
+0.5410307627555458	0.4589692372444542	
+
+
+Weight: 0.35
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          24               54.5455 %
+Incorrectly Classified Instances        20               45.4545 %
+Kappa statistic                          0.0909
+Mean absolute error                      0.4977
+Root mean squared error                  0.499 
+Relative absolute error                 99.3165 %
+Root relative squared error             99.5667 %
+Total Number of Instances               44     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.364    0.273    0.571      0.364    0.444      0.098    0.535     0.554     win
+                 0.727    0.636    0.533      0.727    0.615      0.098    0.535     0.515     lose
+Weighted Avg.    0.545    0.455    0.552      0.545    0.530      0.098    0.535     0.534     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+  8 14 |  a = win
+  6 16 |  b = lose
+
+

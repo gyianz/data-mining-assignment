@@ -1,0 +1,102 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SGDText -F 0 -L 0.01 -R 1.0E-4 -E 500 -P 0 -M 3.0 -min-coeff 0.001 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer -S 1
+Relation:     auscomp
+Instances:    56
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SGDText:
+
+Loss function: Hinge loss (SVM)
+
+Dictionary size: 48
+
+class = 
+
+        -1.5094 Riki 9.0
+ +      -1.5995 Lifestealer 5.0
+ +      -0.5299 Pudge 7.0
+ +       1.0195 Windranger 8.0
+ +      -0.8098 PhantomAssassin 6.0
+ +       1.5393 Bloodseeker 6.0
+ +       0.3798 Spirit 6.0
+ +      -0.25   Omniknight 4.0
+ +       1.6194 Anti-Mage 5.0
+ +       0.4798 NyxAssassin 4.0
+ +      -1.4795 Invoker 4.0
+ +       2.0492 Phantom 3.0
+ +      -0.4699 Assassin 3.0
+ +      -0.6498 King 5.0
+ +       0.7997 Crystal 4.0
+ +       0.7997 Maiden 4.0
+ +      -0.2099 Nature 3.0
+ +      -0.2099 sProphet 3.0
+ +      -0.3399 Drow 3.0
+ +      -0.3399 Ranger 3.0
+ +       0.4099 StormSpirit 5.0
+ +       0.6198 Bounty 4.0
+ +       0.6198 Hunter 4.0
+ +      -0.1899 Legion 6.0
+ +      -0.1899 Commander 6.0
+ +      -1.5393 Viper 4.0
+ +       0.6297 Alchemist 4.0
+ +       0.5697 Shadow 6.0
+ +       0.8296 Fiend 3.0
+ +      -2.699  Lich 3.0
+ +       0.0799 Tinker 5.0
+ +       0.9198 Slark 6.0
+ +       1.8693 Weaver 3.0
+ +       3.4387 Lina 3.0
+ +      -1.0596 Keeperof 3.0
+ +       0.1199 the 4.0
+ +       0.1199 Light 4.0
+ +      -2.7189 Juggernaut 8.0
+ +      -1.1695 Earthshaker 5.0
+ +      -0.6998 Sniper 6.0
+ +       2.579  FacelessVoid 3.0
+ +       0.3499 Mirana 8.0
+ +      -1.4494 Timbersaw 5.0
+ +      -0.1399 Axe 3.0
+ +      -0.2199 Sven 6.0
+ +      -0.03   Faceless 3.0
+ +      -0.03   Void 3.0
+ +      -1.8993 Wraith 3.0
+ +       0.09  
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          33               58.9286 %
+Incorrectly Classified Instances        23               41.0714 %
+Kappa statistic                          0.1786
+Mean absolute error                      0.4107
+Root mean squared error                  0.6409
+Relative absolute error                 82.0323 %
+Root relative squared error            127.9935 %
+Total Number of Instances               56     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.607    0.429    0.586      0.607    0.596      0.179    0.589     0.552     win
+                 0.571    0.393    0.593      0.571    0.582      0.179    0.589     0.553     lose
+Weighted Avg.    0.589    0.411    0.589      0.589    0.589      0.179    0.589     0.553     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 17 11 |  a = win
+ 12 16 |  b = lose
+
+

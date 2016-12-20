@@ -1,0 +1,119 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     auscomp
+Instances:    804
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+0.04 + 
+[player1=Mirana] * -0.56 +
+[player1=Riki] * 0.48 +
+[player1=PhantomAssassin] * -0.44 +
+[player1=Clinkz] * -0.86 +
+[player1=Omniknight] * -1 +
+[player1=OgreMagi] * -0.81 +
+[player1=Disruptor] * -1.03 +
+[player1=LegionCommander] * 0.63 +
+[player2=CrystalMaiden] * 0.62 +
+[player2=Mirana] * 0.44 +
+[player2=Invoker] * 0.54 +
+[player3=Mirana] * 0.47 +
+[player3=PhantomLancer] * -0.9 +
+[player3=Razor] * -0.95 +
+[player3=Windranger] * -0.68 +
+[player3=Lina] * -0.68 +
+[player3=FacelessVoid] * -0.38 +
+[player3=Lifestealer] * -0.75 +
+[player3=Omniknight] * 0.98 +
+[player3=Huskar] * 0.65 +
+[player3=SkywrathMage] * -1.09 +
+[player4=Bloodseeker] * 0.54 +
+[player4=StormSpirit] * 0.55 +
+[player4=Kunkka] * -0.77 +
+[player4=QueenofPain] * -0.75 +
+[player4=DragonKnight] * 0.82 +
+[player4=Clinkz] * -0.74 +
+[player5=ShadowFiend] * 1.02 +
+[player5=Pudge] * -0.39 +
+[player5=Clinkz] * -1 +
+[player5=Weaver] * -0.88 +
+[player5=Jakiro] * -0.96 +
+[player5=Invoker] * -0.37
+
+Class 1 :
+-0.04 + 
+[player1=Mirana] * 0.56 +
+[player1=Riki] * -0.48 +
+[player1=PhantomAssassin] * 0.44 +
+[player1=Clinkz] * 0.86 +
+[player1=Omniknight] * 1    +
+[player1=OgreMagi] * 0.81 +
+[player1=Disruptor] * 1.03 +
+[player1=LegionCommander] * -0.63 +
+[player2=CrystalMaiden] * -0.62 +
+[player2=Mirana] * -0.44 +
+[player2=Invoker] * -0.54 +
+[player3=Mirana] * -0.47 +
+[player3=PhantomLancer] * 0.9  +
+[player3=Razor] * 0.95 +
+[player3=Windranger] * 0.68 +
+[player3=Lina] * 0.68 +
+[player3=FacelessVoid] * 0.38 +
+[player3=Lifestealer] * 0.75 +
+[player3=Omniknight] * -0.98 +
+[player3=Huskar] * -0.65 +
+[player3=SkywrathMage] * 1.09 +
+[player4=Bloodseeker] * -0.54 +
+[player4=StormSpirit] * -0.55 +
+[player4=Kunkka] * 0.77 +
+[player4=QueenofPain] * 0.75 +
+[player4=DragonKnight] * -0.82 +
+[player4=Clinkz] * 0.74 +
+[player5=ShadowFiend] * -1.02 +
+[player5=Pudge] * 0.39 +
+[player5=Clinkz] * 1    +
+[player5=Weaver] * 0.88 +
+[player5=Jakiro] * 0.96 +
+[player5=Invoker] * 0.37
+
+
+Time taken to build model: 1.47 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         407               50.6219 %
+Incorrectly Classified Instances       397               49.3781 %
+Kappa statistic                          0.0124
+Mean absolute error                      0.4954
+Root mean squared error                  0.5139
+Relative absolute error                 99.0748 %
+Root relative squared error            102.7758 %
+Total Number of Instances              804     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.555    0.542    0.506      0.555    0.529      0.012    0.512     0.508     win
+                 0.458    0.445    0.507      0.458    0.481      0.012    0.512     0.513     lose
+Weighted Avg.    0.506    0.494    0.506      0.506    0.505      0.012    0.512     0.511     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 223 179 |   a = win
+ 218 184 |   b = lose
+
+

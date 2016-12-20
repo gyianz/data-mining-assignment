@@ -1,0 +1,61 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     auscomp
+Instances:    444
+Attributes:   6
+              player1
+              player2
+              player3
+              player4
+              player5
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=6 #classindex=5
+Network structure (nodes followed by parents)
+player1(113): class 
+player2(113): class 
+player3(113): class 
+player4(113): class 
+player5(113): class 
+class(2): 
+LogScore Bayes: -10635.61942341018
+LogScore BDeu: -17808.83890820079
+LogScore MDL: -15947.499726783692
+LogScore ENTROPY: -12530.79005954043
+LogScore AIC: -13651.79005954043
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         276               62.1622 %
+Incorrectly Classified Instances       168               37.8378 %
+Kappa statistic                          0.2432
+Mean absolute error                      0.4295
+Root mean squared error                  0.5279
+Relative absolute error                 85.8982 %
+Root relative squared error            105.5701 %
+Total Number of Instances              444     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.622    0.378    0.622      0.622    0.622      0.243    0.630     0.626     win
+                 0.622    0.378    0.622      0.622    0.622      0.243    0.630     0.622     lose
+Weighted Avg.    0.622    0.378    0.622      0.622    0.622      0.243    0.630     0.624     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 138  84 |   a = win
+  84 138 |   b = lose
+
+
